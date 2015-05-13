@@ -1,18 +1,21 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Player : MonoBehaviour {
 
     public Sprite start_sprite;
     public Sprite walk_sprite;
+	public float speed;
 
     private bool invokedAnimation;
     private bool on_start_sprite;
+	private Vector3 speedVector;
 
 	// Use this for initialization
 	void Start () {
         invokedAnimation = false;
         on_start_sprite = true;
+		speedVector = new Vector3(speed, 0 ,0);
 	}
 	
 	// Update is called once per frame
@@ -30,6 +33,10 @@ public class Player : MonoBehaviour {
             invokedAnimation = false;
             CancelInvoke("TurtleWalk");
         }
+
+		if (Input.GetAxis("Horizontal") != 0){
+			transform.position += speedVector * Input.GetAxis("Horizontal");
+		}
 	}
 
     void TurtleWalk()
