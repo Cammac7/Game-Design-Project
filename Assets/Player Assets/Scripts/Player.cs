@@ -35,7 +35,11 @@ public class Player : MonoBehaviour {
         }
 
 		if (Input.GetAxis("Horizontal") != 0){
+<<<<<<< HEAD
 			transform.position += speedVector * Input.GetAxis("Horizontal") * Time.deltaTime;
+=======
+			transform.position += speedVector * Input.GetAxis("Horizontal");
+>>>>>>> origin/dev
 		}
 	}
 }
