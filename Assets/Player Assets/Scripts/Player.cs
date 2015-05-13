@@ -22,16 +22,16 @@ public class Player : MonoBehaviour {
 	void Update () {
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            if (!invokedAnimation)
-                InvokeRepeating("TurtleWalk", 0.0f, 0.3f);
+            //if (!invokedAnimation)
+            //    InvokeRepeating("TurtleWalk", 0.0f, 0.3f);
 
-            invokedAnimation = true;
+            //invokedAnimation = true;
         }
 
         if (Input.GetKeyUp(KeyCode.RightArrow))
         {
-            invokedAnimation = false;
-            CancelInvoke("TurtleWalk");
+            //invokedAnimation = false;
+            //CancelInvoke("TurtleWalk");
         }
 
 		if (Input.GetAxis("Horizontal") != 0){
