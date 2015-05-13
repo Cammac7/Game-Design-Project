@@ -3,15 +3,6 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
-<<<<<<< HEAD
-	// Use this for initialization
-	void Start () {
-
-	}
-	
-	// Update is called once per frame
-    void Update() {
-=======
     public Sprite start_sprite;
     public Sprite walk_sprite;
 	public float speed;
@@ -47,14 +38,4 @@ public class Player : MonoBehaviour {
 			transform.position += speedVector * Input.GetAxis("Horizontal") * Time.deltaTime;
 		}
 	}
-
-    void TurtleWalk()
-    {
-        GetComponent<SpriteRenderer>().sprite = 
-            (on_start_sprite) ? walk_sprite : start_sprite;
-
-        on_start_sprite = !on_start_sprite;
->>>>>>> origin/master
-
-    }
 }
