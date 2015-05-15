@@ -31,14 +31,14 @@ public class PlayerController : MonoBehaviour {
             animator.SetBool("Stand", false);
             animator.SetBool("Shoot", false);
             animator.SetInteger("Walk", (int)Math.Ceiling(vertical)); // 0 if left, 1 if right
-            transform.position += speedVector * vertical;
+            transform.position += speedVector * vertical * Time.deltaTime;
         }
         else if (horizontal != 0)
         {
             animator.SetBool("Stand", false);
             animator.SetBool("Shoot", false);
             animator.SetInteger("Walk", (int)Math.Ceiling(horizontal));
-            transform.position += speedVector * horizontal;
+            transform.position += speedVector * horizontal * Time.deltaTime;
         }
         else
         {

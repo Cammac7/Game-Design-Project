@@ -1,0 +1,495 @@
+fileFormatVersion: 2
+guid: d8909cc2041516a41bba9a082e7bfc80
+timeCreated: 1431668176
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WalkAnimation0001
+    21300002: WalkAnimation0002
+    21300004: WalkAnimation0003
+    21300006: WalkAnimation0004
+    21300008: WalkAnimation0005
+    21300010: WalkAnimation0006
+    21300012: WalkAnimation0007
+    21300014: WalkAnimation0008
+    21300016: WalkAnimation0009
+    21300018: WalkAnimation0010
+    21300020: WalkAnimation0011
+    21300022: WalkAnimation0012
+    21300024: WalkAnimation0013
+    21300026: WalkAnimation0014
+    21300028: WalkAnimation0015
+    21300030: WalkAnimation0016
+    21300032: WalkAnimation0017
+    21300034: WalkAnimation0018
+    21300036: WalkAnimation0019
+    21300038: WalkAnimation0020
+    21300040: WalkAnimation0021
+    21300042: WalkAnimation0022
+    21300044: WalkAnimation0023
+    21300046: WalkAnimation0024
+    21300048: WalkAnimation0025
+    21300050: WalkAnimation0026
+    21300052: WalkAnimation0027
+    21300054: WalkAnimation0028
+    21300056: WalkAnimation0029
+    21300058: WalkAnimation0030
+    21300060: WalkAnimation0031
+    21300062: WalkAnimation0032
+    21300064: WalkAnimation0033
+    21300066: WalkAnimation0034
+    21300068: WalkAnimation0035
+    21300070: WalkAnimation0036
+    21300072: WalkAnimation0037
+    21300074: WalkAnimation0038
+    21300076: WalkAnimation0039
+    21300078: WalkAnimation0040
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WalkAnimation0001
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2015
+        width: 387
+        height: 283
+      alignment: 9
+      pivot: {x: .576227367, y: .563604236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0002
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2014
+        width: 388
+        height: 284
+      alignment: 9
+      pivot: {x: .574742258, y: .561619699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0003
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 2015
+        width: 387
+        height: 283
+      alignment: 9
+      pivot: {x: .573643386, y: .563604236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0004
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 2014
+        width: 387
+        height: 284
+      alignment: 9
+      pivot: {x: .571059406, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0005
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 2014
+        width: 388
+        height: 284
+      alignment: 9
+      pivot: {x: .569587648, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0006
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1727
+        width: 388
+        height: 285
+      alignment: 9
+      pivot: {x: .567010283, y: .563157916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0007
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1728
+        width: 387
+        height: 284
+      alignment: 9
+      pivot: {x: .565891445, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0008
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1728
+        width: 387
+        height: 284
+      alignment: 9
+      pivot: {x: .563307464, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0009
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1728
+        width: 388
+        height: 284
+      alignment: 9
+      pivot: {x: .561855674, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0010
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1727
+        width: 388
+        height: 285
+      alignment: 9
+      pivot: {x: .559278369, y: .563157916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0011
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1441
+        width: 387
+        height: 284
+      alignment: 9
+      pivot: {x: .558139563, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0012
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1441
+        width: 387
+        height: 284
+      alignment: 9
+      pivot: {x: .555555582, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0013
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1441
+        width: 388
+        height: 284
+      alignment: 9
+      pivot: {x: .5541237, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0014
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1440
+        width: 388
+        height: 285
+      alignment: 9
+      pivot: {x: .551546395, y: .563157916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0015
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1440
+        width: 387
+        height: 285
+      alignment: 9
+      pivot: {x: .550387621, y: .566666663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0016
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1154
+        width: 387
+        height: 284
+      alignment: 9
+      pivot: {x: .54780364, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0017
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1153
+        width: 388
+        height: 285
+      alignment: 9
+      pivot: {x: .546391726, y: .566666663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0018
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1152
+        width: 388
+        height: 286
+      alignment: 9
+      pivot: {x: .543814421, y: .564685285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0019
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1153
+        width: 387
+        height: 285
+      alignment: 9
+      pivot: {x: .542635679, y: .566666663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0020
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1153
+        width: 387
+        height: 285
+      alignment: 9
+      pivot: {x: .540051699, y: .566666663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0021
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 865
+        width: 388
+        height: 285
+      alignment: 9
+      pivot: {x: .538659811, y: .566666663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0022
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 864
+        width: 388
+        height: 286
+      alignment: 9
+      pivot: {x: .536082447, y: .564685285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0023
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 866
+        width: 387
+        height: 284
+      alignment: 9
+      pivot: {x: .534883738, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0024
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 866
+        width: 387
+        height: 284
+      alignment: 9
+      pivot: {x: .532299757, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0025
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 866
+        width: 388
+        height: 284
+      alignment: 9
+      pivot: {x: .530927837, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0026
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 577
+        width: 388
+        height: 285
+      alignment: 9
+      pivot: {x: .528350532, y: .563157916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0027
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 578
+        width: 387
+        height: 284
+      alignment: 9
+      pivot: {x: .527131796, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0028
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 578
+        width: 387
+        height: 284
+      alignment: 9
+      pivot: {x: .524547815, y: .565140843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0029
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 577
+        width: 388
+        height: 285
+      alignment: 9
+      pivot: {x: .523195863, y: .563157916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0030
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 578
+        width: 388
+        height: 284
+      alignment: 9
+      pivot: {x: .520618558, y: .561619699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0031
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 292
+        width: 387
+        height: 283
+      alignment: 9
+      pivot: {x: .519379854, y: .563604236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0032
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 292
+        width: 387
+        height: 283
+      alignment: 9
+      pivot: {x: .516795874, y: .563604236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0033
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 291
+        width: 388
+        height: 284
+      alignment: 9
+      pivot: {x: .515463889, y: .561619699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0034
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 292
+        width: 387
+        height: 283
+      alignment: 9
+      pivot: {x: .514211893, y: .563604236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0035
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 292
+        width: 387
+        height: 283
+      alignment: 9
+      pivot: {x: .511627913, y: .563604236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0036
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 387
+        height: 283
+      alignment: 9
+      pivot: {x: .509043932, y: .563604236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0037
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 5
+        width: 388
+        height: 284
+      alignment: 9
+      pivot: {x: .507731974, y: .561619699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0038
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 6
+        width: 387
+        height: 283
+      alignment: 9
+      pivot: {x: .506459951, y: .563604236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0039
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 6
+        width: 387
+        height: 283
+      alignment: 9
+      pivot: {x: .503875971, y: .563604236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkAnimation0040
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 6
+        width: 387
+        height: 283
+      alignment: 9
+      pivot: {x: .50129199, y: .563604236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
