@@ -7,13 +7,16 @@ public class PlayerController : MonoBehaviour {
     private Animator animator;
     public float speed;
 
-    private Vector3 speedVector;
+    private Vector3 speedHorzVector, speedVertVector;
+    private bool isRight;
 
     // Use this for initialization
     void Start()
     {
         animator = this.GetComponent<Animator>();
-        speedVector = new Vector3(speed, 0, 0);
+        speedHorzVector = new Vector3(speed, 0, 0);
+        speedVertVector = new Vector3(0, speed, 0);
+        isRight = true;
     }
 
     // Update is called once per frame
@@ -23,35 +26,31 @@ public class PlayerController : MonoBehaviour {
         var vertical = Input.GetAxis("Vertical");
         var horizontal = Input.GetAxis("Horizontal");
 
-        transform.position += speedVector * horizontal;
-
-
         if (vertical != 0)
         {
-            animator.SetBool("Stand", false);
-            animator.SetBool("Shoot", false);
-            animator.SetInteger("Walk", (int)Math.Ceiling(vertical)); // 0 if left, 1 if right
-            transform.position += speedVector * vertical * Time.deltaTime;
+            animator.SetInteger("Walk", 1);
+            transform.position += speedVertVector * vertical * Time.deltaTime;
         }
         else if (horizontal != 0)
         {
-            animator.SetBool("Stand", false);
-            animator.SetBool("Shoot", false);
-            animator.SetInteger("Walk", (int)Math.Ceiling(horizontal));
-            transform.position += speedVector * horizontal * Time.deltaTime;
+            animator.SetInteger("Walk", 1);
+            transform.position += speedHorzVector * horizontal * Time.deltaTime;
+
+            if (horizontal < 0 && isRight || horizontal > 0 && !isRight)
+            {
+                isRight = !isRight;
+                Vector3 theScale = transform.localScale;
+                theScale.x *= -1;
+                transform.localScale = theScale;
+            }
         }
         else
         {
-            animator.SetInteger("Walk", -1);
-            animator.SetBool("Shoot", false);
             animator.SetBool("Stand", true);
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            animator.GetBool("Shoot");
-            //animator.SetInteger("Walk", -1); //stop walking animation
-            //animator.SetBool("Stand", false); //stop standing animation
             animator.SetBool("Shoot", true); //start firing animation
         }
     }
