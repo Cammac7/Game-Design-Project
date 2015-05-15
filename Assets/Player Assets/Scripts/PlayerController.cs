@@ -28,16 +28,12 @@ public class PlayerController : MonoBehaviour {
 
         if (vertical != 0)
         {
-            animator.SetBool("Stand", false);
-            animator.SetBool("Shoot", false);
-            animator.SetInteger("Walk", (int)Math.Ceiling(vertical)); // 0 if left, 1 if right
+            animator.SetInteger("Walk", 1);
             transform.position += speedVertVector * vertical * Time.deltaTime;
         }
         else if (horizontal != 0)
         {
-            animator.SetBool("Stand", false);
-            animator.SetBool("Shoot", false);
-            animator.SetInteger("Walk", (int)Math.Ceiling(horizontal));
+            animator.SetInteger("Walk", 1);
             transform.position += speedHorzVector * horizontal * Time.deltaTime;
 
             if (horizontal < 0 && isRight || horizontal > 0 && !isRight)
@@ -50,15 +46,11 @@ public class PlayerController : MonoBehaviour {
         }
         else
         {
-            animator.SetInteger("Walk", -1);
-            animator.SetBool("Shoot", false);
             animator.SetBool("Stand", true);
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //animator.SetInteger("Walk", -1); //stop walking animation
-            //animator.SetBool("Stand", false); //stop standing animation
             animator.SetBool("Shoot", true); //start firing animation
         }
     }
