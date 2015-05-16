@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour {
     private Animator animator;
     public float speed;
 
+    public Transform smallProjectileFire, mediumProjectileFire, largeProjectileFire, superProjectileFire;
+    public Transform smallProjectileFireball, largeProjectileFireball;
+
     private bool isRight;
 
     // Use this for initialization
@@ -61,6 +64,13 @@ public class PlayerController : MonoBehaviour {
         {
             animator.SetBool("Stand", false);
             animator.SetBool("Shoot", true); //start firing animation
+
+            //only shoots small for now?
+            Transform projectile = Instantiate(smallProjectileFire);
+
+            projectile.GetComponent<ProjectileController>().Fire(transform.position, (isRight ? 1 : -1));
         }
     }
+
+
 }
