@@ -7,36 +7,40 @@ public class PlayerController : MonoBehaviour {
     private Animator animator;
     public float speed;
 
-    private Vector3 speedHorzVector, speedVertVector;
     private bool isRight;
 
     // Use this for initialization
     void Start()
     {
         animator = this.GetComponent<Animator>();
-        speedHorzVector = new Vector3(speed, 0, 0);
-        speedVertVector = new Vector3(0, speed, 0);
         isRight = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-
         var vertical = Input.GetAxis("Vertical");
         var horizontal = Input.GetAxis("Horizontal");
 
-        if (vertical != 0)
-        {
-            animator.SetInteger("Walk", 1);
-            transform.position += speedVertVector * vertical * Time.deltaTime;
-        }
-        else if (horizontal != 0)
-        {
-            animator.SetInteger("Walk", 1);
-            transform.position += speedHorzVector * horizontal * Time.deltaTime;
+        var newPositionVector = new Vector3(speed * horizontal, speed * vertical, 0);
+        transform.position += newPositionVector * Time.deltaTime;
 
-            if (horizontal < 0 && isRight || horizontal > 0 && !isRight)
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            int direction = (Input.GetKeyDown(KeyCode.UpArrow) ? 1 : -1);
+
+            animator.SetBool("Stand", false);
+            animator.SetBool("Walk", true);
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            int direction = (Input.GetKeyDown(KeyCode.RightArrow) ? 1 : -1);
+
+            animator.SetBool("Stand", false);
+            animator.SetBool("Walk", true);
+            
+            if (Input.GetKeyDown(KeyCode.LeftArrow) && isRight || 
+                Input.GetKeyDown(KeyCode.RightArrow) && !isRight)
             {
                 isRight = !isRight;
                 Vector3 theScale = transform.localScale;
@@ -44,13 +48,18 @@ public class PlayerController : MonoBehaviour {
                 transform.localScale = theScale;
             }
         }
-        else
+        else if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow) ||
+                 Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow) ||
+                 Input.GetKeyUp(KeyCode.Space))
         {
+            animator.SetBool("Shoot", false);
+            animator.SetBool("Walk", false);
             animator.SetBool("Stand", true);
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            animator.SetBool("Stand", false);
             animator.SetBool("Shoot", true); //start firing animation
         }
     }
