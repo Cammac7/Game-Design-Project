@@ -7,52 +7,70 @@ public class PlayerController : MonoBehaviour {
     private Animator animator;
     public float speed;
 
-    private Vector3 speedVector;
+    public Transform smallProjectileFire, mediumProjectileFire, largeProjectileFire, superProjectileFire;
+    public Transform smallProjectileFireball, largeProjectileFireball;
+
+    private bool isRight;
 
     // Use this for initialization
     void Start()
     {
         animator = this.GetComponent<Animator>();
-        speedVector = new Vector3(speed, 0, 0);
+        isRight = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-
         var vertical = Input.GetAxis("Vertical");
         var horizontal = Input.GetAxis("Horizontal");
 
-        transform.position += speedVector * horizontal;
+        var newPositionVector = new Vector3(speed * horizontal, speed * vertical, 0);
+        transform.position += newPositionVector * Time.deltaTime;
 
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            int direction = (Input.GetKeyDown(KeyCode.UpArrow) ? 1 : -1);
 
-        if (vertical != 0)
-        {
             animator.SetBool("Stand", false);
-            animator.SetBool("Shoot", false);
-            animator.SetInteger("Walk", (int)Math.Ceiling(vertical)); // 0 if left, 1 if right
-            transform.position += speedVector * vertical * Time.deltaTime;
+            animator.SetBool("Walk", true);
         }
-        else if (horizontal != 0)
+        else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
         {
+            int direction = (Input.GetKeyDown(KeyCode.RightArrow) ? 1 : -1);
+
             animator.SetBool("Stand", false);
-            animator.SetBool("Shoot", false);
-            animator.SetInteger("Walk", (int)Math.Ceiling(horizontal));
-            transform.position += speedVector * horizontal * Time.deltaTime;
+            animator.SetBool("Walk", true);
+            
+            if (Input.GetKeyDown(KeyCode.LeftArrow) && isRight || 
+                Input.GetKeyDown(KeyCode.RightArrow) && !isRight)
+            {
+                isRight = !isRight;
+                Vector3 theScale = transform.localScale;
+                theScale.x *= -1;
+                transform.localScale = theScale;
+            }
         }
-        else
+        else if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow) ||
+                 Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow) ||
+                 Input.GetKeyUp(KeyCode.Space))
         {
-            animator.SetInteger("Walk", -1);
             animator.SetBool("Shoot", false);
+            animator.SetBool("Walk", false);
             animator.SetBool("Stand", true);
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            animator.GetBool("Shoot");
-            //animator.SetInteger("Walk", -1); //stop walking animation
-            //animator.SetBool("Stand", false); //stop standing animation
+            animator.SetBool("Stand", false);
             animator.SetBool("Shoot", true); //start firing animation
+
+            //only shoots small for now?
+            Transform projectile = Instantiate(smallProjectileFire);
+
+            projectile.GetComponent<ProjectileController>().Fire(transform.position, (isRight ? 1 : -1));
         }
     }
+
+
 }
