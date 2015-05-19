@@ -6,7 +6,6 @@ public class BackgroundCycler : MonoBehaviour {
     const float WIDTH = 22;
 	const int NUM_TILES = 4;
 
-
 	// Use this for initialization
 	void Start () {
 	
