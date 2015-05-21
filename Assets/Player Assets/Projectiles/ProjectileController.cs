@@ -22,7 +22,7 @@ public class ProjectileController : MonoBehaviour {
 
     public void Fire(Vector3 loc, int dir)
     {
-        transform.position = loc;
+        transform.position = new Vector3(loc.x + (1.65f * dir), loc.y + 0.38f, loc.z);
         startingLoc = loc;
         direction = dir;
         firing = true;

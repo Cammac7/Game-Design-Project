@@ -8,12 +8,10 @@ public class BackgroundCycler : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D c)
     {
-		Debug.Log("Trigger entered!");
         GameObject otherObject = c.gameObject;
         if (otherObject.tag == "Background")
         {
 			otherObject.transform.position += new Vector3(WIDTH * NUM_TILES, 0, 0);
-			Debug.Log("Object moved!");
         }
     }
 }
