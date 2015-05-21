@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d8909cc2041516a41bba9a082e7bfc80
-timeCreated: 1431668176
+timeCreated: 1432176794
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -96,8 +96,8 @@ TextureImporter:
         y: 2015
         width: 387
         height: 283
-      alignment: 9
-      pivot: {x: .576227367, y: .563604236}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0002
       rect:
@@ -106,8 +106,8 @@ TextureImporter:
         y: 2014
         width: 388
         height: 284
-      alignment: 9
-      pivot: {x: .574742258, y: .561619699}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0003
       rect:
@@ -116,8 +116,8 @@ TextureImporter:
         y: 2015
         width: 387
         height: 283
-      alignment: 9
-      pivot: {x: .573643386, y: .563604236}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0004
       rect:
@@ -126,8 +126,8 @@ TextureImporter:
         y: 2014
         width: 387
         height: 284
-      alignment: 9
-      pivot: {x: .571059406, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0005
       rect:
@@ -136,8 +136,8 @@ TextureImporter:
         y: 2014
         width: 388
         height: 284
-      alignment: 9
-      pivot: {x: .569587648, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0006
       rect:
@@ -146,8 +146,8 @@ TextureImporter:
         y: 1727
         width: 388
         height: 285
-      alignment: 9
-      pivot: {x: .567010283, y: .563157916}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0007
       rect:
@@ -156,8 +156,8 @@ TextureImporter:
         y: 1728
         width: 387
         height: 284
-      alignment: 9
-      pivot: {x: .565891445, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0008
       rect:
@@ -166,8 +166,8 @@ TextureImporter:
         y: 1728
         width: 387
         height: 284
-      alignment: 9
-      pivot: {x: .563307464, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0009
       rect:
@@ -176,8 +176,8 @@ TextureImporter:
         y: 1728
         width: 388
         height: 284
-      alignment: 9
-      pivot: {x: .561855674, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0010
       rect:
@@ -186,8 +186,8 @@ TextureImporter:
         y: 1727
         width: 388
         height: 285
-      alignment: 9
-      pivot: {x: .559278369, y: .563157916}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0011
       rect:
@@ -196,8 +196,8 @@ TextureImporter:
         y: 1441
         width: 387
         height: 284
-      alignment: 9
-      pivot: {x: .558139563, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0012
       rect:
@@ -206,8 +206,8 @@ TextureImporter:
         y: 1441
         width: 387
         height: 284
-      alignment: 9
-      pivot: {x: .555555582, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0013
       rect:
@@ -216,8 +216,8 @@ TextureImporter:
         y: 1441
         width: 388
         height: 284
-      alignment: 9
-      pivot: {x: .5541237, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0014
       rect:
@@ -226,8 +226,8 @@ TextureImporter:
         y: 1440
         width: 388
         height: 285
-      alignment: 9
-      pivot: {x: .551546395, y: .563157916}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0015
       rect:
@@ -236,8 +236,8 @@ TextureImporter:
         y: 1440
         width: 387
         height: 285
-      alignment: 9
-      pivot: {x: .550387621, y: .566666663}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0016
       rect:
@@ -246,8 +246,8 @@ TextureImporter:
         y: 1154
         width: 387
         height: 284
-      alignment: 9
-      pivot: {x: .54780364, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0017
       rect:
@@ -256,8 +256,8 @@ TextureImporter:
         y: 1153
         width: 388
         height: 285
-      alignment: 9
-      pivot: {x: .546391726, y: .566666663}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0018
       rect:
@@ -266,8 +266,8 @@ TextureImporter:
         y: 1152
         width: 388
         height: 286
-      alignment: 9
-      pivot: {x: .543814421, y: .564685285}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0019
       rect:
@@ -276,8 +276,8 @@ TextureImporter:
         y: 1153
         width: 387
         height: 285
-      alignment: 9
-      pivot: {x: .542635679, y: .566666663}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0020
       rect:
@@ -286,8 +286,8 @@ TextureImporter:
         y: 1153
         width: 387
         height: 285
-      alignment: 9
-      pivot: {x: .540051699, y: .566666663}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0021
       rect:
@@ -296,8 +296,8 @@ TextureImporter:
         y: 865
         width: 388
         height: 285
-      alignment: 9
-      pivot: {x: .538659811, y: .566666663}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0022
       rect:
@@ -306,8 +306,8 @@ TextureImporter:
         y: 864
         width: 388
         height: 286
-      alignment: 9
-      pivot: {x: .536082447, y: .564685285}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0023
       rect:
@@ -316,8 +316,8 @@ TextureImporter:
         y: 866
         width: 387
         height: 284
-      alignment: 9
-      pivot: {x: .534883738, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0024
       rect:
@@ -326,8 +326,8 @@ TextureImporter:
         y: 866
         width: 387
         height: 284
-      alignment: 9
-      pivot: {x: .532299757, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0025
       rect:
@@ -336,8 +336,8 @@ TextureImporter:
         y: 866
         width: 388
         height: 284
-      alignment: 9
-      pivot: {x: .530927837, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0026
       rect:
@@ -346,8 +346,8 @@ TextureImporter:
         y: 577
         width: 388
         height: 285
-      alignment: 9
-      pivot: {x: .528350532, y: .563157916}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0027
       rect:
@@ -356,8 +356,8 @@ TextureImporter:
         y: 578
         width: 387
         height: 284
-      alignment: 9
-      pivot: {x: .527131796, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0028
       rect:
@@ -366,8 +366,8 @@ TextureImporter:
         y: 578
         width: 387
         height: 284
-      alignment: 9
-      pivot: {x: .524547815, y: .565140843}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0029
       rect:
@@ -376,8 +376,8 @@ TextureImporter:
         y: 577
         width: 388
         height: 285
-      alignment: 9
-      pivot: {x: .523195863, y: .563157916}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0030
       rect:
@@ -386,8 +386,8 @@ TextureImporter:
         y: 578
         width: 388
         height: 284
-      alignment: 9
-      pivot: {x: .520618558, y: .561619699}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0031
       rect:
@@ -396,8 +396,8 @@ TextureImporter:
         y: 292
         width: 387
         height: 283
-      alignment: 9
-      pivot: {x: .519379854, y: .563604236}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0032
       rect:
@@ -406,8 +406,8 @@ TextureImporter:
         y: 292
         width: 387
         height: 283
-      alignment: 9
-      pivot: {x: .516795874, y: .563604236}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0033
       rect:
@@ -416,8 +416,8 @@ TextureImporter:
         y: 291
         width: 388
         height: 284
-      alignment: 9
-      pivot: {x: .515463889, y: .561619699}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0034
       rect:
@@ -426,8 +426,8 @@ TextureImporter:
         y: 292
         width: 387
         height: 283
-      alignment: 9
-      pivot: {x: .514211893, y: .563604236}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0035
       rect:
@@ -436,8 +436,8 @@ TextureImporter:
         y: 292
         width: 387
         height: 283
-      alignment: 9
-      pivot: {x: .511627913, y: .563604236}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0036
       rect:
@@ -446,8 +446,8 @@ TextureImporter:
         y: 6
         width: 387
         height: 283
-      alignment: 9
-      pivot: {x: .509043932, y: .563604236}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0037
       rect:
@@ -456,8 +456,8 @@ TextureImporter:
         y: 5
         width: 388
         height: 284
-      alignment: 9
-      pivot: {x: .507731974, y: .561619699}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0038
       rect:
@@ -466,8 +466,8 @@ TextureImporter:
         y: 6
         width: 387
         height: 283
-      alignment: 9
-      pivot: {x: .506459951, y: .563604236}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0039
       rect:
@@ -476,18 +476,18 @@ TextureImporter:
         y: 6
         width: 387
         height: 283
-      alignment: 9
-      pivot: {x: .503875971, y: .563604236}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: WalkAnimation0040
       rect:
         serializedVersion: 2
-        x: 1559
+        x: 1563
         y: 6
         width: 387
         height: 283
-      alignment: 9
-      pivot: {x: .50129199, y: .563604236}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
