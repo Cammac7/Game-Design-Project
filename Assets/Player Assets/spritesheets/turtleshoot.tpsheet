@@ -1,0 +1,60 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: turtleshoot.png (3088 x 1984)
+# $TexturePacker:SmartUpdate:fc7ff6debf0a0949aef46b4f219a49c0:aa49a9e60dceee9ce9baaae90fe75f83:2b459fc2a8c9785459877affc3f31141$
+#
+
+fireanimation0001;2;1699;387;283;0;0
+fireanimation0002;391;1696;386;286;0;0
+fireanimation0003;779;1692;385;290;0;0
+fireanimation0004;1166;1688;383;294;0;0
+fireanimation0005;1551;1685;383;297;0;0
+fireanimation0006;1936;1680;383;302;0;0
+fireanimation0007;2321;1675;383;307;0;0
+fireanimation0008;2;1363;383;310;0;0
+fireanimation0009;387;1360;383;313;0;0
+fireanimation0010;772;1357;383;316;0;0
+fireanimation0011;1157;1354;383;319;0;0
+fireanimation0012;1542;1351;383;322;0;0
+fireanimation0013;1927;1348;383;325;0;0
+fireanimation0014;2312;1345;383;328;0;0
+fireanimation0015;2697;1342;383;331;0;0
+fireanimation0016;2;1006;383;334;0;0
+fireanimation0017;387;1002;383;338;0;0
+fireanimation0018;772;998;383;342;0;0
+fireanimation0019;1157;994;383;346;0;0
+fireanimation0020;1542;990;383;350;0;0
+fireanimation0021;1927;990;383;350;0;0
+fireanimation0022;2312;990;383;350;0;0
+fireanimation0023;2697;990;383;350;0;0
+fireanimation0024;2;638;383;350;0;0
+fireanimation0025;2;638;383;350;0;0
+fireanimation0026;1542;990;383;350;0;0
+fireanimation0027;387;642;383;346;0;0
+fireanimation0028;772;644;383;344;0;0
+fireanimation0029;1157;648;383;340;0;0
+fireanimation0030;1542;651;383;337;0;0
+fireanimation0031;1927;655;383;333;0;0
+fireanimation0032;2312;657;383;331;0;0
+fireanimation0033;2697;660;383;328;0;0
+fireanimation0034;2;311;383;325;0;0
+fireanimation0035;387;314;383;322;0;0
+fireanimation0036;772;316;383;320;0;0
+fireanimation0037;1157;318;383;318;0;0
+fireanimation0038;1542;321;383;315;0;0
+fireanimation0039;1927;324;383;312;0;0
+fireanimation0040;2312;326;383;310;0;0
+fireanimation0041;2697;329;383;307;0;0
+fireanimation0042;2;4;383;305;0;0
+fireanimation0043;387;7;383;302;0;0
+fireanimation0044;772;10;383;299;0;0
+fireanimation0045;1157;13;383;296;0;0
+fireanimation0046;1542;15;383;294;0;0
+fireanimation0047;1927;18;383;291;0;0
+fireanimation0048;2312;21;384;288;0;0
+fireanimation0049;2698;23;386;286;0;0
+fireanimation0050;2;1699;387;283;0;0
