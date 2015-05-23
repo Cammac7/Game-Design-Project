@@ -7,6 +7,8 @@ public class ProjectileController : MonoBehaviour {
     public int speed;
     private int direction;
     private Vector3 startingLoc;
+
+    public int damage = 1;
 	
 	// Update is called once per frame
 	void Update () {
@@ -39,5 +41,14 @@ public class ProjectileController : MonoBehaviour {
     public void KillProjectile()
     {
         Destroy(gameObject);
+    }
+
+    void OnCollisionEnter(Collision2D collider)
+    {
+        if (collider.gameObject.tag == "enemy")
+        {
+            collider.gameObject.GetComponent<EnemyController>().Hit(damage);
+            KillProjectile();
+        }
     }
 }

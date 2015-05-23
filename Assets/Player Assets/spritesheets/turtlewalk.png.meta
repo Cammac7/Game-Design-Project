@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d8909cc2041516a41bba9a082e7bfc80
-timeCreated: 1432244163
+timeCreated: 1432342927
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -136,8 +136,8 @@ TextureImporter:
         y: 2762
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_1
       rect:
@@ -146,8 +146,8 @@ TextureImporter:
         y: 2762
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_2
       rect:
@@ -156,8 +156,8 @@ TextureImporter:
         y: 2762
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_3
       rect:
@@ -166,8 +166,8 @@ TextureImporter:
         y: 2762
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_4
       rect:
@@ -176,8 +176,8 @@ TextureImporter:
         y: 2456
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_5
       rect:
@@ -186,8 +186,8 @@ TextureImporter:
         y: 2456
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_6
       rect:
@@ -196,8 +196,8 @@ TextureImporter:
         y: 2456
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_7
       rect:
@@ -206,8 +206,8 @@ TextureImporter:
         y: 2456
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_8
       rect:
@@ -216,8 +216,8 @@ TextureImporter:
         y: 2150
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_9
       rect:
@@ -226,8 +226,8 @@ TextureImporter:
         y: 2149
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_10
       rect:
@@ -236,8 +236,8 @@ TextureImporter:
         y: 2149
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_11
       rect:
@@ -246,8 +246,8 @@ TextureImporter:
         y: 2149
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_12
       rect:
@@ -256,8 +256,8 @@ TextureImporter:
         y: 1842
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_13
       rect:
@@ -266,8 +266,8 @@ TextureImporter:
         y: 1842
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_14
       rect:
@@ -276,8 +276,8 @@ TextureImporter:
         y: 1842
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_15
       rect:
@@ -286,8 +286,8 @@ TextureImporter:
         y: 1842
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_16
       rect:
@@ -296,8 +296,8 @@ TextureImporter:
         y: 1535
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_17
       rect:
@@ -306,8 +306,8 @@ TextureImporter:
         y: 1535
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_18
       rect:
@@ -316,8 +316,8 @@ TextureImporter:
         y: 1535
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_19
       rect:
@@ -326,8 +326,8 @@ TextureImporter:
         y: 1535
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_20
       rect:
@@ -336,8 +336,8 @@ TextureImporter:
         y: 1228
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_21
       rect:
@@ -346,8 +346,8 @@ TextureImporter:
         y: 1228
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_22
       rect:
@@ -356,8 +356,8 @@ TextureImporter:
         y: 1228
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_23
       rect:
@@ -366,8 +366,8 @@ TextureImporter:
         y: 1228
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_24
       rect:
@@ -376,8 +376,8 @@ TextureImporter:
         y: 921
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_25
       rect:
@@ -386,8 +386,8 @@ TextureImporter:
         y: 921
         width: 415
         height: 305
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_26
       rect:
@@ -396,8 +396,8 @@ TextureImporter:
         y: 922
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_27
       rect:
@@ -406,8 +406,8 @@ TextureImporter:
         y: 922
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_28
       rect:
@@ -416,8 +416,8 @@ TextureImporter:
         y: 615
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_29
       rect:
@@ -426,8 +426,8 @@ TextureImporter:
         y: 615
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_30
       rect:
@@ -436,8 +436,8 @@ TextureImporter:
         y: 615
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_31
       rect:
@@ -446,8 +446,8 @@ TextureImporter:
         y: 615
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_32
       rect:
@@ -456,8 +456,8 @@ TextureImporter:
         y: 309
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_33
       rect:
@@ -466,8 +466,8 @@ TextureImporter:
         y: 309
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_34
       rect:
@@ -476,8 +476,8 @@ TextureImporter:
         y: 309
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_35
       rect:
@@ -486,8 +486,8 @@ TextureImporter:
         y: 309
         width: 416
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_36
       rect:
@@ -496,8 +496,8 @@ TextureImporter:
         y: 3
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_37
       rect:
@@ -506,8 +506,8 @@ TextureImporter:
         y: 3
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_38
       rect:
@@ -516,8 +516,8 @@ TextureImporter:
         y: 3
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: turtlewalk_39
       rect:
@@ -526,8 +526,8 @@ TextureImporter:
         y: 3
         width: 415
         height: 304
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
