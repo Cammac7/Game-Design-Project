@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System;
 
@@ -21,6 +22,13 @@ public class PlayerController : MonoBehaviour {
     private bool directionIsRight;
 
     string whichProjectile = "Small";
+
+    public Slider healthSlider;
+
+    public Image damageImage;
+    public float flashSpeed = 5f;
+    public Color flashColor = new Color(1f, 0f, 0f, 0.1f);
+    bool damaged;
 
     // Use this for initialization
     void Start()
@@ -65,8 +73,21 @@ public class PlayerController : MonoBehaviour {
             Transform projectile = Instantiate(GetCurrentProjectile());
             SetDamageAmount(projectile);
 
-            projectile.GetComponent<ProjectileController>().Fire(transform.position, (directionIsRight ? RIGHT : LEFT));
+            projectile.
+                GetComponent<ProjectileController>().Fire(transform.position, 
+                                                          (directionIsRight ? RIGHT : LEFT),
+                                                          GetProjectileXOffset());
         }
+
+        if (damaged)
+        {
+            damageImage.color = flashColor;
+        }
+        else
+        {
+            damageImage.color = Color.Lerp(damageImage.color, Color.clear, flashSpeed * Time.deltaTime);
+        }
+        damaged = false;
     }
 
     private void CheckWeaponChange()
@@ -76,12 +97,14 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetKey(KeyCode.Alpha1))
             whichProjectile = "Small";
         if (Input.GetKey(KeyCode.Alpha2))
-            whichProjectile = "Large";
+            whichProjectile = "Medium";
         if (Input.GetKey(KeyCode.Alpha3))
-            whichProjectile = "Super";
+            whichProjectile = "Large";
         if (Input.GetKey(KeyCode.Alpha4))
-            whichProjectile = "SmallBall";
+            whichProjectile = "Super";
         if (Input.GetKey(KeyCode.Alpha5))
+            whichProjectile = "SmallBall";
+        if (Input.GetKey(KeyCode.Alpha6))
             whichProjectile = "LargeBall";
 
         if (current != whichProjectile)
@@ -94,6 +117,8 @@ public class PlayerController : MonoBehaviour {
     {
         switch (whichProjectile)
         { 
+            case "Medium":
+                return mediumProjectileFire;
             case "Large":
                 return largeProjectileFire;
             case "Super":
@@ -105,6 +130,15 @@ public class PlayerController : MonoBehaviour {
         }
 
         return smallProjectileFire;
+    }
+
+    private float GetProjectileXOffset()
+    {
+        if (whichProjectile == "Small" || whichProjectile == "Medium" ||
+            whichProjectile == "Large" || whichProjectile == "Super")
+            return 4.60f;
+
+        return 1.28f; // small ball and large ball
     }
 
     private void ChangeState(string state)
@@ -148,6 +182,9 @@ public class PlayerController : MonoBehaviour {
             case "Small":
                 damage = 1;
                 break;
+            case "Medium":
+                damage = 3;
+                break;
             case "Large":
                 damage = 5;
                 break;
@@ -167,6 +204,15 @@ public class PlayerController : MonoBehaviour {
 
     public void Hit(int damage)
     {
+        damaged = true;
+
         health -= damage;
+        Debug.Log("current health: " + health);
+        healthSlider.value = health;
+        Debug.Log("health slider: " + healthSlider.value);
+        if (health <= 0)
+        {
+            //handle death here, possible restart screen
+        }
     }
 }

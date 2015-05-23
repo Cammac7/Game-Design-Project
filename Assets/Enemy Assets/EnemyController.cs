@@ -3,11 +3,15 @@ using System.Collections;
 
 public class EnemyController : MonoBehaviour {
 
-    public int health = 100;
+    public int health = 2;
+
+    GameObject player;
+
+    public int hitAmount = 10;
 
 	// Use this for initialization
 	void Start () {
-	
+        player = GameObject.FindGameObjectWithTag("Player");
 	}
 	
 	// Update is called once per frame
@@ -26,5 +30,13 @@ public class EnemyController : MonoBehaviour {
     private void KillEnemy()
     {
         Destroy(gameObject);
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.tag == "Player")
+        {
+            player.GetComponent<PlayerController>().Hit(hitAmount);
+        }
     }
 }
