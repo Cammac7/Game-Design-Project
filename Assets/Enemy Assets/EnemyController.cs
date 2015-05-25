@@ -21,6 +21,8 @@ public class EnemyController : MonoBehaviour {
 
     public void Hit(int damage)
     {
+        //take damage
+        GetComponent<AudioSource>().Play();
         health -= damage;
 
         if (health <= 0)
@@ -36,6 +38,7 @@ public class EnemyController : MonoBehaviour {
     {
         if (collider.tag == "Player")
         {
+            //damage player
             player.GetComponent<PlayerController>().Hit(hitAmount);
         }
     }

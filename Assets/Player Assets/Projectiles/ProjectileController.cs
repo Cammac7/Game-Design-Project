@@ -60,7 +60,7 @@ public class ProjectileController : MonoBehaviour {
         
         if (collider.gameObject.tag == "Enemy")
         {
-            Debug.Log("collided!");
+            //damage enemy
             collider.gameObject.GetComponent<EnemyController>().Hit(damage);
             KillProjectile();
         }

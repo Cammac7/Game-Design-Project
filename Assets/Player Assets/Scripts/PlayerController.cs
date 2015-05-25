@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour {
     public int health = 100;
 
     public AudioSource levelUpSource;
-    private AudioClip levelUpClip;
+    public AudioSource fireShootSource;
 
     private const int RIGHT = 1;
     private const int LEFT = -1;
@@ -72,6 +72,8 @@ public class PlayerController : MonoBehaviour {
 
             Transform projectile = Instantiate(GetCurrentProjectile());
             SetDamageAmount(projectile);
+
+            fireShootSource.Play();
 
             projectile.
                 GetComponent<ProjectileController>().Fire(transform.position, 
@@ -204,12 +206,11 @@ public class PlayerController : MonoBehaviour {
 
     public void Hit(int damage)
     {
+        //take damage
         damaged = true;
-
         health -= damage;
-        Debug.Log("current health: " + health);
         healthSlider.value = health;
-        Debug.Log("health slider: " + healthSlider.value);
+        
         if (health <= 0)
         {
             //handle death here, possible restart screen
