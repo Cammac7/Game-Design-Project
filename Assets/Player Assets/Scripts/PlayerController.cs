@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour {
 
     public AudioSource levelUpSource;
     public AudioSource fireShootSource;
+    public AudioSource[] walkingSource;
 
     private const int RIGHT = 1;
     private const int LEFT = -1;
@@ -53,6 +54,9 @@ public class PlayerController : MonoBehaviour {
         else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
             ChangeState("Walking");
+
+            //play walking audio
+            walkingSource[UnityEngine.Random.Range(0, 3)].Play();
 
             //flip the sprite if we change direction
             CheckDirection();
@@ -111,6 +115,7 @@ public class PlayerController : MonoBehaviour {
 
         if (current != whichProjectile)
         {
+            ChangeState("Level Up");
             levelUpSource.Play();
         }
     }
@@ -159,6 +164,12 @@ public class PlayerController : MonoBehaviour {
             case "Walking":
                 animator.SetBool("Stand", false);
                 animator.SetBool("Walk", true);
+                break;
+            case "Level Up":
+                animator.SetBool("Shoot", false);
+                animator.SetBool("Walk", false);
+                animator.SetBool("Stand", false);
+                animator.SetBool("Level Up", true);
                 break;
         }
     }
