@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 6a9f39f7373605a4e8a6325388f45bf2
 timeCreated: 1432610489
+=======
+guid: 36041dc3497da4a34bc631a5276a5e58
+timeCreated: 1432590678
+>>>>>>> Stashed changes
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -129,6 +134,19 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< Updated upstream
+=======
+    - name: levelUp0004
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 3293
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> Stashed changes
     - name: levelUp0005
       rect:
         serializedVersion: 2
@@ -389,6 +407,19 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< Updated upstream
+=======
+    - name: levelUp0031
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1238
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> Stashed changes
     - name: levelUp0032
       rect:
         serializedVersion: 2
