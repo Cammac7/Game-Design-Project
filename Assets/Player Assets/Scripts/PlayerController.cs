@@ -50,6 +50,24 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
         {
             ChangeState("Walking");
+
+            //play walking audio
+            walkingSource[UnityEngine.Random.Range(0, 3)].Play();
+
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                Vector3 scale = transform.localScale;
+                scale.x = Math.Max(scale.x - 0.002f, 0.4f);
+                scale.y = Math.Max(scale.y - 0.002f, 0.4f);
+                transform.localScale = scale;
+            }
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                Vector3 scale = transform.localScale;
+                scale.x = Math.Min(scale.x + 0.002f, 1.4f);
+                scale.y = Math.Min(scale.y + 0.002f, 1.4f);
+                transform.localScale = scale;
+            }
         }
         else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
@@ -143,7 +161,7 @@ public class PlayerController : MonoBehaviour {
     {
         if (whichProjectile == "Small" || whichProjectile == "Medium" ||
             whichProjectile == "Large" || whichProjectile == "Super")
-            return 4.60f;
+            return 3.30f;
 
         return 1.28f; // small ball and large ball
     }
