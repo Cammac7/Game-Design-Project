@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: 6b077d480d51d9d44a8edb0d551def14
-timeCreated: 1432757003
+guid: 309be31d8a5f5d74eab82417a9be846f
+timeCreated: 1432757650
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: turtlecover_0
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +37,7 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,17 +48,7 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: turtlecover_0
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 91
-        width: 208
-        height: 215
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+    sprites: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
