@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 6a9f39f7373605a4e8a6325388f45bf2
+timeCreated: 1432753699
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: levelUp0001
+    21300002: levelUp0002
+    21300004: levelUp0003
+    21300006: levelUp0004
+    21300008: levelUp0005
+    21300010: levelUp0006
+    21300012: levelUp0007
+    21300014: levelUp0008
+    21300016: levelUp0009
+    21300018: levelUp0010
+    21300020: levelUp0011
+    21300022: levelUp0012
+    21300024: levelUp0013
+    21300026: levelUp0014
+    21300028: levelUp0015
+    21300030: levelUp0016
+    21300032: levelUp0017
+    21300034: levelUp0018
+    21300036: levelUp0019
+    21300038: levelUp0020
+    21300040: levelUp0021
+    21300042: levelUp0022
+    21300044: levelUp0023
+    21300046: levelUp0024
+    21300048: levelUp0025
+    21300050: levelUp0026
+    21300052: levelUp0027
+    21300054: levelUp0028
+    21300056: levelUp0029
+    21300058: levelUp0030
+    21300060: levelUp0031
+    21300062: levelUp0032
+    21300064: levelUp0033
+    21300066: levelUp0034
+    21300068: levelUp0035
+    21300070: levelUp0036
+    21300072: levelUp0037
+    21300074: levelUp0038
+    21300076: levelUp0039
+    21300078: levelUp0040
+    21300080: levelUp0041
+    21300082: levelUp0042
+    21300084: levelUp0043
+    21300086: levelUp0044
+    21300088: levelUp0045
+    21300090: levelUp0046
+    21300092: levelUp0047
+    21300094: levelUp0048
+    21300096: levelUp0049
+    21300098: levelUp0050
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: levelUp0001
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3293
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0002
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 3293
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0003
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 3293
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0004
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 3293
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0005
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 3293
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0006
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 3293
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0007
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2882
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0008
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2882
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0009
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2882
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0010
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 2882
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0011
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 2882
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0012
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 2882
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0013
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2471
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0014
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2471
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0015
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2471
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0016
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 2471
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0017
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 2471
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0018
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 2471
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0019
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2060
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0020
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2060
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0021
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2060
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0023
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 2060
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0024
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 2060
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0025
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1649
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0026
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1649
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0027
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1649
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0028
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1649
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0029
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 1649
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0031
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1238
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0032
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1238
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0033
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1238
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0034
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1238
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0035
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 1238
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0036
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 1238
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0037
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 827
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0038
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 827
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0039
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 827
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0040
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 827
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0041
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 827
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0042
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 827
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0043
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 416
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0044
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 416
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0045
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 416
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0046
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 416
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0047
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 416
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0048
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 416
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0049
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: levelUp0050
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 5
+        width: 514
+        height: 409
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

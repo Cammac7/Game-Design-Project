@@ -57,14 +57,22 @@ public class PlayerController : MonoBehaviour {
             if (Input.GetKey(KeyCode.UpArrow))
             {
                 Vector3 scale = transform.localScale;
-                scale.x = Math.Max(scale.x - 0.002f, 0.4f);
+                if (scale.x < 0)
+                    scale.x = Math.Min(scale.x + 0.002f, -0.4f);
+                else
+                    scale.x = Math.Max(scale.x - 0.002f, 0.4f);
+
                 scale.y = Math.Max(scale.y - 0.002f, 0.4f);
                 transform.localScale = scale;
             }
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 Vector3 scale = transform.localScale;
-                scale.x = Math.Min(scale.x + 0.002f, 1.4f);
+                if (scale.x < 0)
+                    scale.x = Math.Max(scale.x - 0.002f, -1.4f);
+                else
+                    scale.x = Math.Min(scale.x + 0.002f, 1.4f);
+
                 scale.y = Math.Min(scale.y + 0.002f, 1.4f);
                 transform.localScale = scale;
             }
