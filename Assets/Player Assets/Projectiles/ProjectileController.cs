@@ -37,7 +37,7 @@ public class ProjectileController : MonoBehaviour {
     public void Fire(Vector3 loc, int dir, float xOffset)
     {
         //offsets here are so that it appear to come directly out of the mouth of the turtle
-        transform.position = new Vector3(loc.x + (xOffset * dir), loc.y + 2.10f, loc.z);
+        transform.position = new Vector3(loc.x + (xOffset * dir), loc.y + 0.40f, loc.z);
         startingLoc = loc;
         direction = dir;
         firing = true;
