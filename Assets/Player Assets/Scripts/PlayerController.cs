@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System;
 
@@ -6,6 +7,12 @@ public class PlayerController : MonoBehaviour {
 
     private Animator animator;
     public float speed;
+
+    public int health = 100;
+
+    public AudioSource levelUpSource;
+    public AudioSource fireShootSource;
+    public AudioSource[] walkingSource;
 
     private const int RIGHT = 1;
     private const int LEFT = -1;
@@ -16,6 +23,13 @@ public class PlayerController : MonoBehaviour {
     private bool directionIsRight;
 
     string whichProjectile = "Small";
+
+    public Slider healthSlider;
+
+    public Image damageImage;
+    public float flashSpeed = 5f;
+    public Color flashColor = new Color(1f, 0f, 0f, 0.1f);
+    bool damaged;
 
     // Use this for initialization
     void Start()
@@ -33,13 +47,42 @@ public class PlayerController : MonoBehaviour {
         var newPositionVector = new Vector3(speed * horizontal, speed * vertical, 0);
         transform.position += newPositionVector * Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
         {
             ChangeState("Walking");
+
+            //play walking audio
+            walkingSource[UnityEngine.Random.Range(0, 3)].Play();
+
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                Vector3 scale = transform.localScale;
+                if (scale.x < 0)
+                    scale.x = Math.Min(scale.x + 0.002f, -0.4f);
+                else
+                    scale.x = Math.Max(scale.x - 0.002f, 0.4f);
+
+                scale.y = Math.Max(scale.y - 0.002f, 0.4f);
+                transform.localScale = scale;
+            }
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                Vector3 scale = transform.localScale;
+                if (scale.x < 0)
+                    scale.x = Math.Max(scale.x - 0.002f, -1.4f);
+                else
+                    scale.x = Math.Min(scale.x + 0.002f, 1.4f);
+
+                scale.y = Math.Min(scale.y + 0.002f, 1.4f);
+                transform.localScale = scale;
+            }
         }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
             ChangeState("Walking");
+
+            //play walking audio
+            walkingSource[UnityEngine.Random.Range(0, 3)].Play();
 
             //flip the sprite if we change direction
             CheckDirection();
@@ -57,33 +100,58 @@ public class PlayerController : MonoBehaviour {
         {
             ChangeState("Shooting");
 
-            Transform currentProjectile = GetCurrentProjectile();       
+            Transform projectile = Instantiate(GetCurrentProjectile());
+            SetDamageAmount(projectile);
 
-            //only shoots small for now?
-            Transform projectile = Instantiate(currentProjectile);
+            fireShootSource.Play();
 
-            projectile.GetComponent<ProjectileController>().Fire(transform.position, (directionIsRight ? RIGHT : LEFT));
+            projectile.
+                GetComponent<ProjectileController>().Fire(transform.position, 
+                                                          (directionIsRight ? RIGHT : LEFT),
+                                                          GetProjectileXOffset());
         }
+
+        if (damaged)
+        {
+            damageImage.color = flashColor;
+        }
+        else
+        {
+            damageImage.color = Color.Lerp(damageImage.color, Color.clear, flashSpeed * Time.deltaTime);
+        }
+        damaged = false;
     }
 
     private void CheckWeaponChange()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        string current = whichProjectile;
+
+        if (Input.GetKey(KeyCode.Alpha1))
             whichProjectile = "Small";
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (Input.GetKey(KeyCode.Alpha2))
+            whichProjectile = "Medium";
+        if (Input.GetKey(KeyCode.Alpha3))
             whichProjectile = "Large";
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        if (Input.GetKey(KeyCode.Alpha4))
             whichProjectile = "Super";
-        if (Input.GetKeyDown(KeyCode.Alpha4))
+        if (Input.GetKey(KeyCode.Alpha5))
             whichProjectile = "SmallBall";
-        if (Input.GetKeyDown(KeyCode.Alpha5))
+        if (Input.GetKey(KeyCode.Alpha6))
             whichProjectile = "LargeBall";
+
+        if (current != whichProjectile)
+        {
+            ChangeState("Level Up");
+            levelUpSource.Play();
+        }
     }
 
     private Transform GetCurrentProjectile()
     {
         switch (whichProjectile)
         { 
+            case "Medium":
+                return mediumProjectileFire;
             case "Large":
                 return largeProjectileFire;
             case "Super":
@@ -95,6 +163,15 @@ public class PlayerController : MonoBehaviour {
         }
 
         return smallProjectileFire;
+    }
+
+    private float GetProjectileXOffset()
+    {
+        if (whichProjectile == "Small" || whichProjectile == "Medium" ||
+            whichProjectile == "Large" || whichProjectile == "Super")
+            return 3.30f;
+
+        return 1.28f; // small ball and large ball
     }
 
     private void ChangeState(string state)
@@ -114,13 +191,19 @@ public class PlayerController : MonoBehaviour {
                 animator.SetBool("Stand", false);
                 animator.SetBool("Walk", true);
                 break;
+            case "Level Up":
+                animator.SetBool("Shoot", false);
+                animator.SetBool("Walk", false);
+                animator.SetBool("Stand", false);
+                animator.SetBool("Level Up", true);
+                break;
         }
     }
 
     private void CheckDirection()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && directionIsRight ||
-            Input.GetKeyDown(KeyCode.RightArrow) && !directionIsRight)
+        if (Input.GetKey(KeyCode.LeftArrow) && directionIsRight ||
+            Input.GetKey(KeyCode.RightArrow) && !directionIsRight)
         {
             directionIsRight = !directionIsRight;
             Vector3 theScale = transform.localScale;
@@ -128,5 +211,46 @@ public class PlayerController : MonoBehaviour {
             transform.localScale = theScale;
         }
     }
-    
+
+    private void SetDamageAmount(Transform projectile)
+    {
+        int damage = 1;
+
+        switch (whichProjectile)
+        {
+            case "Small":
+                damage = 1;
+                break;
+            case "Medium":
+                damage = 3;
+                break;
+            case "Large":
+                damage = 5;
+                break;
+            case "Super":
+                damage = 10;
+                break;
+            case "SmallBall":
+                damage = 7;
+                break;
+            case "LargeBall":
+                damage = 9;
+                break;
+        }
+
+        projectile.GetComponent<ProjectileController>().damage = damage; //set damage somewhere around here
+    }
+
+    public void Hit(int damage)
+    {
+        //take damage
+        damaged = true;
+        health -= damage;
+        healthSlider.value = health;
+        
+        if (health <= 0)
+        {
+            //handle death here, possible restart screen
+        }
+    }
 }

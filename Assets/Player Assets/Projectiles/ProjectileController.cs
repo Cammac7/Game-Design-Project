@@ -3,10 +3,24 @@ using System.Collections;
 
 public class ProjectileController : MonoBehaviour {
 
+    public enum ProjectileType
+    {
+        Small,
+        Medium,
+        Large,
+        Super,
+        Smallball,
+        Largeball
+    }
+
+    public ProjectileType projectileType = ProjectileType.Small;
+
     private bool firing = false;
     public int speed;
     private int direction;
     private Vector3 startingLoc;
+
+    public int damage = 1;
 	
 	// Update is called once per frame
 	void Update () {
@@ -20,14 +34,15 @@ public class ProjectileController : MonoBehaviour {
         }
 	}
 
-    public void Fire(Vector3 loc, int dir)
+    public void Fire(Vector3 loc, int dir, float xOffset)
     {
-        transform.position = new Vector3(loc.x + (1.65f * dir), loc.y + 0.38f, loc.z);
+        //offsets here are so that it appear to come directly out of the mouth of the turtle
+        transform.position = new Vector3(loc.x + (xOffset * dir), loc.y + 0.40f, loc.z);
         startingLoc = loc;
         direction = dir;
         firing = true;
 
-        if (dir == -1)
+        if (dir == 1)
         {
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
@@ -38,5 +53,16 @@ public class ProjectileController : MonoBehaviour {
     public void KillProjectile()
     {
         Destroy(gameObject);
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        
+        if (collider.gameObject.tag == "Enemy")
+        {
+            //damage enemy
+            collider.gameObject.GetComponent<EnemyController>().Hit(damage);
+            KillProjectile();
+        }
     }
 }
