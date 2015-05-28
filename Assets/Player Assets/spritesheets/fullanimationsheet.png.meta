@@ -203,1481 +203,1481 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        y: 3504
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .519230783, y: .534313738}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0002
       rect:
         serializedVersion: 2
-        x: 530
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 420
+        y: 3502
+        width: 418
+        height: 308
+      alignment: 9
+      pivot: {x: .519138753, y: .534090936}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0003
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 840
+        y: 3500
+        width: 420
+        height: 310
+      alignment: 9
+      pivot: {x: .519047618, y: .533870995}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0004
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1262
+        y: 3498
+        width: 421
+        height: 312
+      alignment: 9
+      pivot: {x: .520190001, y: .533653855}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0005
       rect:
         serializedVersion: 2
-        x: 2114
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1685
+        y: 3496
+        width: 422
+        height: 314
+      alignment: 9
+      pivot: {x: .518957317, y: .533439517}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0006
       rect:
         serializedVersion: 2
-        x: 2642
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2109
+        y: 3494
+        width: 424
+        height: 316
+      alignment: 9
+      pivot: {x: .51886791, y: .533227861}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0007
       rect:
         serializedVersion: 2
-        x: 3170
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2535
+        y: 3492
+        width: 426
+        height: 318
+      alignment: 9
+      pivot: {x: .518779337, y: .533018887}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0008
       rect:
         serializedVersion: 2
-        x: 3698
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2963
+        y: 3490
+        width: 428
+        height: 320
+      alignment: 9
+      pivot: {x: .518691599, y: .532812476}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0009
       rect:
         serializedVersion: 2
-        x: 4226
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3393
+        y: 3488
+        width: 430
+        height: 322
+      alignment: 9
+      pivot: {x: .518604636, y: .532608688}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0010
       rect:
         serializedVersion: 2
-        x: 4754
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3825
+        y: 3486
+        width: 431
+        height: 324
+      alignment: 9
+      pivot: {x: .517401397, y: .532407403}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0011
       rect:
         serializedVersion: 2
-        x: 5282
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4258
+        y: 3484
+        width: 434
+        height: 326
+      alignment: 9
+      pivot: {x: .518433154, y: .532208562}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0012
       rect:
         serializedVersion: 2
-        x: 5810
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4694
+        y: 3482
+        width: 435
+        height: 328
+      alignment: 9
+      pivot: {x: .517241359, y: .532012224}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0013
       rect:
         serializedVersion: 2
-        x: 6338
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5131
+        y: 3480
+        width: 437
+        height: 330
+      alignment: 9
+      pivot: {x: .517162442, y: .531818211}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0014
       rect:
         serializedVersion: 2
-        x: 6866
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2
+        y: 3146
+        width: 438
+        height: 332
+      alignment: 9
+      pivot: {x: .51826483, y: .531626523}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0015
       rect:
         serializedVersion: 2
-        x: 7394
-        y: 3917
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 442
+        y: 3144
+        width: 440
+        height: 334
+      alignment: 9
+      pivot: {x: .518181801, y: .531437099}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0016
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 884
+        y: 3142
+        width: 442
+        height: 336
+      alignment: 9
+      pivot: {x: .518099546, y: .53125}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0017
       rect:
         serializedVersion: 2
-        x: 530
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1328
+        y: 3140
+        width: 444
+        height: 338
+      alignment: 9
+      pivot: {x: .518018007, y: .531065106}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0018
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1774
+        y: 3138
+        width: 445
+        height: 340
+      alignment: 9
+      pivot: {x: .516853929, y: .530882359}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0019
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2221
+        y: 3136
+        width: 447
+        height: 342
+      alignment: 9
+      pivot: {x: .516778529, y: .530701756}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0020
       rect:
         serializedVersion: 2
-        x: 2114
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2670
+        y: 3134
+        width: 449
+        height: 344
+      alignment: 9
+      pivot: {x: .516703784, y: .530523241}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0021
       rect:
         serializedVersion: 2
-        x: 2642
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3121
+        y: 3132
+        width: 451
+        height: 346
+      alignment: 9
+      pivot: {x: .516629696, y: .530346811}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0022
       rect:
         serializedVersion: 2
-        x: 3170
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3574
+        y: 3130
+        width: 453
+        height: 348
+      alignment: 9
+      pivot: {x: .516556263, y: .530172408}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0023
       rect:
         serializedVersion: 2
-        x: 3698
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4029
+        y: 3128
+        width: 454
+        height: 350
+      alignment: 9
+      pivot: {x: .51541853, y: .529999971}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0024
       rect:
         serializedVersion: 2
-        x: 4226
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4485
+        y: 3126
+        width: 455
+        height: 352
+      alignment: 9
+      pivot: {x: .516483545, y: .529829562}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0025
       rect:
         serializedVersion: 2
-        x: 4754
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4942
+        y: 3124
+        width: 457
+        height: 354
+      alignment: 9
+      pivot: {x: .516411364, y: .529661}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0026
       rect:
         serializedVersion: 2
-        x: 5282
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5401
+        y: 3122
+        width: 459
+        height: 356
+      alignment: 9
+      pivot: {x: .516339898, y: .529494405}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0027
       rect:
         serializedVersion: 2
-        x: 5810
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2
+        y: 2762
+        width: 461
+        height: 358
+      alignment: 9
+      pivot: {x: .516268969, y: .529329598}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0028
       rect:
         serializedVersion: 2
-        x: 6338
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 465
+        y: 2760
+        width: 462
+        height: 360
+      alignment: 9
+      pivot: {x: .515151501, y: .529166639}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0029
       rect:
         serializedVersion: 2
-        x: 6866
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 929
+        y: 2758
+        width: 464
+        height: 362
+      alignment: 9
+      pivot: {x: .515086234, y: .529005527}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0030
       rect:
         serializedVersion: 2
-        x: 7394
-        y: 3482
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1395
+        y: 2756
+        width: 466
+        height: 364
+      alignment: 9
+      pivot: {x: .515021443, y: .528846145}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0031
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1863
+        y: 2755
+        width: 468
+        height: 365
+      alignment: 9
+      pivot: {x: .514957249, y: .527397275}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0032
       rect:
         serializedVersion: 2
-        x: 530
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2333
+        y: 2753
+        width: 470
+        height: 367
+      alignment: 9
+      pivot: {x: .514893591, y: .527247965}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0033
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2805
+        y: 2751
+        width: 471
+        height: 369
+      alignment: 9
+      pivot: {x: .513800442, y: .527100265}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0034
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3278
+        y: 2749
+        width: 472
+        height: 371
+      alignment: 9
+      pivot: {x: .51483053, y: .526954174}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0035
       rect:
         serializedVersion: 2
-        x: 2114
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3752
+        y: 2747
+        width: 474
+        height: 373
+      alignment: 9
+      pivot: {x: .514767945, y: .526809633}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0036
       rect:
         serializedVersion: 2
-        x: 2642
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4228
+        y: 2746
+        width: 475
+        height: 374
+      alignment: 9
+      pivot: {x: .513684213, y: .528074861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: upwalkshoot0037
+      rect:
+        serializedVersion: 2
+        x: 4705
+        y: 2744
+        width: 477
+        height: 376
+      alignment: 9
+      pivot: {x: .513626814, y: .527925551}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0038
       rect:
         serializedVersion: 2
-        x: 3698
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5184
+        y: 2742
+        width: 479
+        height: 378
+      alignment: 9
+      pivot: {x: .513569951, y: .527777791}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0039
       rect:
         serializedVersion: 2
-        x: 4226
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2
+        y: 2360
+        width: 481
+        height: 380
+      alignment: 9
+      pivot: {x: .513513505, y: .527631581}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0040
       rect:
         serializedVersion: 2
-        x: 4754
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 485
+        y: 2358
+        width: 483
+        height: 382
+      alignment: 9
+      pivot: {x: .513457537, y: .52748692}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0041
       rect:
         serializedVersion: 2
-        x: 5282
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 970
+        y: 2356
+        width: 485
+        height: 384
+      alignment: 9
+      pivot: {x: .513402045, y: .52734375}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0042
       rect:
         serializedVersion: 2
-        x: 5810
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1457
+        y: 2354
+        width: 486
+        height: 386
+      alignment: 9
+      pivot: {x: .512345672, y: .52720207}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0043
       rect:
         serializedVersion: 2
-        x: 6338
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1945
+        y: 2352
+        width: 487
+        height: 388
+      alignment: 9
+      pivot: {x: .51334703, y: .52706188}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0044
       rect:
         serializedVersion: 2
-        x: 6866
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2434
+        y: 2350
+        width: 489
+        height: 390
+      alignment: 9
+      pivot: {x: .513292432, y: .52692306}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0045
       rect:
         serializedVersion: 2
-        x: 7394
-        y: 3047
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2925
+        y: 2348
+        width: 490
+        height: 392
+      alignment: 9
+      pivot: {x: .51224488, y: .526785731}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0046
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3417
+        y: 2346
+        width: 492
+        height: 394
+      alignment: 9
+      pivot: {x: .51219511, y: .526649773}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0047
       rect:
         serializedVersion: 2
-        x: 530
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3911
+        y: 2344
+        width: 494
+        height: 396
+      alignment: 9
+      pivot: {x: .512145758, y: .526515126}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0048
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4407
+        y: 2342
+        width: 496
+        height: 398
+      alignment: 9
+      pivot: {x: .512096763, y: .52638191}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0049
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4905
+        y: 2340
+        width: 498
+        height: 400
+      alignment: 9
+      pivot: {x: .512048185, y: .526250005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0050
       rect:
         serializedVersion: 2
-        x: 2114
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5405
+        y: 2338
+        width: 499
+        height: 402
+      alignment: 9
+      pivot: {x: .511022031, y: .526119411}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0051
       rect:
         serializedVersion: 2
-        x: 2642
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2
+        y: 2032
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .519230783, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0052
       rect:
         serializedVersion: 2
-        x: 3170
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 420
+        y: 2029
+        width: 414
+        height: 307
+      alignment: 9
+      pivot: {x: .521739125, y: .535830617}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0053
       rect:
         serializedVersion: 2
-        x: 3698
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 836
+        y: 2025
+        width: 413
+        height: 311
+      alignment: 9
+      pivot: {x: .523002446, y: .52893889}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0054
       rect:
         serializedVersion: 2
-        x: 4226
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1251
+        y: 2021
+        width: 412
+        height: 315
+      alignment: 9
+      pivot: {x: .524271846, y: .522222221}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0055
       rect:
         serializedVersion: 2
-        x: 4754
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1665
+        y: 2017
+        width: 411
+        height: 319
+      alignment: 9
+      pivot: {x: .525547445, y: .515673995}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0056
       rect:
         serializedVersion: 2
-        x: 5282
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2078
+        y: 2012
+        width: 411
+        height: 324
+      alignment: 9
+      pivot: {x: .525547445, y: .50771606}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0057
       rect:
         serializedVersion: 2
-        x: 5810
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2491
+        y: 2007
+        width: 411
+        height: 329
+      alignment: 9
+      pivot: {x: .525547445, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0058
       rect:
         serializedVersion: 2
-        x: 6338
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2904
+        y: 2003
+        width: 411
+        height: 333
+      alignment: 9
+      pivot: {x: .525547445, y: .493993998}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0059
       rect:
         serializedVersion: 2
-        x: 6866
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3317
+        y: 2000
+        width: 411
+        height: 336
+      alignment: 9
+      pivot: {x: .525547445, y: .489583343}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0060
       rect:
         serializedVersion: 2
-        x: 7394
-        y: 2612
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3730
+        y: 1997
+        width: 411
+        height: 339
+      alignment: 9
+      pivot: {x: .525547445, y: .485250741}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0061
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4143
+        y: 1994
+        width: 411
+        height: 342
+      alignment: 9
+      pivot: {x: .525547445, y: .480994165}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0062
       rect:
         serializedVersion: 2
-        x: 530
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4556
+        y: 1991
+        width: 411
+        height: 345
+      alignment: 9
+      pivot: {x: .525547445, y: .476811588}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0063
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4969
+        y: 1988
+        width: 411
+        height: 348
+      alignment: 9
+      pivot: {x: .525547445, y: .472701162}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0064
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5382
+        y: 1984
+        width: 411
+        height: 352
+      alignment: 9
+      pivot: {x: .525547445, y: .467329532}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0065
       rect:
         serializedVersion: 2
-        x: 2114
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2
+        y: 1627
+        width: 411
+        height: 355
+      alignment: 9
+      pivot: {x: .525547445, y: .463380277}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0066
       rect:
         serializedVersion: 2
-        x: 2642
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 415
+        y: 1623
+        width: 411
+        height: 359
+      alignment: 9
+      pivot: {x: .525547445, y: .458217263}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0067
       rect:
         serializedVersion: 2
-        x: 3170
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 828
+        y: 1619
+        width: 411
+        height: 363
+      alignment: 9
+      pivot: {x: .525547445, y: .453168035}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0068
       rect:
         serializedVersion: 2
-        x: 3698
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1241
+        y: 1615
+        width: 411
+        height: 367
+      alignment: 9
+      pivot: {x: .525547445, y: .448228896}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0069
       rect:
         serializedVersion: 2
-        x: 4226
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1654
+        y: 1611
+        width: 411
+        height: 371
+      alignment: 9
+      pivot: {x: .525547445, y: .44339624}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0070
       rect:
         serializedVersion: 2
-        x: 4754
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2067
+        y: 1607
+        width: 411
+        height: 375
+      alignment: 9
+      pivot: {x: .525547445, y: .438666672}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0071
       rect:
         serializedVersion: 2
-        x: 5282
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2480
+        y: 1607
+        width: 411
+        height: 375
+      alignment: 9
+      pivot: {x: .525547445, y: .438666672}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0072
       rect:
         serializedVersion: 2
-        x: 5810
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2893
+        y: 1607
+        width: 411
+        height: 375
+      alignment: 9
+      pivot: {x: .525547445, y: .438666672}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0073
       rect:
         serializedVersion: 2
-        x: 6338
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3306
+        y: 1607
+        width: 411
+        height: 375
+      alignment: 9
+      pivot: {x: .525547445, y: .438666672}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0074
       rect:
         serializedVersion: 2
-        x: 6866
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3719
+        y: 1607
+        width: 411
+        height: 375
+      alignment: 9
+      pivot: {x: .525547445, y: .438666672}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0075
       rect:
         serializedVersion: 2
-        x: 6866
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3719
+        y: 1607
+        width: 411
+        height: 375
+      alignment: 9
+      pivot: {x: .525547445, y: .438666672}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0076
       rect:
         serializedVersion: 2
-        x: 4754
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2067
+        y: 1607
+        width: 411
+        height: 375
+      alignment: 9
+      pivot: {x: .525547445, y: .438666672}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0077
       rect:
         serializedVersion: 2
-        x: 7394
-        y: 2177
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4132
+        y: 1610
+        width: 411
+        height: 372
+      alignment: 9
+      pivot: {x: .525547445, y: .442204297}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0078
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4545
+        y: 1613
+        width: 411
+        height: 369
+      alignment: 9
+      pivot: {x: .525547445, y: .44579947}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0079
       rect:
         serializedVersion: 2
-        x: 530
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4958
+        y: 1617
+        width: 411
+        height: 365
+      alignment: 9
+      pivot: {x: .525547445, y: .450684935}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0080
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5371
+        y: 1621
+        width: 411
+        height: 361
+      alignment: 9
+      pivot: {x: .525547445, y: .455678672}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0081
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2
+        y: 1247
+        width: 411
+        height: 358
+      alignment: 9
+      pivot: {x: .525547445, y: .459497213}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0082
       rect:
         serializedVersion: 2
-        x: 2114
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 415
+        y: 1250
+        width: 411
+        height: 355
+      alignment: 9
+      pivot: {x: .525547445, y: .463380277}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0083
       rect:
         serializedVersion: 2
-        x: 2642
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 828
+        y: 1253
+        width: 411
+        height: 352
+      alignment: 9
+      pivot: {x: .525547445, y: .467329532}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0084
       rect:
         serializedVersion: 2
-        x: 3170
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1241
+        y: 1256
+        width: 411
+        height: 349
+      alignment: 9
+      pivot: {x: .525547445, y: .471346706}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0085
       rect:
         serializedVersion: 2
-        x: 3698
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1654
+        y: 1259
+        width: 411
+        height: 346
+      alignment: 9
+      pivot: {x: .525547445, y: .475433528}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0086
       rect:
         serializedVersion: 2
-        x: 4226
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2067
+        y: 1262
+        width: 411
+        height: 343
+      alignment: 9
+      pivot: {x: .525547445, y: .479591846}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0087
       rect:
         serializedVersion: 2
-        x: 4754
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2480
+        y: 1264
+        width: 411
+        height: 341
+      alignment: 9
+      pivot: {x: .525547445, y: .482404679}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0088
       rect:
         serializedVersion: 2
-        x: 5282
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2893
+        y: 1267
+        width: 411
+        height: 338
+      alignment: 9
+      pivot: {x: .525547445, y: .486686379}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0089
       rect:
         serializedVersion: 2
-        x: 5810
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3306
+        y: 1270
+        width: 411
+        height: 335
+      alignment: 9
+      pivot: {x: .525547445, y: .49104479}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0090
       rect:
         serializedVersion: 2
-        x: 6338
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3719
+        y: 1272
+        width: 411
+        height: 333
+      alignment: 9
+      pivot: {x: .525547445, y: .493993998}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0091
       rect:
         serializedVersion: 2
-        x: 6866
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4132
+        y: 1275
+        width: 411
+        height: 330
+      alignment: 9
+      pivot: {x: .525547445, y: .49848485}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0092
       rect:
         serializedVersion: 2
-        x: 7394
-        y: 1742
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4545
+        y: 1278
+        width: 411
+        height: 327
+      alignment: 9
+      pivot: {x: .525547445, y: .503058076}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0093
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4958
+        y: 1281
+        width: 411
+        height: 324
+      alignment: 9
+      pivot: {x: .525547445, y: .50771606}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0094
       rect:
         serializedVersion: 2
-        x: 530
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5371
+        y: 1284
+        width: 411
+        height: 321
+      alignment: 9
+      pivot: {x: .525547445, y: .512461066}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0095
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2
+        y: 927
+        width: 411
+        height: 318
+      alignment: 9
+      pivot: {x: .525547445, y: .517295599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: upwalkshoot0096
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 930
+        width: 411
+        height: 315
+      alignment: 9
+      pivot: {x: .525547445, y: .522222221}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0097
       rect:
         serializedVersion: 2
-        x: 2114
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 828
+        y: 933
+        width: 411
+        height: 312
+      alignment: 9
+      pivot: {x: .525547445, y: .527243614}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0098
       rect:
         serializedVersion: 2
-        x: 2642
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1241
+        y: 936
+        width: 413
+        height: 309
+      alignment: 9
+      pivot: {x: .523002446, y: .532362461}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0099
       rect:
         serializedVersion: 2
-        x: 3170
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0100
-      rect:
-        serializedVersion: 2
-        x: 3698
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1656
+        y: 939
+        width: 414
+        height: 306
+      alignment: 9
+      pivot: {x: .521739125, y: .537581682}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0101
       rect:
         serializedVersion: 2
-        x: 4226
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2490
+        y: 941
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .519230783, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0102
       rect:
         serializedVersion: 2
-        x: 4754
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2908
+        y: 940
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .516826928, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0103
       rect:
         serializedVersion: 2
-        x: 5282
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3326
+        y: 940
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .516826928, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0104
       rect:
         serializedVersion: 2
-        x: 5810
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3744
+        y: 940
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .514423072, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0105
       rect:
         serializedVersion: 2
-        x: 6338
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4162
+        y: 940
+        width: 415
+        height: 305
+      alignment: 9
+      pivot: {x: .513253033, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0106
       rect:
         serializedVersion: 2
-        x: 6866
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4579
+        y: 940
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .512019217, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0107
       rect:
         serializedVersion: 2
-        x: 7394
-        y: 1307
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4997
+        y: 940
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .512615383, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0108
       rect:
         serializedVersion: 2
-        x: 2
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5415
+        y: 940
+        width: 415
+        height: 305
+      alignment: 9
+      pivot: {x: .512433708, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0109
       rect:
         serializedVersion: 2
-        x: 530
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2
+        y: 620
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .512211561, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0110
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 420
+        y: 620
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .512180746, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0111
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 838
+        y: 620
+        width: 415
+        height: 305
+      alignment: 9
+      pivot: {x: .512614429, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0112
       rect:
         serializedVersion: 2
-        x: 2114
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1255
+        y: 620
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .512403846, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0113
       rect:
         serializedVersion: 2
-        x: 2642
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1673
+        y: 620
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .512000024, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0114
       rect:
         serializedVersion: 2
-        x: 3170
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2091
+        y: 620
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .512000024, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0115
       rect:
         serializedVersion: 2
-        x: 3698
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2509
+        y: 619
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .51259613, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0116
       rect:
         serializedVersion: 2
-        x: 4226
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2927
+        y: 620
+        width: 415
+        height: 305
+      alignment: 9
+      pivot: {x: .512385547, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0117
       rect:
         serializedVersion: 2
-        x: 4754
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3344
+        y: 619
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .512192309, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0118
       rect:
         serializedVersion: 2
-        x: 5282
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3762
+        y: 619
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .512788475, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0119
       rect:
         serializedVersion: 2
-        x: 5810
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4180
+        y: 619
+        width: 415
+        height: 306
+      alignment: 9
+      pivot: {x: .512566268, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0120
       rect:
         serializedVersion: 2
-        x: 6338
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4597
+        y: 619
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .512384593, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0121
       rect:
         serializedVersion: 2
-        x: 6866
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5015
+        y: 619
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .512980759, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0122
       rect:
         serializedVersion: 2
-        x: 7394
-        y: 872
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5433
+        y: 619
+        width: 415
+        height: 306
+      alignment: 9
+      pivot: {x: .51274699, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0123
       rect:
         serializedVersion: 2
         x: 2
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        y: 311
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .512576938, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0124
       rect:
         serializedVersion: 2
-        x: 530
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0125
-      rect:
-        serializedVersion: 2
-        x: 1058
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 420
+        y: 311
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .512173057, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0126
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1256
+        y: 311
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .512769222, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0127
       rect:
         serializedVersion: 2
-        x: 2114
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1674
+        y: 311
+        width: 415
+        height: 306
+      alignment: 9
+      pivot: {x: .512518048, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0128
       rect:
         serializedVersion: 2
-        x: 2642
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2091
+        y: 311
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .512365401, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0129
       rect:
         serializedVersion: 2
-        x: 3170
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2509
+        y: 311
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .512961566, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0130
       rect:
         serializedVersion: 2
-        x: 3698
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2927
+        y: 311
+        width: 415
+        height: 306
+      alignment: 9
+      pivot: {x: .51269877, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0131
       rect:
         serializedVersion: 2
-        x: 4226
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3344
+        y: 311
+        width: 416
+        height: 306
+      alignment: 9
+      pivot: {x: .512557685, y: .54411763}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0132
       rect:
         serializedVersion: 2
-        x: 4754
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3762
+        y: 312
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .512153864, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0133
       rect:
         serializedVersion: 2
-        x: 5282
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4180
+        y: 312
+        width: 415
+        height: 305
+      alignment: 9
+      pivot: {x: .512879491, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0134
       rect:
         serializedVersion: 2
-        x: 5810
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4597
+        y: 312
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .51275003, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0135
       rect:
         serializedVersion: 2
-        x: 6338
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5015
+        y: 312
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .512346148, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0136
       rect:
         serializedVersion: 2
-        x: 6866
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5433
+        y: 312
+        width: 416
+        height: 305
+      alignment: 9
+      pivot: {x: .512346148, y: .542622924}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0137
       rect:
         serializedVersion: 2
-        x: 7394
-        y: 437
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2
+        y: 5
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .512942314, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0138
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 420
+        y: 5
+        width: 415
+        height: 304
+      alignment: 9
+      pivot: {x: .512650609, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0139
       rect:
         serializedVersion: 2
-        x: 530
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 837
+        y: 5
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .512538433, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0140
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1255
+        y: 5
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .512134612, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0141
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1673
+        y: 5
+        width: 415
+        height: 304
+      alignment: 9
+      pivot: {x: .51283133, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0142
       rect:
         serializedVersion: 2
-        x: 2114
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2090
+        y: 5
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .512730777, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0143
       rect:
         serializedVersion: 2
-        x: 2642
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2508
+        y: 5
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .512326896, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0144
       rect:
         serializedVersion: 2
-        x: 3170
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2926
+        y: 5
+        width: 415
+        height: 304
+      alignment: 9
+      pivot: {x: .512012064, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0145
       rect:
         serializedVersion: 2
-        x: 3698
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3343
+        y: 5
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .512923062, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0146
       rect:
         serializedVersion: 2
-        x: 4226
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3761
+        y: 5
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .51251924, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0147
       rect:
         serializedVersion: 2
-        x: 4754
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4179
+        y: 5
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .51251924, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0148
       rect:
         serializedVersion: 2
-        x: 5282
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4597
+        y: 5
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .512115359, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0149
       rect:
         serializedVersion: 2
-        x: 5810
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5015
+        y: 5
+        width: 415
+        height: 304
+      alignment: 9
+      pivot: {x: .51278311, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: upwalkshoot0150
       rect:
         serializedVersion: 2
-        x: 6338
-        y: 2
-        width: 526
-        height: 433
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5432
+        y: 5
+        width: 416
+        height: 304
+      alignment: 9
+      pivot: {x: .512711525, y: .541118443}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
