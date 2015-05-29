@@ -5,31 +5,44 @@ public class EnemyController : MonoBehaviour {
 
     public int health = 2;
 
-    GameObject player;
+    PlayerController player;
+    Transform playerTransform;
+    Transform thisTransform;
  
     public int hitAmount = 10;
 
     public float moveSpeed = 2;
 
+    private bool colliding = false;
+
+    private AudioSource hitSound;
+
 	// Use this for initialization
 	void Start () {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        hitSound = GetComponent<AudioSource>();
+        playerTransform = player.transform;
+        thisTransform = transform;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-        Vector3 lookDir = player.transform.position - transform.position;
-        lookDir.Normalize();
+        //only move if not colliding
+        if (!colliding)
+        {
+            Vector3 lookDir = playerTransform.position - thisTransform.position;
+            lookDir.Normalize();
 
-        //move towards the player
-        transform.position += lookDir * moveSpeed * Time.deltaTime;
+            //move towards the player
+            thisTransform.position += lookDir * moveSpeed * Time.deltaTime;
+        }
 	}
 
     public void Hit(int damage)
     {
         //take damage
-        GetComponent<AudioSource>().Play();
+        hitSound.Play();
         health -= damage;
 
         if (health <= 0)
@@ -48,7 +61,28 @@ public class EnemyController : MonoBehaviour {
         if (collider.tag == "Player")
         {
             //damage player
-            player.GetComponent<PlayerController>().Hit(hitAmount);
+            DamagePlayer();
+            colliding = true;
         }
+    }
+
+    void DamagePlayer()
+    {
+        player.Hit(hitAmount);
+    }
+
+    void OnTriggerStay2D(Collider2D collider)
+    {
+        if (collider.tag == "Player")
+        {
+            //damage player over time
+            InvokeRepeating("DamagePlayer", 1f, 1.5f);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collider)
+    {
+        CancelInvoke();
+        colliding = false;   
     }
 }
