@@ -31,6 +31,8 @@ public class EnemyController : MonoBehaviour {
 
     private void KillEnemy()
     {
+        SpecialEffectsHelper.Instance.Explosion(transform.position);
+
         Destroy(gameObject);
     }
 
