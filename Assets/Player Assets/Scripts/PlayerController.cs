@@ -5,31 +5,33 @@ using System;
 
 public class PlayerController : MonoBehaviour {
 
-    private Animator animator;
     public float speed;
-
     public int health = 100;
+	public Slider healthSlider;
 
     public AudioSource levelUpSource;
     public AudioSource fireShootSource;
     public AudioSource[] walkingSource;
 
+	public Transform smallProjectileFire, mediumProjectileFire, largeProjectileFire, superProjectileFire;
+	public Transform smallProjectileFireball, largeProjectileFireball;
+
+	public Image damageImage;
+	public float flashSpeed = 5f;
+	public Color flashColor = new Color(1f, 0f, 0f, 0.1f);
+
+	string whichProjectile = "Small";
+	bool damaged;
+
     private const int RIGHT = 1;
     private const int LEFT = -1;
 
-    public Transform smallProjectileFire, mediumProjectileFire, largeProjectileFire, superProjectileFire;
-    public Transform smallProjectileFireball, largeProjectileFireball;
+	private Animator animator;
 
     private bool directionIsRight;
 
-    string whichProjectile = "Small";
-
-    public Slider healthSlider;
-
-    public Image damageImage;
-    public float flashSpeed = 5f;
-    public Color flashColor = new Color(1f, 0f, 0f, 0.1f);
-    bool damaged;
+	private bool atTop = false;
+	private bool atBottom = false;
 
     // Use this for initialization
     void Start()
@@ -44,8 +46,20 @@ public class PlayerController : MonoBehaviour {
         var vertical = Input.GetAxis("Vertical");
         var horizontal = Input.GetAxis("Horizontal");
 
-        var newPositionVector = new Vector3(speed * horizontal, speed * vertical, 0);
-        transform.position += newPositionVector * Time.deltaTime;
+        var speedVector = new Vector3(speed * horizontal, speed * vertical, 0);
+
+		if (atTop && speedVector.y > 0){
+			speedVector.y = 0;
+		}
+		
+		if (atBottom && speedVector.y < 0){
+			speedVector.y = 0;
+		}
+
+		Vector3 newPosition = (speedVector * Time.deltaTime) + transform.position;
+
+
+		transform.position = newPosition;
 
         if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
         {
@@ -238,6 +252,10 @@ public class PlayerController : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
+			if (atTop) {
+				return;
+			}
+
             Vector3 scale = transform.localScale;
             if (scale.x < 0)
                 scale.x = Math.Min(scale.x + 0.002f, -0.4f);
@@ -249,6 +267,10 @@ public class PlayerController : MonoBehaviour {
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
+			if (atBottom){
+				return;
+			}
+
             Vector3 scale = transform.localScale;
             if (scale.x < 0)
                 scale.x = Math.Max(scale.x - 0.002f, -1.4f);
@@ -259,4 +281,28 @@ public class PlayerController : MonoBehaviour {
             transform.localScale = scale;
         }
     }
+
+	void OnTriggerEnter2D(Collider2D c){
+		if (c.tag == "Wall"){
+			if (c.name == "Top Boundary"){
+				atTop = true;
+			}
+			else {
+				atBottom = true;
+			}
+		}
+	}
+
+	void OnTriggerExit2D(Collider2D c){
+		if(c.gameObject.tag == "Wall"){
+			if (atTop){
+				atTop = false;
+			}
+
+			if (atBottom){
+				atBottom = false;
+			}
+		}
+
+	}
 }
