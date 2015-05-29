@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ProjectileController : MonoBehaviour {
 
@@ -21,7 +22,6 @@ public class ProjectileController : MonoBehaviour {
     private Vector3 startingLoc;
 
     public int damage = 1;
-	
 	// Update is called once per frame
 	void Update () {
         if (firing)
@@ -62,6 +62,10 @@ public class ProjectileController : MonoBehaviour {
         {
             //damage enemy
             collider.gameObject.GetComponent<EnemyController>().Hit(damage);
+            Debug.Log(transform.position + new Vector3((GetComponent<SpriteRenderer>().sprite.bounds.size.x / 2), 0, 0));
+            Debug.Log(new Vector3((GetComponent<SpriteRenderer>().sprite.bounds.size.x / 2), 0, 0));
+            Debug.Log(GetComponent<SpriteRenderer>().sprite.bounds.size);
+            SpecialEffectsHelper.Instance.SparkHit(transform.position + new Vector3((GetComponent<SpriteRenderer>().bounds.size.x / 2), 0, 0));
             KillProjectile();
         }
     }

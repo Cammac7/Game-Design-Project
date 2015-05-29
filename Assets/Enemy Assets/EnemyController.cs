@@ -6,7 +6,7 @@ public class EnemyController : MonoBehaviour {
     public int health = 2;
 
     GameObject player;
-
+ 
     public int hitAmount = 10;
 
 	// Use this for initialization
