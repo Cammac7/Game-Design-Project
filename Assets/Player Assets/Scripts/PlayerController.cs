@@ -7,7 +7,9 @@ public class PlayerController : MonoBehaviour {
 
     public float speed;
     public int health = 100;
+    public int experience = 0;
 	public Slider healthSlider;
+    public Slider experienceSlider;
 
     public AudioSource levelUpSource;
     public AudioSource fireShootSource;
@@ -82,19 +84,33 @@ public class PlayerController : MonoBehaviour {
             CheckDirection();
         }
         else if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow) ||
-                 Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow) ||
-                 Input.GetKeyUp(KeyCode.Space))
+                 Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow))
         {
             ChangeState("Standing");
+        }
+        else if (Input.GetKeyUp(KeyCode.Space))
+        {
+            ChangeState("End Shooting");
         }
 
         CheckWeaponChange();
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            ChangeState("Shooting");
+            if (animator.GetBool("Shoot"))
+            {
+                Transform projectile = Instantiate(GetCurrentProjectile());
+                SetDamageAmount(projectile);
 
-            
+                fireShootSource.Play();
+
+                projectile.
+                    GetComponent<ProjectileController>().Fire(transform.position,
+                                                              (directionIsRight ? PlayerController.RIGHT : PlayerController.LEFT),
+                                                               GetProjectileXOffset());
+            }
+
+            ChangeState("Shooting");
         }
 
         if (damaged)
@@ -127,8 +143,8 @@ public class PlayerController : MonoBehaviour {
 
         if (current != whichProjectile)
         {
-            ChangeState("Level Up");
-            levelUpSource.Play();
+            //ChangeState("Level Up");
+            
         }
     }
 
@@ -237,6 +253,19 @@ public class PlayerController : MonoBehaviour {
         if (health <= 0)
         {
             //handle death here, possible restart screen
+        }
+    }
+
+    public void AddExperience(int xp)
+    {
+        experience += xp;
+        experienceSlider.value = experience;
+
+        if (experienceSlider.value == 100)
+        {
+            experienceSlider.value = 0;
+            ChangeState("Level Up");
+            levelUpSource.Play();
         }
     }
 
