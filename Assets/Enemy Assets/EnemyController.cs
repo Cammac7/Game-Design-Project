@@ -62,7 +62,6 @@ public class EnemyController : MonoBehaviour {
         {
             //damage player
             DamagePlayer();
-            colliding = true;
         }
     }
 
@@ -75,8 +74,12 @@ public class EnemyController : MonoBehaviour {
     {
         if (collider.tag == "Player")
         {
-            //damage player over time
-            InvokeRepeating("DamagePlayer", 1f, 1.5f);
+            if (!colliding)
+            {
+                colliding = true;
+                //damage player over time
+                InvokeRepeating("DamagePlayer", 1f, 1.5f);
+            }
         }
     }
 

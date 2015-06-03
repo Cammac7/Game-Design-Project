@@ -20,15 +20,15 @@ public class PlayerController : MonoBehaviour {
 	public float flashSpeed = 5f;
 	public Color flashColor = new Color(1f, 0f, 0f, 0.1f);
 
-	string whichProjectile = "Small";
+	public string whichProjectile = "Small";
 	bool damaged;
 
-    private const int RIGHT = 1;
-    private const int LEFT = -1;
+    public const int RIGHT = 1;
+    public const int LEFT = -1;
 
 	private Animator animator;
 
-    private bool directionIsRight;
+    public bool directionIsRight;
 
 	private bool atTop = false;
 	private bool atBottom = false;
@@ -94,15 +94,7 @@ public class PlayerController : MonoBehaviour {
         {
             ChangeState("Shooting");
 
-            Transform projectile = Instantiate(GetCurrentProjectile());
-            SetDamageAmount(projectile);
-
-            fireShootSource.Play();
-
-            projectile.
-                GetComponent<ProjectileController>().Fire(transform.position, 
-                                                          (directionIsRight ? RIGHT : LEFT),
-                                                          GetProjectileXOffset());
+            
         }
 
         if (damaged)
@@ -140,10 +132,10 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-    private Transform GetCurrentProjectile()
+    public Transform GetCurrentProjectile()
     {
         switch (whichProjectile)
-        { 
+        {
             case "Medium":
                 return mediumProjectileFire;
             case "Large":
@@ -159,13 +151,42 @@ public class PlayerController : MonoBehaviour {
         return smallProjectileFire;
     }
 
-    private float GetProjectileXOffset()
+    public float GetProjectileXOffset()
     {
         if (whichProjectile == "Small" || whichProjectile == "Medium" ||
             whichProjectile == "Large" || whichProjectile == "Super")
             return 3.30f;
 
         return 1.28f; // small ball and large ball
+    }
+
+    public void SetDamageAmount(Transform projectile)
+    {
+        int damage = 1;
+
+        switch (whichProjectile)
+        {
+            case "Small":
+                damage = 1;
+                break;
+            case "Medium":
+                damage = 3;
+                break;
+            case "Large":
+                damage = 5;
+                break;
+            case "Super":
+                damage = 10;
+                break;
+            case "SmallBall":
+                damage = 7;
+                break;
+            case "LargeBall":
+                damage = 9;
+                break;
+        }
+
+        projectile.GetComponent<ProjectileController>().damage = damage; //set damage somewhere around here
     }
 
     private void ChangeState(string state)
@@ -204,35 +225,6 @@ public class PlayerController : MonoBehaviour {
             theScale.x *= -1;
             transform.localScale = theScale;
         }
-    }
-
-    private void SetDamageAmount(Transform projectile)
-    {
-        int damage = 1;
-
-        switch (whichProjectile)
-        {
-            case "Small":
-                damage = 1;
-                break;
-            case "Medium":
-                damage = 3;
-                break;
-            case "Large":
-                damage = 5;
-                break;
-            case "Super":
-                damage = 10;
-                break;
-            case "SmallBall":
-                damage = 7;
-                break;
-            case "LargeBall":
-                damage = 9;
-                break;
-        }
-
-        projectile.GetComponent<ProjectileController>().damage = damage; //set damage somewhere around here
     }
 
     public void Hit(int damage)
