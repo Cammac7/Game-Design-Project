@@ -90,7 +90,8 @@ public class PlayerController : MonoBehaviour {
         }
         else if (Input.GetKeyUp(KeyCode.Space))
         {
-            ChangeState("End Shooting");
+            //if (animator.GetBool("Shoot"))
+            //    ChangeState("End Shooting");
         }
 
         CheckWeaponChange();
@@ -210,7 +211,7 @@ public class PlayerController : MonoBehaviour {
         switch(state)
         {
             case "Shooting":
-                animator.SetBool("Stand", false);
+                //animator.SetBool("Stand", false);
                 animator.SetBool("Shoot", true); //start firing animation
                 break;
             case "Standing":
@@ -228,6 +229,14 @@ public class PlayerController : MonoBehaviour {
                 animator.SetBool("Stand", false);
                 animator.SetBool("Level Up", true);
                 break;
+            case "Die":
+                animator.SetBool("Die", true);
+                break;
+            case "End Shooting":
+                //animator.SetBool("Shoot", false);
+                //animator.SetBool("End Shoot", true);
+                break;
+                
         }
     }
 
@@ -252,7 +261,7 @@ public class PlayerController : MonoBehaviour {
         
         if (health <= 0)
         {
-            //handle death here, possible restart screen
+            ChangeState("Die");
         }
     }
 

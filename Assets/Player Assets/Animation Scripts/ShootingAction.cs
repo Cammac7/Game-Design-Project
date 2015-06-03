@@ -5,12 +5,13 @@ public class ShootingAction : StateMachineBehaviour {
 
 	 // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-        animator.SetBool("Shoot", true);
-        animator.SetBool("End Shooting", false);
-        
-        Transform player = GameObject.FindGameObjectWithTag("Player").transform;
-        PlayerController playerController = player.GetComponent<PlayerController>();
 
+        animator.SetBool("Shoot", false);
+
+        Transform player = GameObject.FindGameObjectWithTag("Player").transform;
+        Debug.Log(player.GetComponent<PlayerController>() == null);
+        PlayerController playerController = player.GetComponent<PlayerController>();
+        Debug.Log(playerController.GetCurrentProjectile() == null);
         Transform projectile = Instantiate(playerController.GetCurrentProjectile());
         playerController.SetDamageAmount(projectile);
 
