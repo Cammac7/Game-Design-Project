@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour {
     public int health = 100;
     public int experience = 0;
 	public int xpLevelReached = 100;
+	public int level = 1;
 	public Slider healthSlider;
     public Slider experienceSlider;
 
@@ -129,13 +130,13 @@ public class PlayerController : MonoBehaviour {
     {
         string current = whichProjectile;
 
-        if (Input.GetKey(KeyCode.Alpha1))
+        if (Input.GetKey(KeyCode.Alpha1)||(level==1))
             whichProjectile = "Small";
-        if (Input.GetKey(KeyCode.Alpha2))
+		if (Input.GetKey(KeyCode.Alpha2)||(level==2))
             whichProjectile = "Medium";
-        if (Input.GetKey(KeyCode.Alpha3))
+		if (Input.GetKey(KeyCode.Alpha3)||(level==3))
             whichProjectile = "Large";
-        if (Input.GetKey(KeyCode.Alpha4))
+		if (Input.GetKey(KeyCode.Alpha4)||(level==4))
             whichProjectile = "Super";
         if (Input.GetKey(KeyCode.Alpha5))
             whichProjectile = "SmallBall";
@@ -272,6 +273,7 @@ public class PlayerController : MonoBehaviour {
             levelUpSource.Play();
 			experienceSlider.maxValue = (xpLevelReached*3);
 			xpLevelReached = (xpLevelReached*3);
+			level+=1;
         }
     }
 
