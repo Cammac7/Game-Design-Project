@@ -64,7 +64,6 @@ public class ProjectileController : MonoBehaviour {
         {
             //damage enemy
             collider.gameObject.GetComponent<EnemyController>().Hit(damage);
-            Debug.Log(GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>() == null);
             GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().AddExperience(experience);
             SpecialEffectsHelper.Instance.SparkHit(transform.position + new Vector3((GetComponent<SpriteRenderer>().bounds.size.x / 2), 0, 0));
             KillProjectile();

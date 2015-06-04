@@ -5,8 +5,9 @@ public class EnemyController : MonoBehaviour {
 
     public int health = 2;
 
-    public PlayerController player;
-    public Transform playerTransform;
+    PlayerController player;
+    Transform playerTransform;
+    Transform thisTransform;
  
     public int hitAmount = 10;
 
@@ -17,12 +18,12 @@ public class EnemyController : MonoBehaviour {
     private AudioSource hitSound;
 
 	// Use this for initialization
-    void Start()
-    {
-        //player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+	void Start () {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         hitSound = GetComponent<AudioSource>();
-        //playerTransform = player.transform;
-    }
+        playerTransform = player.transform;
+        thisTransform = transform;
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -30,11 +31,11 @@ public class EnemyController : MonoBehaviour {
         //only move if not colliding
         if (!colliding)
         {
-            Vector3 lookDir = player.transform.position - transform.position;
+            Vector3 lookDir = playerTransform.position - thisTransform.position;
             lookDir.Normalize();
 
             //move towards the player
-            transform.position += lookDir * moveSpeed * Time.deltaTime;
+            thisTransform.position += lookDir * moveSpeed * Time.deltaTime;
         }
 	}
 
