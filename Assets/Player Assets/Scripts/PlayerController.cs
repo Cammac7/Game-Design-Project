@@ -223,6 +223,7 @@ public class PlayerController : MonoBehaviour {
             case "Walking":
                 animator.SetBool("Stand", false);
                 animator.SetBool("Walk", true);
+                animator.SetBool("Shoot", false);
                 break;
             case "Level Up":
                 animator.SetBool("Shoot", false);
@@ -261,14 +262,11 @@ public class PlayerController : MonoBehaviour {
     public void AddExperience(int xp)
     {
         experience += xp;
-		Debug.Log (experience);
         experienceSlider.value = experience;
-		Debug.Log (experienceSlider.value);
         if (experienceSlider.value >= xpLevelReached)
         {
             experienceSlider.value = 0;
 			experience = 0;
-			Debug.Log (experienceSlider.value);
             ChangeState("Level Up");
             levelUpSource.Play();
 			experienceSlider.maxValue = (xpLevelReached*3);
