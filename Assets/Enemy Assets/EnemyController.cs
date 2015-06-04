@@ -8,13 +8,12 @@ public class EnemyController : MonoBehaviour {
     PlayerController player;
     Transform playerTransform;
     Transform thisTransform;
- 
+
     public int hitAmount = 10;
-
+	private bool edirectionIsRight;
+	private float previousposition;
     public float moveSpeed = 2;
-
     private bool colliding = false;
-
     private AudioSource hitSound;
 
 	// Use this for initialization
@@ -23,20 +22,23 @@ public class EnemyController : MonoBehaviour {
         hitSound = GetComponent<AudioSource>();
         playerTransform = player.transform;
         thisTransform = transform;
+		previousposition = thisTransform.position.x;
+		edirectionIsRight = true;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-
         //only move if not colliding
         if (!colliding)
         {
             Vector3 lookDir = playerTransform.position - thisTransform.position;
             lookDir.Normalize();
-
             //move towards the player
             thisTransform.position += lookDir * moveSpeed * Time.deltaTime;
         }
+
+		eCheckDirection();
+		previousposition = thisTransform.position.x;
 	}
 
     public void Hit(int damage)
@@ -88,4 +90,21 @@ public class EnemyController : MonoBehaviour {
         CancelInvoke();
         colliding = false;   
     }
+	private void eCheckDirection()
+	{
+		float currentPosition = thisTransform.position.x;
+		if ((currentPosition < previousposition)&&(edirectionIsRight)) {
+			Vector3 theeScale = thisTransform.localScale;
+			theeScale.x *= -1;
+			thisTransform.localScale = theeScale;
+			edirectionIsRight = false;
+		}
+		if((currentPosition > previousposition)&&(!edirectionIsRight))
+		{
+			Vector3 theeScale = thisTransform.localScale;
+			theeScale.x *= -1;
+			thisTransform.localScale = theeScale;
+			edirectionIsRight = true;
+		}
+	}
 }
