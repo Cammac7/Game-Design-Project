@@ -5,12 +5,13 @@ public class ShootingAction : StateMachineBehaviour {
 
 	 // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-        animator.SetBool("Shoot", true);
-        animator.SetBool("End Shooting", false);
+
+        animator.SetBool("Shoot", false);
         
         Transform player = GameObject.FindGameObjectWithTag("Player").transform;
+        //Debug.Log(player.GetComponent<PlayerController>() == null);
         PlayerController playerController = player.GetComponent<PlayerController>();
-
+        //Debug.Log(playerController.GetCurrentProjectile() == null);
         Transform projectile = Instantiate(playerController.GetCurrentProjectile());
         playerController.SetDamageAmount(projectile);
 
@@ -23,9 +24,9 @@ public class ShootingAction : StateMachineBehaviour {
 	}
 
 	// OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
-	//override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-	//
-	//}
+	override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
+        //
+	}
 
 	// OnStateExit is called when a transition ends and the state machine finishes evaluating this state
 	//override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
