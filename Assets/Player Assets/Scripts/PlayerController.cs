@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour {
 
     public float speed;
     public int health = 100;
+    public int level = 0;
     public int experience = 0;
 	public Slider healthSlider;
     public Slider experienceSlider;
@@ -273,9 +274,28 @@ public class PlayerController : MonoBehaviour {
         if (experienceSlider.value == 100)
         {
             experienceSlider.value = 0;
+            experience = 0;
+            level++;
+            ChangeWeapon();
             ChangeState("Level Up");
             levelUpSource.Play();
         }
+    }
+
+    private void ChangeWeapon()
+    {
+        if (level == 0)
+            whichProjectile = "Small";
+        if (level == 1)
+            whichProjectile = "Medium";
+        if (level == 2)
+            whichProjectile = "Large";
+        if (level == 3)
+            whichProjectile = "Super";
+        if (level == 4)
+            whichProjectile = "SmallBall";
+        if (level == 5)
+            whichProjectile = "LargeBall";
     }
 
     private void ScalePlayer()
