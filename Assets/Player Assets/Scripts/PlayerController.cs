@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour {
     public float speed;
     public int health = 100;
     public int experience = 0;
+	public int xpLevelReached = 100;
 	public Slider healthSlider;
     public Slider experienceSlider;
 
@@ -259,13 +260,18 @@ public class PlayerController : MonoBehaviour {
     public void AddExperience(int xp)
     {
         experience += xp;
+		Debug.Log (experience);
         experienceSlider.value = experience;
-
-        if (experienceSlider.value == 100)
+		Debug.Log (experienceSlider.value);
+        if (experienceSlider.value >= xpLevelReached)
         {
             experienceSlider.value = 0;
+			experience = 0;
+			Debug.Log (experienceSlider.value);
             ChangeState("Level Up");
             levelUpSource.Play();
+			experienceSlider.maxValue = (xpLevelReached*3);
+			xpLevelReached = (xpLevelReached*3);
         }
     }
 
