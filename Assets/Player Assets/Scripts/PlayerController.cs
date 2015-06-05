@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour {
                 Camera.main.transform.Translate(dir * translateSpeed * Time.deltaTime, Space.World);
             }
         }
-        else
+        else if (!PlayerController.Death)
         {
             var vertical = Input.GetAxis("Vertical");
             var horizontal = Input.GetAxis("Horizontal");
