@@ -15,11 +15,13 @@ public class EnemyController : MonoBehaviour {
     public float moveSpeed = 2;
     private bool colliding = false;
     private AudioSource hitSound;
+	private AudioSource dieSound;
 
 	// Use this for initialization
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         hitSound = GetComponent<AudioSource>();
+		dieSound = GetComponent<AudioSource>();
         playerTransform = player.transform;
         thisTransform = transform;
 		previousposition = thisTransform.position.x;
@@ -54,7 +56,7 @@ public class EnemyController : MonoBehaviour {
     private void KillEnemy()
     {
         SpecialEffectsHelper.Instance.Explosion(transform.position);
-
+		dieSound.Play();
         Destroy(gameObject);
     }
 
