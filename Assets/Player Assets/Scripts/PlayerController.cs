@@ -113,6 +113,8 @@ public class PlayerController : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            ChangeState("Shooting");
+
             if (animator.GetBool("Shoot"))
             {
                 Transform projectile = Instantiate(GetCurrentProjectile());
@@ -125,9 +127,6 @@ public class PlayerController : MonoBehaviour {
                                                               (directionIsRight ? PlayerController.RIGHT : PlayerController.LEFT),
                                                                GetProjectileXOffset());
             }
-
-            
-            ChangeState("Shooting");
         }
 
         if (damaged)
@@ -254,6 +253,10 @@ public class PlayerController : MonoBehaviour {
                 animator.SetBool("Stand", false);
                 animator.SetBool("Level Up", false);
                 animator.SetBool("Die", true);
+                break;
+            case "End Shooting":
+                animator.SetBool("Shoot", false);
+                animator.SetBool("End Shooting", true);
                 break;
         }
     }

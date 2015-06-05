@@ -20,8 +20,6 @@ public class MenuScript : MonoBehaviour {
 	void OnGUI(){
 
 		if (loading){
-			//Debug.Log (Screen.width);
-			Debug.Log ("Loading " + loadingTexture.ToString() + " in Rect " + screenRect.ToString());
 			screenRect = new Rect(0,0,Screen.width, Screen.height);
 			GUI.DrawTexture(screenRect, loadingTexture);
 		}
