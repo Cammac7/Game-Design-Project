@@ -46,6 +46,9 @@ public class PlayerController : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        BubbleTurtleData data = new BubbleTurtleData();
+        data.Load("deaths.csv");
+
         animator = this.GetComponent<Animator>();
         directionIsRight = true;
         initialCameraPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, Camera.main.transform.position.z);
@@ -309,6 +312,7 @@ public class PlayerController : MonoBehaviour {
         
         if (health <= 0)
         {
+            GameObject.FindGameObjectWithTag("LevelMusic").GetComponent<AudioSource>().Stop();
             ChangeState("Die");
             Death = true;
             //handle death here, possible restart screen
