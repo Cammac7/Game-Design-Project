@@ -5,6 +5,8 @@ using System;
 
 public class PlayerController : MonoBehaviour {
 
+    public static bool Death = false;
+
     public float speed;
     public int health = 100;
     public int experience = 0;
@@ -15,7 +17,7 @@ public class PlayerController : MonoBehaviour {
 
     public AudioSource levelUpSource;
     public AudioSource fireShootSource;
-    public AudioSource[] walkingSource;
+    public AudioSource walkingSource;
 
 	public Transform smallProjectileFire, mediumProjectileFire, largeProjectileFire, superProjectileFire;
 	public Transform smallProjectileFireball, largeProjectileFireball;
@@ -36,12 +38,16 @@ public class PlayerController : MonoBehaviour {
 
 	private bool atTop = false;
 	private bool atBottom = false;
+    private bool atLeft = false;
+
+    Vector3 initialCameraPosition;
 
     // Use this for initialization
     void Start()
     {
         animator = this.GetComponent<Animator>();
         directionIsRight = true;
+        initialCameraPosition = new Vector3(0, Camera.main.transform.position.y, 0);
     }
 
     // Update is called once per frame
@@ -52,13 +58,17 @@ public class PlayerController : MonoBehaviour {
 
         var speedVector = new Vector3(speed * horizontal, speed * vertical, 0);
 
-		if (atTop && speedVector.y > 0){
+		if (atTop && speedVector.y > 0) {
 			speedVector.y = 0;
 		}
 		
-		if (atBottom && speedVector.y < 0){
+		if (atBottom && speedVector.y < 0) {
 			speedVector.y = 0;
 		}
+
+        if (atLeft && speedVector.x < 0) {
+            speedVector.x = 0;
+        }
 
 		Vector3 newPosition = (speedVector * Time.deltaTime) + transform.position;
 
@@ -70,7 +80,8 @@ public class PlayerController : MonoBehaviour {
             ChangeState("Walking");
 
             //play walking audio
-            walkingSource[UnityEngine.Random.Range(0, 3)].Play();
+            if (!walkingSource.isPlaying)
+                walkingSource.Play();
 
             ScalePlayer();
 
@@ -80,7 +91,8 @@ public class PlayerController : MonoBehaviour {
             ChangeState("Walking");
 
             //play walking audio
-            walkingSource[UnityEngine.Random.Range(0, 3)].Play();
+            if (!walkingSource.isPlaying)
+                walkingSource.Play();
 
             //flip the sprite if we change direction
             CheckDirection();
@@ -89,6 +101,8 @@ public class PlayerController : MonoBehaviour {
                  Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow))
         {
             ChangeState("Standing");
+            if (walkingSource.isPlaying)
+                walkingSource.Stop();
         }
         else if (Input.GetKeyUp(KeyCode.Space))
         {
@@ -112,6 +126,7 @@ public class PlayerController : MonoBehaviour {
                                                                GetProjectileXOffset());
             }
 
+            
             ChangeState("Shooting");
         }
 
@@ -124,6 +139,8 @@ public class PlayerController : MonoBehaviour {
             damageImage.color = Color.Lerp(damageImage.color, Color.clear, flashSpeed * Time.deltaTime);
         }
         damaged = false;
+
+        Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, initialCameraPosition.y, Camera.main.transform.position.z);
     }
 
     private void CheckWeaponChange()
@@ -231,6 +248,13 @@ public class PlayerController : MonoBehaviour {
                 animator.SetBool("Stand", false);
                 animator.SetBool("Level Up", true);
                 break;
+            case "Die":
+                animator.SetBool("Shoot", false);
+                animator.SetBool("Walk", false);
+                animator.SetBool("Stand", false);
+                animator.SetBool("Level Up", false);
+                animator.SetBool("Die", true);
+                break;
         }
     }
 
@@ -255,6 +279,8 @@ public class PlayerController : MonoBehaviour {
         
         if (health <= 0)
         {
+            ChangeState("Die");
+            Death = true;
             //handle death here, possible restart screen
         }
     }
@@ -314,9 +340,12 @@ public class PlayerController : MonoBehaviour {
 			if (c.name == "Top Boundary"){
 				atTop = true;
 			}
-			else {
+			else if (c.name == "Bottom Boundary") {
 				atBottom = true;
 			}
+            else if (c.name == "Side Boundary Left") {
+                atLeft = true;
+            }
 		}
 	}
 

@@ -30,8 +30,8 @@ public class EnemyController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        //only move if not colliding
-        if (!colliding)
+        //only move if not colliding and the player is not dead
+        if (!colliding && !PlayerController.Death)
         {
             Vector3 lookDir = playerTransform.position - thisTransform.position;
             lookDir.Normalize();
@@ -71,7 +71,8 @@ public class EnemyController : MonoBehaviour {
 
     void DamagePlayer()
     {
-        player.Hit(hitAmount);
+        if (!PlayerController.Death)
+            player.Hit(hitAmount);
     }
 
     void OnTriggerStay2D(Collider2D collider)
