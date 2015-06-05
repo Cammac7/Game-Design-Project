@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour {
     public AudioSource levelUpSource;
     public AudioSource fireShootSource;
     public AudioSource walkingSource;
+    public AudioSource beehiveDeath;
 
 	public Transform smallProjectileFire, mediumProjectileFire, largeProjectileFire, superProjectileFire;
 	public Transform smallProjectileFireball, largeProjectileFireball;
@@ -46,9 +47,7 @@ public class PlayerController : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        BubbleTurtleData data = new BubbleTurtleData();
-        data.Load("deaths.csv");
-
+        GameObject.FindGameObjectWithTag("Loader").GetComponent<BubbleTurtleData>().Load("deaths.csv");
         animator = this.GetComponent<Animator>();
         directionIsRight = true;
         initialCameraPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, Camera.main.transform.position.z);
@@ -395,4 +394,10 @@ public class PlayerController : MonoBehaviour {
 		}
 
 	}
+
+    public void PlayBeehiveDeath()
+    {
+        if (!beehiveDeath.isPlaying)
+            beehiveDeath.Play();
+    }
 }
