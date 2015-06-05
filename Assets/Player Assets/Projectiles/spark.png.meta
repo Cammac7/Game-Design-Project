@@ -1,0 +1,990 @@
+fileFormatVersion: 2
+guid: 4247b8da644d6c54d88f03ae9dae9870
+timeCreated: 1432864027
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spark sprite sheet_0
+    21300002: spark sprite sheet_1
+    21300004: spark sprite sheet_2
+    21300006: spark sprite sheet_3
+    21300008: spark sprite sheet_4
+    21300010: spark sprite sheet_5
+    21300012: spark sprite sheet_6
+    21300014: spark sprite sheet_7
+    21300016: spark sprite sheet_8
+    21300018: spark sprite sheet_9
+    21300020: spark sprite sheet_10
+    21300022: spark sprite sheet_11
+    21300024: spark sprite sheet_12
+    21300026: spark sprite sheet_13
+    21300028: spark sprite sheet_14
+    21300030: spark sprite sheet_15
+    21300032: spark sprite sheet_16
+    21300034: spark sprite sheet_17
+    21300036: spark sprite sheet_18
+    21300038: spark sprite sheet_19
+    21300040: spark sprite sheet_20
+    21300042: spark sprite sheet_21
+    21300044: spark sprite sheet_22
+    21300046: spark sprite sheet_23
+    21300048: spark sprite sheet_24
+    21300050: spark sprite sheet_25
+    21300052: spark sprite sheet_26
+    21300054: spark sprite sheet_27
+    21300056: spark sprite sheet_28
+    21300058: spark sprite sheet_29
+    21300060: spark sprite sheet_30
+    21300062: spark sprite sheet_31
+    21300064: spark sprite sheet_32
+    21300066: spark sprite sheet_33
+    21300068: spark sprite sheet_34
+    21300070: spark sprite sheet_35
+    21300072: spark sprite sheet_36
+    21300074: spark sprite sheet_37
+    21300076: spark sprite sheet_38
+    21300078: spark sprite sheet_39
+    21300080: spark sprite sheet_40
+    21300082: spark sprite sheet_41
+    21300084: spark sprite sheet_42
+    21300086: spark sprite sheet_43
+    21300088: spark sprite sheet_44
+    21300090: spark sprite sheet_45
+    21300092: spark sprite sheet_46
+    21300094: spark sprite sheet_47
+    21300096: spark sprite sheet_48
+    21300098: spark sprite sheet_49
+    21300100: spark sprite sheet_50
+    21300102: spark sprite sheet_51
+    21300104: spark sprite sheet_52
+    21300106: spark sprite sheet_53
+    21300108: spark sprite sheet_54
+    21300110: spark sprite sheet_55
+    21300112: spark sprite sheet_56
+    21300114: spark sprite sheet_57
+    21300116: spark sprite sheet_58
+    21300118: spark sprite sheet_59
+    21300120: spark sprite sheet_60
+    21300122: spark sprite sheet_61
+    21300124: spark sprite sheet_62
+    21300126: spark sprite sheet_63
+    21300128: spark sprite sheet_64
+    21300130: spark sprite sheet_65
+    21300132: spark sprite sheet_66
+    21300134: spark sprite sheet_67
+    21300136: spark sprite sheet_68
+    21300138: spark sprite sheet_69
+    21300140: spark sprite sheet_70
+    21300142: spark sprite sheet_71
+    21300144: spark sprite sheet_72
+    21300146: spark sprite sheet_73
+    21300148: spark sprite sheet_74
+    21300150: spark sprite sheet_75
+    21300152: spark sprite sheet_76
+    21300154: spark sprite sheet_77
+    21300156: spark sprite sheet_78
+    21300158: spark sprite sheet_79
+    21300160: spark sprite sheet_80
+    21300162: spark sprite sheet_81
+    21300164: spark sprite sheet_82
+    21300166: spark sprite sheet_83
+    21300168: spark sprite sheet_84
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 1
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 0
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: spark sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 485
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 474
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 516
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 519
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 524
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 500
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 493
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 492
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 515
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 514
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 517
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 500
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 495
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 500
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 491
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 472
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 456
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 497
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 475
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 472
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 480
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 467
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 454
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 452
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 414
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 421
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 427
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 373
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 369
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 415
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 413
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 407
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 414
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 413
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 380
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 387
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 380
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 401
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 398
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_39
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 397
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_40
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 402
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_41
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 381
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_42
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 381
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_43
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 381
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_44
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_45
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 395
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 392
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_47
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 381
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_48
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 376
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_49
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 377
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_50
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 380
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_51
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 379
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 364
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_53
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 362
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_54
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 367
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_55
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 375
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_56
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 372
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_57
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 372
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_58
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 361
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_59
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 360
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_60
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 362
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_61
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 283
+        width: 103
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_62
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 285
+        width: 75
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_63
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 286
+        width: 58
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_64
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 286
+        width: 48
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_65
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 248
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_66
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 263
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_67
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 271
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_68
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 231
+        width: 63
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_69
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 249
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_70
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 244
+        width: 104
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_71
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 257
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_72
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 193
+        width: 204
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_73
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 194
+        width: 177
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_74
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 195
+        width: 89
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_75
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 196
+        width: 65
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_76
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 8
+        width: 114
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_77
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 15
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_78
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 82
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_79
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 22
+        width: 93
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_80
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 36
+        width: 69
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_81
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 55
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_82
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_83
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 10
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spark sprite sheet_84
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 12
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

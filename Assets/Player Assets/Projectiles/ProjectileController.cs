@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ProjectileController : MonoBehaviour {
 
@@ -21,7 +22,8 @@ public class ProjectileController : MonoBehaviour {
     private Vector3 startingLoc;
 
     public int damage = 1;
-	
+    public int experience = 10;
+
 	// Update is called once per frame
 	void Update () {
         if (firing)
@@ -37,7 +39,7 @@ public class ProjectileController : MonoBehaviour {
     public void Fire(Vector3 loc, int dir, float xOffset)
     {
         //offsets here are so that it appear to come directly out of the mouth of the turtle
-        transform.position = new Vector3(loc.x + (xOffset * dir), loc.y + 0.40f, loc.z);
+        transform.position = new Vector3(loc.x + (xOffset * dir)-0.9f, loc.y + 0.55f, loc.z);
         startingLoc = loc;
         direction = dir;
         firing = true;
@@ -62,6 +64,8 @@ public class ProjectileController : MonoBehaviour {
         {
             //damage enemy
             collider.gameObject.GetComponent<EnemyController>().Hit(damage);
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().AddExperience(experience);
+            SpecialEffectsHelper.Instance.SparkHit(transform.position + new Vector3((GetComponent<SpriteRenderer>().bounds.size.x / 2), 0, 0));
             KillProjectile();
         }
     }

@@ -12,6 +12,7 @@ public class SpecialEffectsHelper : MonoBehaviour
 
     public ParticleSystem smokeEffect;
     public ParticleSystem fireEffect;
+    public ParticleSystem hitEffect;
 
     void Awake()
     {
@@ -37,6 +38,15 @@ public class SpecialEffectsHelper : MonoBehaviour
 
         // Fire in the sky
         instantiate(fireEffect, position);
+    }
+
+    /// <summary>
+    /// Creates a hitting spark effect on the object.
+    /// </summary>
+    /// <param name="position"></param>
+    public void SparkHit(Vector3 position)
+    {
+        instantiate(hitEffect, position);
     }
 
     /// <summary>

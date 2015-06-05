@@ -1,0 +1,1255 @@
+fileFormatVersion: 2
+guid: b9282beb0940b456c8b73b2c9fa64c1b
+timeCreated: 1433370230
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: upwalkshoot0051
+    21300002: upwalkshoot0052
+    21300004: upwalkshoot0053
+    21300006: upwalkshoot0054
+    21300008: upwalkshoot0055
+    21300010: upwalkshoot0056
+    21300012: upwalkshoot0057
+    21300014: upwalkshoot0058
+    21300016: upwalkshoot0059
+    21300018: upwalkshoot0060
+    21300020: upwalkshoot0061
+    21300022: upwalkshoot0062
+    21300024: upwalkshoot0063
+    21300026: upwalkshoot0064
+    21300028: upwalkshoot0065
+    21300030: upwalkshoot0066
+    21300032: upwalkshoot0067
+    21300034: upwalkshoot0068
+    21300036: upwalkshoot0069
+    21300038: upwalkshoot0070
+    21300040: upwalkshoot0071
+    21300042: upwalkshoot0072
+    21300044: upwalkshoot0073
+    21300046: upwalkshoot0074
+    21300048: upwalkshoot0075
+    21300050: upwalkshoot0076
+    21300052: upwalkshoot0077
+    21300054: upwalkshoot0078
+    21300056: upwalkshoot0079
+    21300058: upwalkshoot0080
+    21300060: upwalkshoot0081
+    21300062: upwalkshoot0082
+    21300064: upwalkshoot0083
+    21300066: upwalkshoot0084
+    21300068: upwalkshoot0085
+    21300070: upwalkshoot0086
+    21300072: upwalkshoot0087
+    21300074: upwalkshoot0088
+    21300076: upwalkshoot0089
+    21300078: upwalkshoot0090
+    21300080: upwalkshoot0091
+    21300082: upwalkshoot0092
+    21300084: upwalkshoot0093
+    21300086: upwalkshoot0094
+    21300088: upwalkshoot0095
+    21300090: upwalkshoot0096
+    21300092: upwalkshoot0097
+    21300094: upwalkshoot0098
+    21300096: upwalkshoot0099
+    21300098: upwalkshoot0100
+    21300100: upwalkshoot0101
+    21300102: upwalkshoot0102
+    21300104: upwalkshoot0103
+    21300106: upwalkshoot0104
+    21300108: upwalkshoot0105
+    21300110: upwalkshoot0106
+    21300112: upwalkshoot0107
+    21300114: upwalkshoot0108
+    21300116: upwalkshoot0109
+    21300118: upwalkshoot0110
+    21300120: upwalkshoot0111
+    21300122: upwalkshoot0112
+    21300124: upwalkshoot0113
+    21300126: upwalkshoot0114
+    21300128: upwalkshoot0115
+    21300130: upwalkshoot0116
+    21300132: upwalkshoot0117
+    21300134: upwalkshoot0118
+    21300136: upwalkshoot0119
+    21300138: upwalkshoot0120
+    21300140: upwalkshoot0121
+    21300142: upwalkshoot0122
+    21300144: upwalkshoot0123
+    21300146: upwalkshoot0124
+    21300148: upwalkshoot0125
+    21300150: upwalkshoot0126
+    21300152: upwalkshoot0127
+    21300154: upwalkshoot0128
+    21300156: upwalkshoot0129
+    21300158: upwalkshoot0130
+    21300160: upwalkshoot0131
+    21300162: upwalkshoot0132
+    21300164: upwalkshoot0133
+    21300166: upwalkshoot0134
+    21300168: upwalkshoot0135
+    21300170: upwalkshoot0136
+    21300172: upwalkshoot0137
+    21300174: upwalkshoot0138
+    21300176: upwalkshoot0139
+    21300178: upwalkshoot0140
+    21300180: upwalkshoot0141
+    21300182: upwalkshoot0142
+    21300184: upwalkshoot0143
+    21300186: upwalkshoot0144
+    21300188: upwalkshoot0145
+    21300190: upwalkshoot0146
+    21300192: upwalkshoot0147
+    21300194: upwalkshoot0148
+    21300196: upwalkshoot0149
+    21300198: upwalkshoot0150
+    21300200: die0001
+    21300202: die0002
+    21300204: die0003
+    21300206: die0004
+    21300208: die0005
+    21300210: die0006
+    21300212: die0007
+    21300214: die0008
+    21300216: die0009
+    21300218: die0010
+    21300220: die0011
+    21300222: die0012
+    21300224: die0013
+    21300226: die0014
+    21300228: die0015
+    21300230: die0016
+    21300232: die0017
+    21300234: die0018
+    21300236: die0019
+    21300238: die0020
+    21300240: die0021
+    21300242: die0022
+    21300244: die0023
+    21300246: die0024
+    21300248: die0025
+    21300250: die0026
+    21300252: die0027
+    21300254: die0028
+    21300256: die0029
+    21300258: die0030
+    21300260: die0031
+    21300262: die0032
+    21300264: die0033
+    21300266: die0034
+    21300268: die0035
+    21300270: die0036
+    21300272: die0037
+    21300274: die0038
+    21300276: die0039
+    21300278: die0040
+    21300280: die0041
+    21300282: die0042
+    21300284: die0043
+    21300286: die0044
+    21300288: die0045
+    21300290: die0046
+    21300292: die0047
+    21300294: die0048
+    21300296: die0049
+    21300298: die0050
+    21300300: die0051
+    21300302: die0052
+    21300304: die0053
+    21300306: die0054
+    21300308: die0055
+    21300310: die0056
+    21300312: die0057
+    21300314: die0058
+    21300316: die0059
+    21300318: die0060
+    21300320: die0061
+    21300322: die0062
+    21300324: die0063
+    21300326: die0064
+    21300328: die0065
+    21300330: die0066
+    21300332: die0067
+    21300334: die0068
+    21300336: die0069
+    21300338: die0070
+    21300340: die0071
+    21300342: die0072
+    21300344: die0073
+    21300346: die0074
+    21300348: die0075
+    21300350: die0076
+    21300352: die0077
+    21300354: die0078
+    21300356: die0079
+    21300358: die0080
+    21300360: die0081
+    21300362: die0082
+    21300364: die0083
+    21300366: die0084
+    21300368: die0085
+    21300370: die0086
+    21300372: die0087
+    21300374: die0088
+    21300376: die0089
+    21300378: die0090
+    21300380: die0091
+    21300382: die0092
+    21300384: die0093
+    21300386: die0094
+    21300388: die0095
+    21300390: die0096
+    21300392: die0097
+    21300394: die0098
+    21300396: die0099
+    21300398: die0100
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: die0001
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0002
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0003
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0004
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0005
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0006
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0007
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0008
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0009
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0010
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0011
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0012
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0013
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0014
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0015
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0016
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0017
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0018
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0019
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0020
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0021
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0022
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0023
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0024
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0025
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0026
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0027
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0028
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0029
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0030
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0031
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0032
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0033
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0034
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0035
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0036
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0037
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0038
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0039
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0040
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0041
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0042
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0043
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0044
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0045
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0046
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0047
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0048
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0049
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0050
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0051
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0052
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0053
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0054
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0055
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0056
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 1854
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0057
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1484
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0058
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1484
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0059
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1484
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0060
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1484
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0061
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1484
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0062
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 1484
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0063
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1484
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0064
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 1484
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0065
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1114
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0066
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1114
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0067
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1114
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0068
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1114
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0069
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1114
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0070
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 1114
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0071
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1114
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0072
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 1114
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0073
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0074
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0075
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0076
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0077
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0078
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0079
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0080
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0081
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0082
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0083
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0084
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 744
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0085
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 374
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0086
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 374
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0087
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 374
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0088
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 374
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0089
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 374
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0090
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 374
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0091
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 374
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0092
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 374
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0093
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0094
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0095
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 4
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0096
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 4
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0097
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 4
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0098
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 4
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0099
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 4
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die0100
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 4
+        width: 446
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

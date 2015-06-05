@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: 262d84917f808af46875a617ed8b38f2
-timeCreated: 1432347089
+timeCreated: 1432864364
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - sparkHit: {fileID: 496624, guid: ec431ba2555e6d84ab97a055aa8373d8, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
