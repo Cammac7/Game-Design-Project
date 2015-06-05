@@ -41,105 +41,132 @@ public class PlayerController : MonoBehaviour {
     private bool atLeft = false;
 
     Vector3 initialCameraPosition;
+    bool initialCameraMoved = false;
 
     // Use this for initialization
     void Start()
     {
         animator = this.GetComponent<Animator>();
         directionIsRight = true;
-        initialCameraPosition = new Vector3(0, Camera.main.transform.position.y, 0);
+        initialCameraPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, Camera.main.transform.position.z);
+    }
+
+    IEnumerator StallCamera()
+    {
+        yield return new WaitForSeconds(3);
+        Camera.main.transform.position = initialCameraPosition;
+        initialCameraMoved = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        var vertical = Input.GetAxis("Vertical");
-        var horizontal = Input.GetAxis("Horizontal");
-
-        var speedVector = new Vector3(speed * horizontal, speed * vertical, 0);
-
-		if (atTop && speedVector.y > 0) {
-			speedVector.y = 0;
-		}
-		
-		if (atBottom && speedVector.y < 0) {
-			speedVector.y = 0;
-		}
-
-        if (atLeft && speedVector.x < 0) {
-            speedVector.x = 0;
-        }
-
-		Vector3 newPosition = (speedVector * Time.deltaTime) + transform.position;
-
-
-		transform.position = newPosition;
-
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
+        if (!initialCameraMoved)
         {
-            ChangeState("Walking");
-
-            //play walking audio
-            if (!walkingSource.isPlaying)
-                walkingSource.Play();
-
-            ScalePlayer();
-
-        }
-        else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
-        {
-            ChangeState("Walking");
-
-            //play walking audio
-            if (!walkingSource.isPlaying)
-                walkingSource.Play();
-
-            //flip the sprite if we change direction
-            CheckDirection();
-        }
-        else if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow) ||
-                 Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow))
-        {
-            ChangeState("Standing");
-            if (walkingSource.isPlaying)
-                walkingSource.Stop();
-        }
-        else if (Input.GetKeyUp(KeyCode.Space))
-        {
-            ChangeState("End Shooting");
-        }
-
-        CheckWeaponChange();
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            ChangeState("Shooting");
-
-            if (animator.GetBool("Shoot"))
+            if (Camera.main.transform.position.x >= 500f)
             {
-                Transform projectile = Instantiate(GetCurrentProjectile());
-                SetDamageAmount(projectile);
-
-                fireShootSource.Play();
-
-                projectile.
-                    GetComponent<ProjectileController>().Fire(transform.position,
-                                                              (directionIsRight ? PlayerController.RIGHT : PlayerController.LEFT),
-                                                               GetProjectileXOffset());
+                StartCoroutine(StallCamera());
             }
-        }
-
-        if (damaged)
-        {
-            damageImage.color = flashColor;
+            else
+            {
+                float translateSpeed = 50;
+                Vector3 dir = new Vector3(1, 0, 0);
+                Camera.main.transform.Translate(dir * translateSpeed * Time.deltaTime, Space.World);
+            }
         }
         else
         {
-            damageImage.color = Color.Lerp(damageImage.color, Color.clear, flashSpeed * Time.deltaTime);
-        }
-        damaged = false;
+            var vertical = Input.GetAxis("Vertical");
+            var horizontal = Input.GetAxis("Horizontal");
 
-        Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, initialCameraPosition.y, Camera.main.transform.position.z);
+            var speedVector = new Vector3(speed * horizontal, speed * vertical, 0);
+
+            if (atTop && speedVector.y > 0)
+            {
+                speedVector.y = 0;
+            }
+
+            if (atBottom && speedVector.y < 0)
+            {
+                speedVector.y = 0;
+            }
+
+            if (atLeft && speedVector.x < 0)
+            {
+                speedVector.x = 0;
+            }
+
+            Vector3 newPosition = (speedVector * Time.deltaTime) + transform.position;
+
+
+            transform.position = newPosition;
+
+            if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
+            {
+                ChangeState("Walking");
+
+                //play walking audio
+                if (!walkingSource.isPlaying)
+                    walkingSource.Play();
+
+                ScalePlayer();
+
+            }
+            else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
+            {
+                ChangeState("Walking");
+
+                //play walking audio
+                if (!walkingSource.isPlaying)
+                    walkingSource.Play();
+
+                //flip the sprite if we change direction
+                CheckDirection();
+            }
+            else if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow) ||
+                     Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow))
+            {
+                ChangeState("Standing");
+                if (walkingSource.isPlaying)
+                    walkingSource.Stop();
+            }
+            else if (Input.GetKeyUp(KeyCode.Space))
+            {
+                ChangeState("End Shooting");
+            }
+
+            CheckWeaponChange();
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                ChangeState("Shooting");
+
+                if (animator.GetBool("Shoot"))
+                {
+                    Transform projectile = Instantiate(GetCurrentProjectile());
+                    SetDamageAmount(projectile);
+
+                    fireShootSource.Play();
+
+                    projectile.
+                        GetComponent<ProjectileController>().Fire(transform.position,
+                                                                  (directionIsRight ? PlayerController.RIGHT : PlayerController.LEFT),
+                                                                   GetProjectileXOffset());
+                }
+            }
+
+            if (damaged)
+            {
+                damageImage.color = flashColor;
+            }
+            else
+            {
+                damageImage.color = Color.Lerp(damageImage.color, Color.clear, flashSpeed * Time.deltaTime);
+            }
+            damaged = false;
+
+            Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, initialCameraPosition.y, Camera.main.transform.position.z);
+        }
     }
 
     private void CheckWeaponChange()
