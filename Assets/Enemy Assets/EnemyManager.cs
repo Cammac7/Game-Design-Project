@@ -6,17 +6,20 @@ public class EnemyManager : MonoBehaviour {
 
 	public GameObject Enemy;
 	public float spawnTime = 3f;
-	public Transform[] spawnPoints;
+	public int numSpawns = 5;
 
+	private int spawnedAlready;
+	private float timeOfLastSpawn;
 
-	// Use this for initialization
-	void Start () {
-		InvokeRepeating ("Spawn", spawnTime, spawnTime);
+	void Update(){
+		if (spawnedAlready < numSpawns && Time.time > (timeOfLastSpawn + spawnTime)){
+			timeOfLastSpawn = Time.time;
+			spawnedAlready++;
+			Spawn();
+		}
 	}
-	
-	// Update is called once per frame
+
 	void Spawn () {
-		int spawnPointIndex = Random.Range (0, spawnPoints.Length);
-		Instantiate (Enemy, spawnPoints [spawnPointIndex].position, spawnPoints [spawnPointIndex].rotation);
+		Instantiate (Enemy, transform.position, transform.rotation);
 }
 }
