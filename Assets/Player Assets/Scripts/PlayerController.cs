@@ -46,9 +46,7 @@ public class PlayerController : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        BubbleTurtleData data = new BubbleTurtleData();
-        data.Load("deaths.csv");
-
+        GameObject.FindGameObjectWithTag("Loader").GetComponent<BubbleTurtleData>().Load("deaths.csv");
         animator = this.GetComponent<Animator>();
         directionIsRight = true;
         initialCameraPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, Camera.main.transform.position.z);

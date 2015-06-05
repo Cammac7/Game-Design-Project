@@ -16,8 +16,7 @@ public class Die_Action : StateMachineBehaviour {
 	// OnStateExit is called when a transition ends and the state machine finishes evaluating this state
 	override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
 
-        BubbleTurtleData data = new BubbleTurtleData();
-        data.Save("deaths.csv", GameObject.FindGameObjectWithTag("Player").transform.position);
+        GameObject.FindGameObjectWithTag("Loader").GetComponent<BubbleTurtleData>().Save("deaths.csv", GameObject.FindGameObjectWithTag("Player").transform.position);
 
         Application.LoadLevel("StartMenu");
 	}
