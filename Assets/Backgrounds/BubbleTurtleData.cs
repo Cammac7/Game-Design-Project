@@ -1,30 +1,29 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System;
 using System.Collections;
 using System.Text;
 using System.IO;
 
-public class BubbleTurleData : MonoBehaviour
+public class BubbleTurtleData : MonoBehaviour
 {
+    public Transform graveObject;
 
-    public bool Save(string fileName)
+    public bool Save(string fileName, Vector3 deathPosition)
     {
-        //get the position of death then save it to the file
-
-
         // Handle any problems that might arise when reading the text
         try
         {
             using (StreamWriter sw = new StreamWriter(fileName, true))
             {
-                sw.WriteLine("Something");
+                sw.WriteLine(deathPosition.x + "," + deathPosition.y + "," + deathPosition.z);
 
                 return true;
             }
         }
         catch (Exception e)
         {
-            Debug.LogException(e, this);
+            Debug.Log(e.Message);
             return false;
         }
     }
@@ -57,8 +56,12 @@ public class BubbleTurleData : MonoBehaviour
                         // In this example, I split it into arguments based on comma
                         // deliniators, then send that array to DoStuff()
                         string[] entries = line.Split(',');
-                        //if (entries.Length > 0)
-                        //DoStuff(entries);
+                        if (entries.Length > 0)
+                        {
+                            Vector3 deathPosition = new Vector3(float.Parse(entries[0]), float.Parse(entries[1]), float.Parse(entries[2]));
+                        
+                            InsertGrave(deathPosition);
+                        }
                         //probably want to insert the graves into the positions here...
                     }
                 }
@@ -71,8 +74,14 @@ public class BubbleTurleData : MonoBehaviour
         }
         catch (Exception e)
         {
-            Debug.LogException(e, this);
+            Debug.Log(e.Message);
             return false;
         }
+    }
+
+    private void InsertGrave(Vector3 gravePosition)
+    {
+        Transform grave = UnityEngine.Object.Instantiate(graveObject);
+        grave.position = gravePosition;
     }
 }
