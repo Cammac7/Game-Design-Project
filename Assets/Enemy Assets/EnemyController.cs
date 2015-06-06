@@ -10,6 +10,7 @@ public class EnemyController : MonoBehaviour {
     Transform thisTransform;
 
     public int hitAmount = 10;
+	public GameObject endgame;
 	private bool edirectionIsRight;
 	private float previousposition;
     public float moveSpeed = 2;

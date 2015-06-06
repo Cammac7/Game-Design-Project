@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour {
     public AudioSource fireShootSource;
     public AudioSource walkingSource;
     public AudioSource beehiveDeath;
+	public AudioSource deathSource;
 
 	public Transform smallProjectileFire, mediumProjectileFire, largeProjectileFire, superProjectileFire;
 	public Transform smallProjectileFireball, largeProjectileFireball;
@@ -402,4 +403,9 @@ public class PlayerController : MonoBehaviour {
         if (!beehiveDeath.isPlaying)
             beehiveDeath.Play();
     }
+
+	public void PlayDeath()
+	{
+		deathSource.Play ();
+	}
 }
