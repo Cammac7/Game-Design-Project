@@ -23,7 +23,7 @@ public class BubbleTurtleData : MonoBehaviour
         }
         catch (Exception e)
         {
-            Debug.Log(e.Message);
+            Debug.LogException(e);
             return false;
         }
     }
@@ -74,7 +74,7 @@ public class BubbleTurtleData : MonoBehaviour
         }
         catch (Exception e)
         {
-            Debug.Log(e.Message);
+            Debug.LogException(e);
             return false;
         }
     }
