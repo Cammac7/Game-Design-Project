@@ -78,12 +78,6 @@ public class EnemyController : MonoBehaviour {
             KillEnemy();
     }
 
-	IEnumerator WinWait()
-	{
-		yield return new WaitForSeconds(3);
-		Application.LoadLevel ("StartMenu");
-	}
-
     private void KillEnemy()
     {
         SpecialEffectsHelper.Instance.Explosion(transform.position);
@@ -93,10 +87,13 @@ public class EnemyController : MonoBehaviour {
 
 		if (this.tag == "Boss") {
 			//end the game here....
-			winText.SetActive(true);
 			PlayerController.Death = true;
-			StartCoroutine(WinWait());
-
+            GameObject.FindGameObjectWithTag("LevelMusic").GetComponent<AudioSource>().Stop();
+            if (GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().walkingSource.isPlaying)
+                GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().walkingSource.Stop();
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().WinGame.transform.position =
+                new Vector3(GameObject.FindGameObjectWithTag("Player").transform.position.x, GameObject.FindGameObjectWithTag("Player").transform.position.y - 3f, 0);
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().WinGame.gameObject.SetActive(true);
 		}
 
         Destroy(gameObject);

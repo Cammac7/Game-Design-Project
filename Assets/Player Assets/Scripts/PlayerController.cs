@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour {
 	public Transform smallProjectileFire, mediumProjectileFire, largeProjectileFire, superProjectileFire;
 	public Transform smallProjectileFireball, largeProjectileFireball;
 
+    public Transform WinGame;
+
 	public Image damageImage;
 	public float flashSpeed = 5f;
 	public Color flashColor = new Color(1f, 0f, 0f, 0.1f);
