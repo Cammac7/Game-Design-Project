@@ -24,4 +24,14 @@ public class MenuScript : MonoBehaviour {
 			GUI.DrawTexture(screenRect, loadingTexture);
 		}
 	}
+
+	void Update() {
+		if (Input.GetKeyDown(KeyCode.Space)) {
+			StartLevel("BubbleHippoAdventure");
+		}
+
+		if (Input.GetKeyDown(KeyCode.Escape)) {
+			Quit ();
+		}
+	}
 }

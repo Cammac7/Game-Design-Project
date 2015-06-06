@@ -16,6 +16,12 @@ public class EnemyController : MonoBehaviour {
     private bool colliding = false;
     private AudioSource hitSound;
 
+	private bool headAtPlayer = false;
+	private int tooFar = 0;
+	private int randomInterval;
+
+	public GameObject winText;
+
 	// Use this for initialization
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
@@ -24,6 +30,19 @@ public class EnemyController : MonoBehaviour {
         thisTransform = transform;
 		previousposition = thisTransform.position.x;
 		edirectionIsRight = true;
+		randomInterval = Random.Range (0, 10);
+
+		InvokeRepeating ("CheckIfTooFar", 0, 1); //start immediate, check every second
+	}
+
+	void CheckIfTooFar()
+	{
+		tooFar++;
+
+		if (tooFar == 3 + randomInterval) {
+			headAtPlayer = true;
+			CancelInvoke();
+		}
 	}
 
 	// Update is called once per frame
@@ -32,6 +51,13 @@ public class EnemyController : MonoBehaviour {
         if (!colliding && !PlayerController.Death)
         {
             Vector3 lookDir = playerTransform.position - thisTransform.position;
+			if (Vector3.Distance(playerTransform.position, thisTransform.position) <= 5f)
+				headAtPlayer = true;
+
+			if (!headAtPlayer)
+			{
+				lookDir.y = 0;
+			}
             lookDir.Normalize();
             //move towards the player
             thisTransform.position += lookDir * moveSpeed * Time.deltaTime;
@@ -51,13 +77,27 @@ public class EnemyController : MonoBehaviour {
             KillEnemy();
     }
 
+	IEnumerator WinWait()
+	{
+		yield return new WaitForSeconds(3);
+		Application.LoadLevel ("StartMenu");
+	}
+
     private void KillEnemy()
     {
         SpecialEffectsHelper.Instance.Explosion(transform.position);
-		//dieSound.Play();
         if (GetComponent<EnemyManager>() != null) { //we are a beehive
             GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().PlayBeehiveDeath();
         }
+
+		if (this.tag == "Boss") {
+			//end the game here....
+			winText.SetActive(true);
+			PlayerController.Death = true;
+			StartCoroutine(WinWait());
+
+		}
+
         Destroy(gameObject);
     }
 

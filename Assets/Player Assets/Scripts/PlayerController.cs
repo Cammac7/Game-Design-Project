@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour {
             }
             else
             {
-                float translateSpeed = 50;
+                float translateSpeed = 90;
                 Vector3 dir = new Vector3(1, 0, 0);
                 Camera.main.transform.Translate(dir * translateSpeed * Time.deltaTime, Space.World);
             }
@@ -312,6 +312,8 @@ public class PlayerController : MonoBehaviour {
         if (health <= 0)
         {
             GameObject.FindGameObjectWithTag("LevelMusic").GetComponent<AudioSource>().Stop();
+            if (walkingSource.isPlaying)
+                walkingSource.Stop();
             ChangeState("Die");
             Death = true;
             //handle death here, possible restart screen
