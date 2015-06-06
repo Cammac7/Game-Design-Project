@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour {
     private bool atLeft = false;
 
     Vector3 initialCameraPosition;
-    bool initialCameraMoved = false;
+	bool initialCameraMoved = false;
 
     // Use this for initialization
     void Start()
@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour {
         animator = this.GetComponent<Animator>();
         directionIsRight = true;
         initialCameraPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, Camera.main.transform.position.z);
-    }
+	}
 
     IEnumerator StallCamera()
     {
@@ -66,6 +66,7 @@ public class PlayerController : MonoBehaviour {
     {
         if (!initialCameraMoved)
         {
+			/*
             if (Camera.main.transform.position.x >= 500f)
             {
                 StartCoroutine(StallCamera());
@@ -76,6 +77,8 @@ public class PlayerController : MonoBehaviour {
                 Vector3 dir = new Vector3(1, 0, 0);
                 Camera.main.transform.Translate(dir * translateSpeed * Time.deltaTime, Space.World);
             }
+            */
+			initialCameraMoved = true;
         }
         else if (!PlayerController.Death)
         {
@@ -114,6 +117,8 @@ public class PlayerController : MonoBehaviour {
 
                 ScalePlayer();
 
+				//Camera.main.transform.position = initialCameraPosition + new Vector3((speedVector.x * Time.deltaTime) + transform.position.x, 0, 0);
+
             }
             else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
             {
@@ -125,6 +130,7 @@ public class PlayerController : MonoBehaviour {
 
                 //flip the sprite if we change direction
                 CheckDirection();
+
             }
             else if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow) ||
                      Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow))
@@ -168,7 +174,8 @@ public class PlayerController : MonoBehaviour {
             }
             damaged = false;
 
-            Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, initialCameraPosition.y, Camera.main.transform.position.z);
+			Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, initialCameraPosition.y, Camera.main.transform.position.z);
+
         }
     }
 
@@ -317,7 +324,6 @@ public class PlayerController : MonoBehaviour {
                 walkingSource.Stop();
             ChangeState("Die");
             Death = true;
-            //handle death here, possible restart screen
         }
     }
 
@@ -406,6 +412,6 @@ public class PlayerController : MonoBehaviour {
 
 	public void PlayDeath()
 	{
-		deathSource.Play ();
+		deathSource.Play();
 	}
 }
