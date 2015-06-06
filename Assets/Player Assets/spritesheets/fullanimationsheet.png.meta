@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 291bd791a83e3f5459210464d0d02ea2
-timeCreated: 1432762324
+timeCreated: 1433600320
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -103,61 +103,59 @@ TextureImporter:
     21300192: upwalkshoot0097
     21300194: upwalkshoot0098
     21300196: upwalkshoot0099
-    21300198: upwalkshoot0100
-    21300200: upwalkshoot0101
-    21300202: upwalkshoot0102
-    21300204: upwalkshoot0103
-    21300206: upwalkshoot0104
-    21300208: upwalkshoot0105
-    21300210: upwalkshoot0106
-    21300212: upwalkshoot0107
-    21300214: upwalkshoot0108
-    21300216: upwalkshoot0109
-    21300218: upwalkshoot0110
-    21300220: upwalkshoot0111
-    21300222: upwalkshoot0112
-    21300224: upwalkshoot0113
-    21300226: upwalkshoot0114
-    21300228: upwalkshoot0115
-    21300230: upwalkshoot0116
-    21300232: upwalkshoot0117
-    21300234: upwalkshoot0118
-    21300236: upwalkshoot0119
-    21300238: upwalkshoot0120
-    21300240: upwalkshoot0121
-    21300242: upwalkshoot0122
-    21300244: upwalkshoot0123
-    21300246: upwalkshoot0124
-    21300248: upwalkshoot0125
-    21300250: upwalkshoot0126
-    21300252: upwalkshoot0127
-    21300254: upwalkshoot0128
-    21300256: upwalkshoot0129
-    21300258: upwalkshoot0130
-    21300260: upwalkshoot0131
-    21300262: upwalkshoot0132
-    21300264: upwalkshoot0133
-    21300266: upwalkshoot0134
-    21300268: upwalkshoot0135
-    21300270: upwalkshoot0136
-    21300272: upwalkshoot0137
-    21300274: upwalkshoot0138
-    21300276: upwalkshoot0139
-    21300278: upwalkshoot0140
-    21300280: upwalkshoot0141
-    21300282: upwalkshoot0142
-    21300284: upwalkshoot0143
-    21300286: upwalkshoot0144
-    21300288: upwalkshoot0145
-    21300290: upwalkshoot0146
-    21300292: upwalkshoot0147
-    21300294: upwalkshoot0148
-    21300296: upwalkshoot0149
-    21300298: upwalkshoot0150
+    21300198: upwalkshoot0101
+    21300200: upwalkshoot0102
+    21300202: upwalkshoot0103
+    21300204: upwalkshoot0104
+    21300206: upwalkshoot0105
+    21300208: upwalkshoot0106
+    21300210: upwalkshoot0107
+    21300212: upwalkshoot0108
+    21300214: upwalkshoot0109
+    21300216: upwalkshoot0110
+    21300218: upwalkshoot0111
+    21300220: upwalkshoot0112
+    21300222: upwalkshoot0113
+    21300224: upwalkshoot0114
+    21300226: upwalkshoot0115
+    21300228: upwalkshoot0116
+    21300230: upwalkshoot0117
+    21300232: upwalkshoot0118
+    21300234: upwalkshoot0119
+    21300236: upwalkshoot0120
+    21300238: upwalkshoot0121
+    21300240: upwalkshoot0122
+    21300242: upwalkshoot0123
+    21300244: upwalkshoot0124
+    21300246: upwalkshoot0126
+    21300248: upwalkshoot0127
+    21300250: upwalkshoot0128
+    21300252: upwalkshoot0129
+    21300254: upwalkshoot0130
+    21300256: upwalkshoot0131
+    21300258: upwalkshoot0132
+    21300260: upwalkshoot0133
+    21300262: upwalkshoot0134
+    21300264: upwalkshoot0135
+    21300266: upwalkshoot0136
+    21300268: upwalkshoot0137
+    21300270: upwalkshoot0138
+    21300272: upwalkshoot0139
+    21300274: upwalkshoot0140
+    21300276: upwalkshoot0141
+    21300278: upwalkshoot0142
+    21300280: upwalkshoot0143
+    21300282: upwalkshoot0144
+    21300284: upwalkshoot0145
+    21300286: upwalkshoot0146
+    21300288: upwalkshoot0147
+    21300290: upwalkshoot0148
+    21300292: upwalkshoot0149
+    21300294: upwalkshoot0150
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -180,7 +178,7 @@ TextureImporter:
   maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: -1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0

@@ -15,9 +15,6 @@ public class End_Shooting_Action : StateMachineBehaviour {
 
 	// OnStateExit is called when a transition ends and the state machine finishes evaluating this state
 	override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-        animator.SetBool("Shoot", false);
-        animator.SetBool("Walk", false);
-        animator.SetBool("Stand", true);
         animator.SetBool("End Shooting", false);
 	}
 

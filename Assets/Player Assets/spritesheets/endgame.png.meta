@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d75f035aa54b042878da5cd91be894be
-timeCreated: 1433549008
+timeCreated: 1433600338
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -12,38 +12,36 @@ TextureImporter:
     21300010: fireworks0006
     21300012: fireworks0007
     21300014: fireworks0008
-    21300016: fireworks0009
-    21300018: fireworks0010
-    21300020: fireworks0011
-    21300022: fireworks0012
-    21300024: fireworks0013
-    21300026: fireworks0014
-    21300028: fireworks0015
-    21300030: fireworks0016
-    21300032: fireworks0017
-    21300034: fireworks0018
-    21300036: fireworks0019
-    21300038: fireworks0020
-    21300040: fireworks0021
-    21300042: fireworks0022
-    21300044: fireworks0023
-    21300046: fireworks0024
-    21300048: fireworks0025
-    21300050: fireworks0026
-    21300052: fireworks0027
-    21300054: fireworks0028
-    21300056: fireworks0029
-    21300058: fireworks0030
-    21300060: fireworks0031
-    21300062: fireworks0032
-    21300064: fireworks0033
-    21300066: fireworks0034
-    21300068: fireworks0035
-    21300070: fireworks0036
-    21300072: fireworks0037
-    21300074: fireworks0038
-    21300076: fireworks0039
-    21300078: fireworks0040
+    21300016: fireworks0010
+    21300018: fireworks0012
+    21300020: fireworks0013
+    21300022: fireworks0014
+    21300024: fireworks0015
+    21300026: fireworks0016
+    21300028: fireworks0017
+    21300030: fireworks0018
+    21300032: fireworks0019
+    21300034: fireworks0020
+    21300036: fireworks0021
+    21300038: fireworks0022
+    21300040: fireworks0023
+    21300042: fireworks0024
+    21300044: fireworks0025
+    21300046: fireworks0026
+    21300048: fireworks0027
+    21300050: fireworks0028
+    21300052: fireworks0029
+    21300054: fireworks0030
+    21300056: fireworks0031
+    21300058: fireworks0032
+    21300060: fireworks0033
+    21300062: fireworks0034
+    21300064: fireworks0035
+    21300066: fireworks0036
+    21300068: fireworks0037
+    21300070: fireworks0038
+    21300072: fireworks0039
+    21300074: fireworks0040
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

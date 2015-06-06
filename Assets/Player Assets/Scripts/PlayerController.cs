@@ -52,6 +52,9 @@ public class PlayerController : MonoBehaviour {
         animator = this.GetComponent<Animator>();
         directionIsRight = true;
         initialCameraPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, Camera.main.transform.position.z);
+        Death = false;
+        if (!GameObject.FindGameObjectWithTag("LevelMusic").GetComponent<AudioSource>().isPlaying)
+            GameObject.FindGameObjectWithTag("LevelMusic").GetComponent<AudioSource>().Play();
 	}
 
     IEnumerator StallCamera()
