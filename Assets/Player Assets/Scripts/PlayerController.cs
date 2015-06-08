@@ -18,9 +18,13 @@ public class PlayerController : MonoBehaviour {
     public AudioSource levelUpSource;
     public AudioSource fireShootSource;
     public AudioSource walkingSource;
+    public AudioSource beehiveDeath;
+	public AudioSource deathSource;
 
 	public Transform smallProjectileFire, mediumProjectileFire, largeProjectileFire, superProjectileFire;
 	public Transform smallProjectileFireball, largeProjectileFireball;
+
+    public Transform WinGame;
 
 	public Image damageImage;
 	public float flashSpeed = 5f;
@@ -41,15 +45,19 @@ public class PlayerController : MonoBehaviour {
     private bool atLeft = false;
 
     Vector3 initialCameraPosition;
-    bool initialCameraMoved = false;
+	bool initialCameraMoved = false;
 
     // Use this for initialization
     void Start()
     {
+        GameObject.FindGameObjectWithTag("Loader").GetComponent<BubbleTurtleData>().Load("deaths.csv");
         animator = this.GetComponent<Animator>();
         directionIsRight = true;
         initialCameraPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, Camera.main.transform.position.z);
-    }
+        Death = false;
+        if (!GameObject.FindGameObjectWithTag("LevelMusic").GetComponent<AudioSource>().isPlaying)
+            GameObject.FindGameObjectWithTag("LevelMusic").GetComponent<AudioSource>().Play();
+	}
 
     IEnumerator StallCamera()
     {
@@ -63,18 +71,21 @@ public class PlayerController : MonoBehaviour {
     {
         if (!initialCameraMoved)
         {
+			/*
             if (Camera.main.transform.position.x >= 500f)
             {
                 StartCoroutine(StallCamera());
             }
             else
             {
-                float translateSpeed = 50;
+                float translateSpeed = 90;
                 Vector3 dir = new Vector3(1, 0, 0);
                 Camera.main.transform.Translate(dir * translateSpeed * Time.deltaTime, Space.World);
             }
+            */
+			initialCameraMoved = true;
         }
-        else
+        else if (!PlayerController.Death)
         {
             var vertical = Input.GetAxis("Vertical");
             var horizontal = Input.GetAxis("Horizontal");
@@ -111,6 +122,8 @@ public class PlayerController : MonoBehaviour {
 
                 ScalePlayer();
 
+				//Camera.main.transform.position = initialCameraPosition + new Vector3((speedVector.x * Time.deltaTime) + transform.position.x, 0, 0);
+
             }
             else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
             {
@@ -122,6 +135,7 @@ public class PlayerController : MonoBehaviour {
 
                 //flip the sprite if we change direction
                 CheckDirection();
+
             }
             else if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow) ||
                      Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow))
@@ -165,7 +179,8 @@ public class PlayerController : MonoBehaviour {
             }
             damaged = false;
 
-            Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, initialCameraPosition.y, Camera.main.transform.position.z);
+			Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, initialCameraPosition.y, Camera.main.transform.position.z);
+
         }
     }
 
@@ -309,9 +324,11 @@ public class PlayerController : MonoBehaviour {
         
         if (health <= 0)
         {
+            GameObject.FindGameObjectWithTag("LevelMusic").GetComponent<AudioSource>().Stop();
+            if (walkingSource.isPlaying)
+                walkingSource.Stop();
             ChangeState("Die");
             Death = true;
-            //handle death here, possible restart screen
         }
     }
 
@@ -390,5 +407,16 @@ public class PlayerController : MonoBehaviour {
 			}
 		}
 
+	}
+
+    public void PlayBeehiveDeath()
+    {
+        if (!beehiveDeath.isPlaying)
+            beehiveDeath.Play();
+    }
+
+	public void PlayDeath()
+	{
+		deathSource.Play();
 	}
 }
