@@ -1,2 +1,2 @@
 # Game-Design-Project
-Bubble Hippo Turtle Adventure
+Bubble Turtle Adventure
