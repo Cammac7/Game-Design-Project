@@ -1,155 +1,423 @@
 fileFormatVersion: 2
 guid: b9282beb0940b456c8b73b2c9fa64c1b
-timeCreated: 1433600331
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: die0001
-    21300002: die0002
-    21300004: die0003
-    21300006: die0004
-    21300008: die0005
-    21300010: die0006
-    21300012: die0007
-    21300014: die0008
-    21300016: die0009
-    21300018: die0010
-    21300020: die0011
-    21300022: die0012
-    21300024: die0013
-    21300026: die0014
-    21300028: die0015
-    21300030: die0016
-    21300032: die0017
-    21300034: die0018
-    21300036: die0019
-    21300038: die0020
-    21300040: die0021
-    21300042: die0022
-    21300044: die0023
-    21300046: die0024
-    21300048: die0025
-    21300050: die0026
-    21300052: die0027
-    21300054: die0028
-    21300056: die0029
-    21300058: die0030
-    21300060: die0031
-    21300062: die0032
-    21300064: die0033
-    21300066: die0034
-    21300068: die0035
-    21300070: die0036
-    21300072: die0037
-    21300074: die0038
-    21300076: die0039
-    21300078: die0040
-    21300080: die0041
-    21300082: die0042
-    21300084: die0043
-    21300086: die0044
-    21300088: die0045
-    21300090: die0046
-    21300092: die0047
-    21300094: die0048
-    21300096: die0049
-    21300098: die0050
-    21300100: die0051
-    21300102: die0052
-    21300104: die0053
-    21300106: die0054
-    21300108: die0055
-    21300110: die0056
-    21300112: die0057
-    21300114: die0058
-    21300116: die0059
-    21300118: die0060
-    21300120: die0061
-    21300122: die0062
-    21300124: die0063
-    21300126: die0064
-    21300128: die0065
-    21300130: die0066
-    21300132: die0067
-    21300134: die0068
-    21300136: die0069
-    21300138: die0070
-    21300140: die0071
-    21300142: die0072
-    21300144: die0073
-    21300146: die0074
-    21300148: die0075
-    21300150: die0076
-    21300152: die0077
-    21300154: die0078
-    21300156: die0079
-    21300158: die0080
-    21300160: die0081
-    21300162: die0082
-    21300164: die0083
-    21300166: die0084
-    21300168: die0085
-    21300170: die0086
-    21300172: die0087
-    21300174: die0088
-    21300176: die0089
-    21300178: die0090
-    21300180: die0091
-    21300182: die0092
-    21300184: die0093
-    21300186: die0094
-    21300188: die0095
-    21300190: die0096
-    21300192: die0097
-    21300194: die0098
-    21300196: die0099
-    21300198: die0100
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: die0001
+  - first:
+      213: 21300002
+    second: die0002
+  - first:
+      213: 21300004
+    second: die0003
+  - first:
+      213: 21300006
+    second: die0004
+  - first:
+      213: 21300008
+    second: die0005
+  - first:
+      213: 21300010
+    second: die0006
+  - first:
+      213: 21300012
+    second: die0007
+  - first:
+      213: 21300014
+    second: die0008
+  - first:
+      213: 21300016
+    second: die0009
+  - first:
+      213: 21300018
+    second: die0010
+  - first:
+      213: 21300020
+    second: die0011
+  - first:
+      213: 21300022
+    second: die0012
+  - first:
+      213: 21300024
+    second: die0013
+  - first:
+      213: 21300026
+    second: die0014
+  - first:
+      213: 21300028
+    second: die0015
+  - first:
+      213: 21300030
+    second: die0016
+  - first:
+      213: 21300032
+    second: die0017
+  - first:
+      213: 21300034
+    second: die0018
+  - first:
+      213: 21300036
+    second: die0019
+  - first:
+      213: 21300038
+    second: die0020
+  - first:
+      213: 21300040
+    second: die0021
+  - first:
+      213: 21300042
+    second: die0022
+  - first:
+      213: 21300044
+    second: die0023
+  - first:
+      213: 21300046
+    second: die0024
+  - first:
+      213: 21300048
+    second: die0025
+  - first:
+      213: 21300050
+    second: die0026
+  - first:
+      213: 21300052
+    second: die0027
+  - first:
+      213: 21300054
+    second: die0028
+  - first:
+      213: 21300056
+    second: die0029
+  - first:
+      213: 21300058
+    second: die0030
+  - first:
+      213: 21300060
+    second: die0031
+  - first:
+      213: 21300062
+    second: die0032
+  - first:
+      213: 21300064
+    second: die0033
+  - first:
+      213: 21300066
+    second: die0034
+  - first:
+      213: 21300068
+    second: die0035
+  - first:
+      213: 21300070
+    second: die0036
+  - first:
+      213: 21300072
+    second: die0037
+  - first:
+      213: 21300074
+    second: die0038
+  - first:
+      213: 21300076
+    second: die0039
+  - first:
+      213: 21300078
+    second: die0040
+  - first:
+      213: 21300080
+    second: die0041
+  - first:
+      213: 21300082
+    second: die0042
+  - first:
+      213: 21300084
+    second: die0043
+  - first:
+      213: 21300086
+    second: die0044
+  - first:
+      213: 21300088
+    second: die0045
+  - first:
+      213: 21300090
+    second: die0046
+  - first:
+      213: 21300092
+    second: die0047
+  - first:
+      213: 21300094
+    second: die0048
+  - first:
+      213: 21300096
+    second: die0049
+  - first:
+      213: 21300098
+    second: die0050
+  - first:
+      213: 21300100
+    second: die0051
+  - first:
+      213: 21300102
+    second: die0052
+  - first:
+      213: 21300104
+    second: die0053
+  - first:
+      213: 21300106
+    second: die0054
+  - first:
+      213: 21300108
+    second: die0055
+  - first:
+      213: 21300110
+    second: die0056
+  - first:
+      213: 21300112
+    second: die0057
+  - first:
+      213: 21300114
+    second: die0058
+  - first:
+      213: 21300116
+    second: die0059
+  - first:
+      213: 21300118
+    second: die0060
+  - first:
+      213: 21300120
+    second: die0061
+  - first:
+      213: 21300122
+    second: die0062
+  - first:
+      213: 21300124
+    second: die0063
+  - first:
+      213: 21300126
+    second: die0064
+  - first:
+      213: 21300128
+    second: die0065
+  - first:
+      213: 21300130
+    second: die0066
+  - first:
+      213: 21300132
+    second: die0067
+  - first:
+      213: 21300134
+    second: die0068
+  - first:
+      213: 21300136
+    second: die0069
+  - first:
+      213: 21300138
+    second: die0070
+  - first:
+      213: 21300140
+    second: die0071
+  - first:
+      213: 21300142
+    second: die0072
+  - first:
+      213: 21300144
+    second: die0073
+  - first:
+      213: 21300146
+    second: die0074
+  - first:
+      213: 21300148
+    second: die0075
+  - first:
+      213: 21300150
+    second: die0076
+  - first:
+      213: 21300152
+    second: die0077
+  - first:
+      213: 21300154
+    second: die0078
+  - first:
+      213: 21300156
+    second: die0079
+  - first:
+      213: 21300158
+    second: die0080
+  - first:
+      213: 21300160
+    second: die0081
+  - first:
+      213: 21300162
+    second: die0082
+  - first:
+      213: 21300164
+    second: die0083
+  - first:
+      213: 21300166
+    second: die0084
+  - first:
+      213: 21300168
+    second: die0085
+  - first:
+      213: 21300170
+    second: die0086
+  - first:
+      213: 21300172
+    second: die0087
+  - first:
+      213: 21300174
+    second: die0088
+  - first:
+      213: 21300176
+    second: die0089
+  - first:
+      213: 21300178
+    second: die0090
+  - first:
+      213: 21300180
+    second: die0091
+  - first:
+      213: 21300182
+    second: die0092
+  - first:
+      213: 21300184
+    second: die0093
+  - first:
+      213: 21300186
+    second: die0094
+  - first:
+      213: 21300188
+    second: die0095
+  - first:
+      213: 21300190
+    second: die0096
+  - first:
+      213: 21300192
+    second: die0097
+  - first:
+      213: 21300194
+    second: die0098
+  - first:
+      213: 21300196
+    second: die0099
+  - first:
+      213: 21300198
+    second: die0100
+  externalObjects: {}
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 4096
   textureSettings:
-    filterMode: -1
-    aniso: -1
-    mipBias: -1
-    wrapMode: 1
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: die0001
+    - serializedVersion: 2
+      name: die0001
       rect:
         serializedVersion: 2
         x: 2
@@ -157,9 +425,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0002
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0002
       rect:
         serializedVersion: 2
         x: 2
@@ -167,9 +446,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0003
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0003
       rect:
         serializedVersion: 2
         x: 2
@@ -177,9 +467,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0004
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0004
       rect:
         serializedVersion: 2
         x: 2
@@ -187,9 +488,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0005
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0005
       rect:
         serializedVersion: 2
         x: 2
@@ -197,9 +509,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0006
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0006
       rect:
         serializedVersion: 2
         x: 2
@@ -207,9 +530,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0007
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0007
       rect:
         serializedVersion: 2
         x: 2
@@ -217,9 +551,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0008
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0008
       rect:
         serializedVersion: 2
         x: 2
@@ -227,9 +572,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0009
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0009
       rect:
         serializedVersion: 2
         x: 2
@@ -237,9 +593,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0010
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0010
       rect:
         serializedVersion: 2
         x: 2
@@ -247,9 +614,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0011
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0011
       rect:
         serializedVersion: 2
         x: 450
@@ -257,9 +635,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0012
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0012
       rect:
         serializedVersion: 2
         x: 450
@@ -267,9 +656,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0013
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0013
       rect:
         serializedVersion: 2
         x: 450
@@ -277,9 +677,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0014
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0014
       rect:
         serializedVersion: 2
         x: 450
@@ -287,9 +698,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0015
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0015
       rect:
         serializedVersion: 2
         x: 450
@@ -297,9 +719,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0016
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0016
       rect:
         serializedVersion: 2
         x: 450
@@ -307,9 +740,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0017
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0017
       rect:
         serializedVersion: 2
         x: 450
@@ -317,9 +761,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0018
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0018
       rect:
         serializedVersion: 2
         x: 450
@@ -327,9 +782,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0019
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0019
       rect:
         serializedVersion: 2
         x: 450
@@ -337,9 +803,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0020
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0020
       rect:
         serializedVersion: 2
         x: 450
@@ -347,9 +824,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0021
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0021
       rect:
         serializedVersion: 2
         x: 2
@@ -357,9 +845,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0022
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0022
       rect:
         serializedVersion: 2
         x: 2
@@ -367,9 +866,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0023
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0023
       rect:
         serializedVersion: 2
         x: 2
@@ -377,9 +887,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0024
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0024
       rect:
         serializedVersion: 2
         x: 2
@@ -387,9 +908,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0025
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0025
       rect:
         serializedVersion: 2
         x: 2
@@ -397,9 +929,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0026
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0026
       rect:
         serializedVersion: 2
         x: 2
@@ -407,9 +950,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0027
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0027
       rect:
         serializedVersion: 2
         x: 2
@@ -417,9 +971,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0028
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0028
       rect:
         serializedVersion: 2
         x: 2
@@ -427,9 +992,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0029
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0029
       rect:
         serializedVersion: 2
         x: 2
@@ -437,9 +1013,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0030
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0030
       rect:
         serializedVersion: 2
         x: 2
@@ -447,9 +1034,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0031
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0031
       rect:
         serializedVersion: 2
         x: 450
@@ -457,9 +1055,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0032
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0032
       rect:
         serializedVersion: 2
         x: 450
@@ -467,9 +1076,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0033
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0033
       rect:
         serializedVersion: 2
         x: 450
@@ -477,9 +1097,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0034
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0034
       rect:
         serializedVersion: 2
         x: 450
@@ -487,9 +1118,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0035
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0035
       rect:
         serializedVersion: 2
         x: 450
@@ -497,9 +1139,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0036
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0036
       rect:
         serializedVersion: 2
         x: 2
@@ -507,9 +1160,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0037
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0037
       rect:
         serializedVersion: 2
         x: 2
@@ -517,9 +1181,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0038
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0038
       rect:
         serializedVersion: 2
         x: 450
@@ -527,9 +1202,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0039
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0039
       rect:
         serializedVersion: 2
         x: 450
@@ -537,9 +1223,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0040
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0040
       rect:
         serializedVersion: 2
         x: 2
@@ -547,9 +1244,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0041
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0041
       rect:
         serializedVersion: 2
         x: 450
@@ -557,9 +1265,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0042
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0042
       rect:
         serializedVersion: 2
         x: 2
@@ -567,9 +1286,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0043
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0043
       rect:
         serializedVersion: 2
         x: 450
@@ -577,9 +1307,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0044
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0044
       rect:
         serializedVersion: 2
         x: 2
@@ -587,9 +1328,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0045
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0045
       rect:
         serializedVersion: 2
         x: 450
@@ -597,9 +1349,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0046
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0046
       rect:
         serializedVersion: 2
         x: 2
@@ -607,9 +1370,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0047
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0047
       rect:
         serializedVersion: 2
         x: 2
@@ -617,9 +1391,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0048
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0048
       rect:
         serializedVersion: 2
         x: 450
@@ -627,9 +1412,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0049
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0049
       rect:
         serializedVersion: 2
         x: 2
@@ -637,9 +1433,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0050
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0050
       rect:
         serializedVersion: 2
         x: 2
@@ -647,9 +1454,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0051
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0051
       rect:
         serializedVersion: 2
         x: 898
@@ -657,9 +1475,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0052
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0052
       rect:
         serializedVersion: 2
         x: 1346
@@ -667,9 +1496,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0053
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0053
       rect:
         serializedVersion: 2
         x: 1794
@@ -677,9 +1517,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0054
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0054
       rect:
         serializedVersion: 2
         x: 2242
@@ -687,9 +1538,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0055
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0055
       rect:
         serializedVersion: 2
         x: 2690
@@ -697,9 +1559,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0056
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0056
       rect:
         serializedVersion: 2
         x: 3138
@@ -707,9 +1580,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0057
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0057
       rect:
         serializedVersion: 2
         x: 2
@@ -717,9 +1601,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0058
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0058
       rect:
         serializedVersion: 2
         x: 450
@@ -727,9 +1622,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0059
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0059
       rect:
         serializedVersion: 2
         x: 898
@@ -737,9 +1643,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0060
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0060
       rect:
         serializedVersion: 2
         x: 1346
@@ -747,9 +1664,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0061
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0061
       rect:
         serializedVersion: 2
         x: 1794
@@ -757,9 +1685,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0062
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0062
       rect:
         serializedVersion: 2
         x: 2242
@@ -767,9 +1706,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0063
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0063
       rect:
         serializedVersion: 2
         x: 2690
@@ -777,9 +1727,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0064
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0064
       rect:
         serializedVersion: 2
         x: 3138
@@ -787,9 +1748,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0065
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0065
       rect:
         serializedVersion: 2
         x: 2
@@ -797,9 +1769,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0066
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a305410000000000800000000000000
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0066
       rect:
         serializedVersion: 2
         x: 450
@@ -807,9 +1790,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0067
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0067
       rect:
         serializedVersion: 2
         x: 898
@@ -817,9 +1811,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0068
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a305410000000000800000000000000
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0068
       rect:
         serializedVersion: 2
         x: 1346
@@ -827,9 +1832,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0069
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0069
       rect:
         serializedVersion: 2
         x: 1794
@@ -837,9 +1853,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0070
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0070
       rect:
         serializedVersion: 2
         x: 2242
@@ -847,9 +1874,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0071
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0071
       rect:
         serializedVersion: 2
         x: 2690
@@ -857,9 +1895,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0072
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0072
       rect:
         serializedVersion: 2
         x: 3138
@@ -867,9 +1916,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0073
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0073
       rect:
         serializedVersion: 2
         x: 2
@@ -877,9 +1937,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0074
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0074
       rect:
         serializedVersion: 2
         x: 450
@@ -887,9 +1958,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0075
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0075
       rect:
         serializedVersion: 2
         x: 898
@@ -897,9 +1979,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0076
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0076
       rect:
         serializedVersion: 2
         x: 1346
@@ -907,9 +2000,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0077
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0077
       rect:
         serializedVersion: 2
         x: 1794
@@ -917,9 +2021,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0078
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0078
       rect:
         serializedVersion: 2
         x: 1794
@@ -927,9 +2042,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0079
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0079
       rect:
         serializedVersion: 2
         x: 1794
@@ -937,9 +2063,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0080
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0080
       rect:
         serializedVersion: 2
         x: 1794
@@ -947,9 +2084,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0081
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0081
       rect:
         serializedVersion: 2
         x: 1794
@@ -957,9 +2105,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0082
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0082
       rect:
         serializedVersion: 2
         x: 2242
@@ -967,9 +2126,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0083
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0083
       rect:
         serializedVersion: 2
         x: 2690
@@ -977,9 +2147,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0084
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0084
       rect:
         serializedVersion: 2
         x: 3138
@@ -987,9 +2168,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0085
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0085
       rect:
         serializedVersion: 2
         x: 2
@@ -997,9 +2189,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0086
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0086
       rect:
         serializedVersion: 2
         x: 450
@@ -1007,9 +2210,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0087
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac305410000000000800000000000000
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0087
       rect:
         serializedVersion: 2
         x: 898
@@ -1017,9 +2231,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0088
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0088
       rect:
         serializedVersion: 2
         x: 1346
@@ -1027,9 +2252,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0089
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0089
       rect:
         serializedVersion: 2
         x: 1794
@@ -1037,9 +2273,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0090
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0090
       rect:
         serializedVersion: 2
         x: 2242
@@ -1047,9 +2294,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0091
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0091
       rect:
         serializedVersion: 2
         x: 2690
@@ -1057,9 +2315,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0092
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0092
       rect:
         serializedVersion: 2
         x: 3138
@@ -1067,9 +2336,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0093
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0093
       rect:
         serializedVersion: 2
         x: 2
@@ -1077,9 +2357,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0094
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0094
       rect:
         serializedVersion: 2
         x: 450
@@ -1087,9 +2378,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0095
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad305410000000000800000000000000
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0095
       rect:
         serializedVersion: 2
         x: 898
@@ -1097,9 +2399,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0096
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0096
       rect:
         serializedVersion: 2
         x: 1346
@@ -1107,9 +2420,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0097
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0097
       rect:
         serializedVersion: 2
         x: 1794
@@ -1117,9 +2441,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0098
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e305410000000000800000000000000
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0098
       rect:
         serializedVersion: 2
         x: 2242
@@ -1127,9 +2462,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0099
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0099
       rect:
         serializedVersion: 2
         x: 2690
@@ -1137,9 +2483,20 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: die0100
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e305410000000000800000000000000
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die0100
       rect:
         serializedVersion: 2
         x: 3138
@@ -1147,9 +2504,132 @@ TextureImporter:
         width: 446
         height: 368
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e305410000000000800000000000000
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      die0001: 21300000
+      die0002: 21300002
+      die0003: 21300004
+      die0004: 21300006
+      die0005: 21300008
+      die0006: 21300010
+      die0007: 21300012
+      die0008: 21300014
+      die0009: 21300016
+      die0010: 21300018
+      die0011: 21300020
+      die0012: 21300022
+      die0013: 21300024
+      die0014: 21300026
+      die0015: 21300028
+      die0016: 21300030
+      die0017: 21300032
+      die0018: 21300034
+      die0019: 21300036
+      die0020: 21300038
+      die0021: 21300040
+      die0022: 21300042
+      die0023: 21300044
+      die0024: 21300046
+      die0025: 21300048
+      die0026: 21300050
+      die0027: 21300052
+      die0028: 21300054
+      die0029: 21300056
+      die0030: 21300058
+      die0031: 21300060
+      die0032: 21300062
+      die0033: 21300064
+      die0034: 21300066
+      die0035: 21300068
+      die0036: 21300070
+      die0037: 21300072
+      die0038: 21300074
+      die0039: 21300076
+      die0040: 21300078
+      die0041: 21300080
+      die0042: 21300082
+      die0043: 21300084
+      die0044: 21300086
+      die0045: 21300088
+      die0046: 21300090
+      die0047: 21300092
+      die0048: 21300094
+      die0049: 21300096
+      die0050: 21300098
+      die0051: 21300100
+      die0052: 21300102
+      die0053: 21300104
+      die0054: 21300106
+      die0055: 21300108
+      die0056: 21300110
+      die0057: 21300112
+      die0058: 21300114
+      die0059: 21300116
+      die0060: 21300118
+      die0061: 21300120
+      die0062: 21300122
+      die0063: 21300124
+      die0064: 21300126
+      die0065: 21300128
+      die0066: 21300130
+      die0067: 21300132
+      die0068: 21300134
+      die0069: 21300136
+      die0070: 21300138
+      die0071: 21300140
+      die0072: 21300142
+      die0073: 21300144
+      die0074: 21300146
+      die0075: 21300148
+      die0076: 21300150
+      die0077: 21300152
+      die0078: 21300154
+      die0079: 21300156
+      die0080: 21300158
+      die0081: 21300160
+      die0082: 21300162
+      die0083: 21300164
+      die0084: 21300166
+      die0085: 21300168
+      die0086: 21300170
+      die0087: 21300172
+      die0088: 21300174
+      die0089: 21300176
+      die0090: 21300178
+      die0091: 21300180
+      die0092: 21300182
+      die0093: 21300184
+      die0094: 21300186
+      die0095: 21300188
+      die0096: 21300190
+      die0097: 21300192
+      die0098: 21300194
+      die0099: 21300196
+      die0100: 21300198
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

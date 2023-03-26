@@ -1,203 +1,567 @@
 fileFormatVersion: 2
 guid: 291bd791a83e3f5459210464d0d02ea2
-timeCreated: 1433600320
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: upwalkshoot0001
-    21300002: upwalkshoot0002
-    21300004: upwalkshoot0003
-    21300006: upwalkshoot0004
-    21300008: upwalkshoot0005
-    21300010: upwalkshoot0006
-    21300012: upwalkshoot0007
-    21300014: upwalkshoot0008
-    21300016: upwalkshoot0009
-    21300018: upwalkshoot0010
-    21300020: upwalkshoot0011
-    21300022: upwalkshoot0012
-    21300024: upwalkshoot0013
-    21300026: upwalkshoot0014
-    21300028: upwalkshoot0015
-    21300030: upwalkshoot0016
-    21300032: upwalkshoot0017
-    21300034: upwalkshoot0018
-    21300036: upwalkshoot0019
-    21300038: upwalkshoot0020
-    21300040: upwalkshoot0021
-    21300042: upwalkshoot0022
-    21300044: upwalkshoot0023
-    21300046: upwalkshoot0024
-    21300048: upwalkshoot0025
-    21300050: upwalkshoot0026
-    21300052: upwalkshoot0027
-    21300054: upwalkshoot0028
-    21300056: upwalkshoot0029
-    21300058: upwalkshoot0030
-    21300060: upwalkshoot0031
-    21300062: upwalkshoot0032
-    21300064: upwalkshoot0033
-    21300066: upwalkshoot0034
-    21300068: upwalkshoot0035
-    21300070: upwalkshoot0036
-    21300072: upwalkshoot0037
-    21300074: upwalkshoot0038
-    21300076: upwalkshoot0039
-    21300078: upwalkshoot0040
-    21300080: upwalkshoot0041
-    21300082: upwalkshoot0042
-    21300084: upwalkshoot0043
-    21300086: upwalkshoot0044
-    21300088: upwalkshoot0045
-    21300090: upwalkshoot0046
-    21300092: upwalkshoot0047
-    21300094: upwalkshoot0048
-    21300096: upwalkshoot0049
-    21300098: upwalkshoot0050
-    21300100: upwalkshoot0051
-    21300102: upwalkshoot0052
-    21300104: upwalkshoot0053
-    21300106: upwalkshoot0054
-    21300108: upwalkshoot0055
-    21300110: upwalkshoot0056
-    21300112: upwalkshoot0057
-    21300114: upwalkshoot0058
-    21300116: upwalkshoot0059
-    21300118: upwalkshoot0060
-    21300120: upwalkshoot0061
-    21300122: upwalkshoot0062
-    21300124: upwalkshoot0063
-    21300126: upwalkshoot0064
-    21300128: upwalkshoot0065
-    21300130: upwalkshoot0066
-    21300132: upwalkshoot0067
-    21300134: upwalkshoot0068
-    21300136: upwalkshoot0069
-    21300138: upwalkshoot0070
-    21300140: upwalkshoot0071
-    21300142: upwalkshoot0072
-    21300144: upwalkshoot0073
-    21300146: upwalkshoot0074
-    21300148: upwalkshoot0075
-    21300150: upwalkshoot0076
-    21300152: upwalkshoot0077
-    21300154: upwalkshoot0078
-    21300156: upwalkshoot0079
-    21300158: upwalkshoot0080
-    21300160: upwalkshoot0081
-    21300162: upwalkshoot0082
-    21300164: upwalkshoot0083
-    21300166: upwalkshoot0084
-    21300168: upwalkshoot0085
-    21300170: upwalkshoot0086
-    21300172: upwalkshoot0087
-    21300174: upwalkshoot0088
-    21300176: upwalkshoot0089
-    21300178: upwalkshoot0090
-    21300180: upwalkshoot0091
-    21300182: upwalkshoot0092
-    21300184: upwalkshoot0093
-    21300186: upwalkshoot0094
-    21300188: upwalkshoot0095
-    21300190: upwalkshoot0096
-    21300192: upwalkshoot0097
-    21300194: upwalkshoot0098
-    21300196: upwalkshoot0099
-    21300198: upwalkshoot0101
-    21300200: upwalkshoot0102
-    21300202: upwalkshoot0103
-    21300204: upwalkshoot0104
-    21300206: upwalkshoot0105
-    21300208: upwalkshoot0106
-    21300210: upwalkshoot0107
-    21300212: upwalkshoot0108
-    21300214: upwalkshoot0109
-    21300216: upwalkshoot0110
-    21300218: upwalkshoot0111
-    21300220: upwalkshoot0112
-    21300222: upwalkshoot0113
-    21300224: upwalkshoot0114
-    21300226: upwalkshoot0115
-    21300228: upwalkshoot0116
-    21300230: upwalkshoot0117
-    21300232: upwalkshoot0118
-    21300234: upwalkshoot0119
-    21300236: upwalkshoot0120
-    21300238: upwalkshoot0121
-    21300240: upwalkshoot0122
-    21300242: upwalkshoot0123
-    21300244: upwalkshoot0124
-    21300246: upwalkshoot0126
-    21300248: upwalkshoot0127
-    21300250: upwalkshoot0128
-    21300252: upwalkshoot0129
-    21300254: upwalkshoot0130
-    21300256: upwalkshoot0131
-    21300258: upwalkshoot0132
-    21300260: upwalkshoot0133
-    21300262: upwalkshoot0134
-    21300264: upwalkshoot0135
-    21300266: upwalkshoot0136
-    21300268: upwalkshoot0137
-    21300270: upwalkshoot0138
-    21300272: upwalkshoot0139
-    21300274: upwalkshoot0140
-    21300276: upwalkshoot0141
-    21300278: upwalkshoot0142
-    21300280: upwalkshoot0143
-    21300282: upwalkshoot0144
-    21300284: upwalkshoot0145
-    21300286: upwalkshoot0146
-    21300288: upwalkshoot0147
-    21300290: upwalkshoot0148
-    21300292: upwalkshoot0149
-    21300294: upwalkshoot0150
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: upwalkshoot0001
+  - first:
+      213: 21300002
+    second: upwalkshoot0002
+  - first:
+      213: 21300004
+    second: upwalkshoot0003
+  - first:
+      213: 21300006
+    second: upwalkshoot0004
+  - first:
+      213: 21300008
+    second: upwalkshoot0005
+  - first:
+      213: 21300010
+    second: upwalkshoot0006
+  - first:
+      213: 21300012
+    second: upwalkshoot0007
+  - first:
+      213: 21300014
+    second: upwalkshoot0008
+  - first:
+      213: 21300016
+    second: upwalkshoot0009
+  - first:
+      213: 21300018
+    second: upwalkshoot0010
+  - first:
+      213: 21300020
+    second: upwalkshoot0011
+  - first:
+      213: 21300022
+    second: upwalkshoot0012
+  - first:
+      213: 21300024
+    second: upwalkshoot0013
+  - first:
+      213: 21300026
+    second: upwalkshoot0014
+  - first:
+      213: 21300028
+    second: upwalkshoot0015
+  - first:
+      213: 21300030
+    second: upwalkshoot0016
+  - first:
+      213: 21300032
+    second: upwalkshoot0017
+  - first:
+      213: 21300034
+    second: upwalkshoot0018
+  - first:
+      213: 21300036
+    second: upwalkshoot0019
+  - first:
+      213: 21300038
+    second: upwalkshoot0020
+  - first:
+      213: 21300040
+    second: upwalkshoot0021
+  - first:
+      213: 21300042
+    second: upwalkshoot0022
+  - first:
+      213: 21300044
+    second: upwalkshoot0023
+  - first:
+      213: 21300046
+    second: upwalkshoot0024
+  - first:
+      213: 21300048
+    second: upwalkshoot0025
+  - first:
+      213: 21300050
+    second: upwalkshoot0026
+  - first:
+      213: 21300052
+    second: upwalkshoot0027
+  - first:
+      213: 21300054
+    second: upwalkshoot0028
+  - first:
+      213: 21300056
+    second: upwalkshoot0029
+  - first:
+      213: 21300058
+    second: upwalkshoot0030
+  - first:
+      213: 21300060
+    second: upwalkshoot0031
+  - first:
+      213: 21300062
+    second: upwalkshoot0032
+  - first:
+      213: 21300064
+    second: upwalkshoot0033
+  - first:
+      213: 21300066
+    second: upwalkshoot0034
+  - first:
+      213: 21300068
+    second: upwalkshoot0035
+  - first:
+      213: 21300070
+    second: upwalkshoot0036
+  - first:
+      213: 21300072
+    second: upwalkshoot0037
+  - first:
+      213: 21300074
+    second: upwalkshoot0038
+  - first:
+      213: 21300076
+    second: upwalkshoot0039
+  - first:
+      213: 21300078
+    second: upwalkshoot0040
+  - first:
+      213: 21300080
+    second: upwalkshoot0041
+  - first:
+      213: 21300082
+    second: upwalkshoot0042
+  - first:
+      213: 21300084
+    second: upwalkshoot0043
+  - first:
+      213: 21300086
+    second: upwalkshoot0044
+  - first:
+      213: 21300088
+    second: upwalkshoot0045
+  - first:
+      213: 21300090
+    second: upwalkshoot0046
+  - first:
+      213: 21300092
+    second: upwalkshoot0047
+  - first:
+      213: 21300094
+    second: upwalkshoot0048
+  - first:
+      213: 21300096
+    second: upwalkshoot0049
+  - first:
+      213: 21300098
+    second: upwalkshoot0050
+  - first:
+      213: 21300100
+    second: upwalkshoot0051
+  - first:
+      213: 21300102
+    second: upwalkshoot0052
+  - first:
+      213: 21300104
+    second: upwalkshoot0053
+  - first:
+      213: 21300106
+    second: upwalkshoot0054
+  - first:
+      213: 21300108
+    second: upwalkshoot0055
+  - first:
+      213: 21300110
+    second: upwalkshoot0056
+  - first:
+      213: 21300112
+    second: upwalkshoot0057
+  - first:
+      213: 21300114
+    second: upwalkshoot0058
+  - first:
+      213: 21300116
+    second: upwalkshoot0059
+  - first:
+      213: 21300118
+    second: upwalkshoot0060
+  - first:
+      213: 21300120
+    second: upwalkshoot0061
+  - first:
+      213: 21300122
+    second: upwalkshoot0062
+  - first:
+      213: 21300124
+    second: upwalkshoot0063
+  - first:
+      213: 21300126
+    second: upwalkshoot0064
+  - first:
+      213: 21300128
+    second: upwalkshoot0065
+  - first:
+      213: 21300130
+    second: upwalkshoot0066
+  - first:
+      213: 21300132
+    second: upwalkshoot0067
+  - first:
+      213: 21300134
+    second: upwalkshoot0068
+  - first:
+      213: 21300136
+    second: upwalkshoot0069
+  - first:
+      213: 21300138
+    second: upwalkshoot0070
+  - first:
+      213: 21300140
+    second: upwalkshoot0071
+  - first:
+      213: 21300142
+    second: upwalkshoot0072
+  - first:
+      213: 21300144
+    second: upwalkshoot0073
+  - first:
+      213: 21300146
+    second: upwalkshoot0074
+  - first:
+      213: 21300148
+    second: upwalkshoot0075
+  - first:
+      213: 21300150
+    second: upwalkshoot0076
+  - first:
+      213: 21300152
+    second: upwalkshoot0077
+  - first:
+      213: 21300154
+    second: upwalkshoot0078
+  - first:
+      213: 21300156
+    second: upwalkshoot0079
+  - first:
+      213: 21300158
+    second: upwalkshoot0080
+  - first:
+      213: 21300160
+    second: upwalkshoot0081
+  - first:
+      213: 21300162
+    second: upwalkshoot0082
+  - first:
+      213: 21300164
+    second: upwalkshoot0083
+  - first:
+      213: 21300166
+    second: upwalkshoot0084
+  - first:
+      213: 21300168
+    second: upwalkshoot0085
+  - first:
+      213: 21300170
+    second: upwalkshoot0086
+  - first:
+      213: 21300172
+    second: upwalkshoot0087
+  - first:
+      213: 21300174
+    second: upwalkshoot0088
+  - first:
+      213: 21300176
+    second: upwalkshoot0089
+  - first:
+      213: 21300178
+    second: upwalkshoot0090
+  - first:
+      213: 21300180
+    second: upwalkshoot0091
+  - first:
+      213: 21300182
+    second: upwalkshoot0092
+  - first:
+      213: 21300184
+    second: upwalkshoot0093
+  - first:
+      213: 21300186
+    second: upwalkshoot0094
+  - first:
+      213: 21300188
+    second: upwalkshoot0095
+  - first:
+      213: 21300190
+    second: upwalkshoot0096
+  - first:
+      213: 21300192
+    second: upwalkshoot0097
+  - first:
+      213: 21300194
+    second: upwalkshoot0098
+  - first:
+      213: 21300196
+    second: upwalkshoot0099
+  - first:
+      213: 21300198
+    second: upwalkshoot0101
+  - first:
+      213: 21300200
+    second: upwalkshoot0102
+  - first:
+      213: 21300202
+    second: upwalkshoot0103
+  - first:
+      213: 21300204
+    second: upwalkshoot0104
+  - first:
+      213: 21300206
+    second: upwalkshoot0105
+  - first:
+      213: 21300208
+    second: upwalkshoot0106
+  - first:
+      213: 21300210
+    second: upwalkshoot0107
+  - first:
+      213: 21300212
+    second: upwalkshoot0108
+  - first:
+      213: 21300214
+    second: upwalkshoot0109
+  - first:
+      213: 21300216
+    second: upwalkshoot0110
+  - first:
+      213: 21300218
+    second: upwalkshoot0111
+  - first:
+      213: 21300220
+    second: upwalkshoot0112
+  - first:
+      213: 21300222
+    second: upwalkshoot0113
+  - first:
+      213: 21300224
+    second: upwalkshoot0114
+  - first:
+      213: 21300226
+    second: upwalkshoot0115
+  - first:
+      213: 21300228
+    second: upwalkshoot0116
+  - first:
+      213: 21300230
+    second: upwalkshoot0117
+  - first:
+      213: 21300232
+    second: upwalkshoot0118
+  - first:
+      213: 21300234
+    second: upwalkshoot0119
+  - first:
+      213: 21300236
+    second: upwalkshoot0120
+  - first:
+      213: 21300238
+    second: upwalkshoot0121
+  - first:
+      213: 21300240
+    second: upwalkshoot0122
+  - first:
+      213: 21300242
+    second: upwalkshoot0123
+  - first:
+      213: 21300244
+    second: upwalkshoot0124
+  - first:
+      213: 21300246
+    second: upwalkshoot0126
+  - first:
+      213: 21300248
+    second: upwalkshoot0127
+  - first:
+      213: 21300250
+    second: upwalkshoot0128
+  - first:
+      213: 21300252
+    second: upwalkshoot0129
+  - first:
+      213: 21300254
+    second: upwalkshoot0130
+  - first:
+      213: 21300256
+    second: upwalkshoot0131
+  - first:
+      213: 21300258
+    second: upwalkshoot0132
+  - first:
+      213: 21300260
+    second: upwalkshoot0133
+  - first:
+      213: 21300262
+    second: upwalkshoot0134
+  - first:
+      213: 21300264
+    second: upwalkshoot0135
+  - first:
+      213: 21300266
+    second: upwalkshoot0136
+  - first:
+      213: 21300268
+    second: upwalkshoot0137
+  - first:
+      213: 21300270
+    second: upwalkshoot0138
+  - first:
+      213: 21300272
+    second: upwalkshoot0139
+  - first:
+      213: 21300274
+    second: upwalkshoot0140
+  - first:
+      213: 21300276
+    second: upwalkshoot0141
+  - first:
+      213: 21300278
+    second: upwalkshoot0142
+  - first:
+      213: 21300280
+    second: upwalkshoot0143
+  - first:
+      213: 21300282
+    second: upwalkshoot0144
+  - first:
+      213: 21300284
+    second: upwalkshoot0145
+  - first:
+      213: 21300286
+    second: upwalkshoot0146
+  - first:
+      213: 21300288
+    second: upwalkshoot0147
+  - first:
+      213: 21300290
+    second: upwalkshoot0148
+  - first:
+      213: 21300292
+    second: upwalkshoot0149
+  - first:
+      213: 21300294
+    second: upwalkshoot0150
+  externalObjects: {}
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 4096
   textureSettings:
-    filterMode: -1
-    aniso: -1
-    mipBias: -1
-    wrapMode: 1
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: upwalkshoot0001
+    - serializedVersion: 2
+      name: upwalkshoot0001
       rect:
         serializedVersion: 2
         x: 2
@@ -205,9 +569,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .519230783, y: .534313738}
+      pivot: {x: 0.5192308, y: 0.53431374}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0002
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0002
       rect:
         serializedVersion: 2
         x: 420
@@ -215,9 +590,20 @@ TextureImporter:
         width: 418
         height: 308
       alignment: 9
-      pivot: {x: .519138753, y: .534090936}
+      pivot: {x: 0.51913875, y: 0.53409094}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0003
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0003
       rect:
         serializedVersion: 2
         x: 840
@@ -225,9 +611,20 @@ TextureImporter:
         width: 420
         height: 310
       alignment: 9
-      pivot: {x: .519047618, y: .533870995}
+      pivot: {x: 0.5190476, y: 0.533871}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0004
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0004
       rect:
         serializedVersion: 2
         x: 1262
@@ -235,9 +632,20 @@ TextureImporter:
         width: 421
         height: 312
       alignment: 9
-      pivot: {x: .520190001, y: .533653855}
+      pivot: {x: 0.52019, y: 0.53365386}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0005
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0005
       rect:
         serializedVersion: 2
         x: 1685
@@ -245,9 +653,20 @@ TextureImporter:
         width: 422
         height: 314
       alignment: 9
-      pivot: {x: .518957317, y: .533439517}
+      pivot: {x: 0.5189573, y: 0.5334395}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0006
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0006
       rect:
         serializedVersion: 2
         x: 2109
@@ -255,9 +674,20 @@ TextureImporter:
         width: 424
         height: 316
       alignment: 9
-      pivot: {x: .51886791, y: .533227861}
+      pivot: {x: 0.5188679, y: 0.53322786}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0007
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0007
       rect:
         serializedVersion: 2
         x: 2535
@@ -265,9 +695,20 @@ TextureImporter:
         width: 426
         height: 318
       alignment: 9
-      pivot: {x: .518779337, y: .533018887}
+      pivot: {x: 0.51877934, y: 0.5330189}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0008
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0008
       rect:
         serializedVersion: 2
         x: 2963
@@ -275,9 +716,20 @@ TextureImporter:
         width: 428
         height: 320
       alignment: 9
-      pivot: {x: .518691599, y: .532812476}
+      pivot: {x: 0.5186916, y: 0.5328125}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0009
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0009
       rect:
         serializedVersion: 2
         x: 3393
@@ -285,9 +737,20 @@ TextureImporter:
         width: 430
         height: 322
       alignment: 9
-      pivot: {x: .518604636, y: .532608688}
+      pivot: {x: 0.51860464, y: 0.5326087}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0010
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0010
       rect:
         serializedVersion: 2
         x: 3825
@@ -295,9 +758,20 @@ TextureImporter:
         width: 431
         height: 324
       alignment: 9
-      pivot: {x: .517401397, y: .532407403}
+      pivot: {x: 0.5174014, y: 0.5324074}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0011
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0011
       rect:
         serializedVersion: 2
         x: 4258
@@ -305,9 +779,20 @@ TextureImporter:
         width: 434
         height: 326
       alignment: 9
-      pivot: {x: .518433154, y: .532208562}
+      pivot: {x: 0.51843315, y: 0.53220856}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0012
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0012
       rect:
         serializedVersion: 2
         x: 4694
@@ -315,9 +800,20 @@ TextureImporter:
         width: 435
         height: 328
       alignment: 9
-      pivot: {x: .517241359, y: .532012224}
+      pivot: {x: 0.51724136, y: 0.5320122}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0013
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0013
       rect:
         serializedVersion: 2
         x: 5131
@@ -325,9 +821,20 @@ TextureImporter:
         width: 437
         height: 330
       alignment: 9
-      pivot: {x: .517162442, y: .531818211}
+      pivot: {x: 0.51716244, y: 0.5318182}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0014
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0014
       rect:
         serializedVersion: 2
         x: 2
@@ -335,9 +842,20 @@ TextureImporter:
         width: 438
         height: 332
       alignment: 9
-      pivot: {x: .51826483, y: .531626523}
+      pivot: {x: 0.51826483, y: 0.5316265}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0015
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0015
       rect:
         serializedVersion: 2
         x: 442
@@ -345,9 +863,20 @@ TextureImporter:
         width: 440
         height: 334
       alignment: 9
-      pivot: {x: .518181801, y: .531437099}
+      pivot: {x: 0.5181818, y: 0.5314371}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0016
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0016
       rect:
         serializedVersion: 2
         x: 884
@@ -355,9 +884,20 @@ TextureImporter:
         width: 442
         height: 336
       alignment: 9
-      pivot: {x: .518099546, y: .53125}
+      pivot: {x: 0.51809955, y: 0.53125}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0017
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0017
       rect:
         serializedVersion: 2
         x: 1328
@@ -365,9 +905,20 @@ TextureImporter:
         width: 444
         height: 338
       alignment: 9
-      pivot: {x: .518018007, y: .531065106}
+      pivot: {x: 0.518018, y: 0.5310651}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0018
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0018
       rect:
         serializedVersion: 2
         x: 1774
@@ -375,9 +926,20 @@ TextureImporter:
         width: 445
         height: 340
       alignment: 9
-      pivot: {x: .516853929, y: .530882359}
+      pivot: {x: 0.5168539, y: 0.53088236}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0019
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0019
       rect:
         serializedVersion: 2
         x: 2221
@@ -385,9 +947,20 @@ TextureImporter:
         width: 447
         height: 342
       alignment: 9
-      pivot: {x: .516778529, y: .530701756}
+      pivot: {x: 0.5167785, y: 0.53070176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0020
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0020
       rect:
         serializedVersion: 2
         x: 2670
@@ -395,9 +968,20 @@ TextureImporter:
         width: 449
         height: 344
       alignment: 9
-      pivot: {x: .516703784, y: .530523241}
+      pivot: {x: 0.5167038, y: 0.53052324}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0021
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0021
       rect:
         serializedVersion: 2
         x: 3121
@@ -405,9 +989,20 @@ TextureImporter:
         width: 451
         height: 346
       alignment: 9
-      pivot: {x: .516629696, y: .530346811}
+      pivot: {x: 0.5166297, y: 0.5303468}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0022
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0022
       rect:
         serializedVersion: 2
         x: 3574
@@ -415,9 +1010,20 @@ TextureImporter:
         width: 453
         height: 348
       alignment: 9
-      pivot: {x: .516556263, y: .530172408}
+      pivot: {x: 0.51655626, y: 0.5301724}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0023
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0023
       rect:
         serializedVersion: 2
         x: 4029
@@ -425,9 +1031,20 @@ TextureImporter:
         width: 454
         height: 350
       alignment: 9
-      pivot: {x: .51541853, y: .529999971}
+      pivot: {x: 0.5154185, y: 0.53}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0024
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0024
       rect:
         serializedVersion: 2
         x: 4485
@@ -435,9 +1052,20 @@ TextureImporter:
         width: 455
         height: 352
       alignment: 9
-      pivot: {x: .516483545, y: .529829562}
+      pivot: {x: 0.51648355, y: 0.52982956}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0025
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0025
       rect:
         serializedVersion: 2
         x: 4942
@@ -445,9 +1073,20 @@ TextureImporter:
         width: 457
         height: 354
       alignment: 9
-      pivot: {x: .516411364, y: .529661}
+      pivot: {x: 0.51641136, y: 0.529661}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0026
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0026
       rect:
         serializedVersion: 2
         x: 5401
@@ -455,9 +1094,20 @@ TextureImporter:
         width: 459
         height: 356
       alignment: 9
-      pivot: {x: .516339898, y: .529494405}
+      pivot: {x: 0.5163399, y: 0.5294944}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0027
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0027
       rect:
         serializedVersion: 2
         x: 2
@@ -465,9 +1115,20 @@ TextureImporter:
         width: 461
         height: 358
       alignment: 9
-      pivot: {x: .516268969, y: .529329598}
+      pivot: {x: 0.51626897, y: 0.5293296}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0028
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0028
       rect:
         serializedVersion: 2
         x: 465
@@ -475,9 +1136,20 @@ TextureImporter:
         width: 462
         height: 360
       alignment: 9
-      pivot: {x: .515151501, y: .529166639}
+      pivot: {x: 0.5151515, y: 0.52916664}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0029
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0029
       rect:
         serializedVersion: 2
         x: 929
@@ -485,9 +1157,20 @@ TextureImporter:
         width: 464
         height: 362
       alignment: 9
-      pivot: {x: .515086234, y: .529005527}
+      pivot: {x: 0.51508623, y: 0.5290055}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0030
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0030
       rect:
         serializedVersion: 2
         x: 1395
@@ -495,9 +1178,20 @@ TextureImporter:
         width: 466
         height: 364
       alignment: 9
-      pivot: {x: .515021443, y: .528846145}
+      pivot: {x: 0.51502144, y: 0.52884614}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0031
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0031
       rect:
         serializedVersion: 2
         x: 1863
@@ -505,9 +1199,20 @@ TextureImporter:
         width: 468
         height: 365
       alignment: 9
-      pivot: {x: .514957249, y: .527397275}
+      pivot: {x: 0.51495725, y: 0.5273973}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0032
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0032
       rect:
         serializedVersion: 2
         x: 2333
@@ -515,9 +1220,20 @@ TextureImporter:
         width: 470
         height: 367
       alignment: 9
-      pivot: {x: .514893591, y: .527247965}
+      pivot: {x: 0.5148936, y: 0.52724797}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0033
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0033
       rect:
         serializedVersion: 2
         x: 2805
@@ -525,9 +1241,20 @@ TextureImporter:
         width: 471
         height: 369
       alignment: 9
-      pivot: {x: .513800442, y: .527100265}
+      pivot: {x: 0.51380044, y: 0.52710027}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0034
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0034
       rect:
         serializedVersion: 2
         x: 3278
@@ -535,9 +1262,20 @@ TextureImporter:
         width: 472
         height: 371
       alignment: 9
-      pivot: {x: .51483053, y: .526954174}
+      pivot: {x: 0.5148305, y: 0.5269542}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0035
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0035
       rect:
         serializedVersion: 2
         x: 3752
@@ -545,9 +1283,20 @@ TextureImporter:
         width: 474
         height: 373
       alignment: 9
-      pivot: {x: .514767945, y: .526809633}
+      pivot: {x: 0.51476794, y: 0.52680963}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0036
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0036
       rect:
         serializedVersion: 2
         x: 4228
@@ -555,9 +1304,20 @@ TextureImporter:
         width: 475
         height: 374
       alignment: 9
-      pivot: {x: .513684213, y: .528074861}
+      pivot: {x: 0.5136842, y: 0.52807486}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0037
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0037
       rect:
         serializedVersion: 2
         x: 4705
@@ -565,9 +1325,20 @@ TextureImporter:
         width: 477
         height: 376
       alignment: 9
-      pivot: {x: .513626814, y: .527925551}
+      pivot: {x: 0.5136268, y: 0.52792555}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0038
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0038
       rect:
         serializedVersion: 2
         x: 5184
@@ -575,9 +1346,20 @@ TextureImporter:
         width: 479
         height: 378
       alignment: 9
-      pivot: {x: .513569951, y: .527777791}
+      pivot: {x: 0.51356995, y: 0.5277778}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0039
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0039
       rect:
         serializedVersion: 2
         x: 2
@@ -585,9 +1367,20 @@ TextureImporter:
         width: 481
         height: 380
       alignment: 9
-      pivot: {x: .513513505, y: .527631581}
+      pivot: {x: 0.5135135, y: 0.5276316}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0040
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0040
       rect:
         serializedVersion: 2
         x: 485
@@ -595,9 +1388,20 @@ TextureImporter:
         width: 483
         height: 382
       alignment: 9
-      pivot: {x: .513457537, y: .52748692}
+      pivot: {x: 0.51345754, y: 0.5274869}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0041
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0041
       rect:
         serializedVersion: 2
         x: 970
@@ -605,9 +1409,20 @@ TextureImporter:
         width: 485
         height: 384
       alignment: 9
-      pivot: {x: .513402045, y: .52734375}
+      pivot: {x: 0.51340204, y: 0.52734375}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0042
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0042
       rect:
         serializedVersion: 2
         x: 1457
@@ -615,9 +1430,20 @@ TextureImporter:
         width: 486
         height: 386
       alignment: 9
-      pivot: {x: .512345672, y: .52720207}
+      pivot: {x: 0.5123457, y: 0.52720207}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0043
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0043
       rect:
         serializedVersion: 2
         x: 1945
@@ -625,9 +1451,20 @@ TextureImporter:
         width: 487
         height: 388
       alignment: 9
-      pivot: {x: .51334703, y: .52706188}
+      pivot: {x: 0.513347, y: 0.5270619}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0044
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0044
       rect:
         serializedVersion: 2
         x: 2434
@@ -635,9 +1472,20 @@ TextureImporter:
         width: 489
         height: 390
       alignment: 9
-      pivot: {x: .513292432, y: .52692306}
+      pivot: {x: 0.51329243, y: 0.52692306}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0045
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0045
       rect:
         serializedVersion: 2
         x: 2925
@@ -645,9 +1493,20 @@ TextureImporter:
         width: 490
         height: 392
       alignment: 9
-      pivot: {x: .51224488, y: .526785731}
+      pivot: {x: 0.5122449, y: 0.52678573}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0046
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0046
       rect:
         serializedVersion: 2
         x: 3417
@@ -655,9 +1514,20 @@ TextureImporter:
         width: 492
         height: 394
       alignment: 9
-      pivot: {x: .51219511, y: .526649773}
+      pivot: {x: 0.5121951, y: 0.5266498}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0047
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0047
       rect:
         serializedVersion: 2
         x: 3911
@@ -665,9 +1535,20 @@ TextureImporter:
         width: 494
         height: 396
       alignment: 9
-      pivot: {x: .512145758, y: .526515126}
+      pivot: {x: 0.51214576, y: 0.5265151}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0048
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0048
       rect:
         serializedVersion: 2
         x: 4407
@@ -675,9 +1556,20 @@ TextureImporter:
         width: 496
         height: 398
       alignment: 9
-      pivot: {x: .512096763, y: .52638191}
+      pivot: {x: 0.51209676, y: 0.5263819}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0049
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0049
       rect:
         serializedVersion: 2
         x: 4905
@@ -685,9 +1577,20 @@ TextureImporter:
         width: 498
         height: 400
       alignment: 9
-      pivot: {x: .512048185, y: .526250005}
+      pivot: {x: 0.5120482, y: 0.52625}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0050
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0050
       rect:
         serializedVersion: 2
         x: 5405
@@ -695,9 +1598,20 @@ TextureImporter:
         width: 499
         height: 402
       alignment: 9
-      pivot: {x: .511022031, y: .526119411}
+      pivot: {x: 0.51102203, y: 0.5261194}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0051
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0051
       rect:
         serializedVersion: 2
         x: 2
@@ -705,9 +1619,20 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .519230783, y: .541118443}
+      pivot: {x: 0.5192308, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0052
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0052
       rect:
         serializedVersion: 2
         x: 420
@@ -715,9 +1640,20 @@ TextureImporter:
         width: 414
         height: 307
       alignment: 9
-      pivot: {x: .521739125, y: .535830617}
+      pivot: {x: 0.5217391, y: 0.5358306}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0053
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0053
       rect:
         serializedVersion: 2
         x: 836
@@ -725,9 +1661,20 @@ TextureImporter:
         width: 413
         height: 311
       alignment: 9
-      pivot: {x: .523002446, y: .52893889}
+      pivot: {x: 0.52300245, y: 0.5289389}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0054
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0054
       rect:
         serializedVersion: 2
         x: 1251
@@ -735,9 +1682,20 @@ TextureImporter:
         width: 412
         height: 315
       alignment: 9
-      pivot: {x: .524271846, y: .522222221}
+      pivot: {x: 0.52427185, y: 0.5222222}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0055
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0055
       rect:
         serializedVersion: 2
         x: 1665
@@ -745,9 +1703,20 @@ TextureImporter:
         width: 411
         height: 319
       alignment: 9
-      pivot: {x: .525547445, y: .515673995}
+      pivot: {x: 0.52554744, y: 0.515674}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0056
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0056
       rect:
         serializedVersion: 2
         x: 2078
@@ -755,9 +1724,20 @@ TextureImporter:
         width: 411
         height: 324
       alignment: 9
-      pivot: {x: .525547445, y: .50771606}
+      pivot: {x: 0.52554744, y: 0.50771606}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0057
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0057
       rect:
         serializedVersion: 2
         x: 2491
@@ -765,9 +1745,20 @@ TextureImporter:
         width: 411
         height: 329
       alignment: 9
-      pivot: {x: .525547445, y: .5}
+      pivot: {x: 0.52554744, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0058
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0058
       rect:
         serializedVersion: 2
         x: 2904
@@ -775,9 +1766,20 @@ TextureImporter:
         width: 411
         height: 333
       alignment: 9
-      pivot: {x: .525547445, y: .493993998}
+      pivot: {x: 0.52554744, y: 0.493994}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0059
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0059
       rect:
         serializedVersion: 2
         x: 3317
@@ -785,9 +1787,20 @@ TextureImporter:
         width: 411
         height: 336
       alignment: 9
-      pivot: {x: .525547445, y: .489583343}
+      pivot: {x: 0.52554744, y: 0.48958334}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0060
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0060
       rect:
         serializedVersion: 2
         x: 3730
@@ -795,9 +1808,20 @@ TextureImporter:
         width: 411
         height: 339
       alignment: 9
-      pivot: {x: .525547445, y: .485250741}
+      pivot: {x: 0.52554744, y: 0.48525074}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0061
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0061
       rect:
         serializedVersion: 2
         x: 4143
@@ -805,9 +1829,20 @@ TextureImporter:
         width: 411
         height: 342
       alignment: 9
-      pivot: {x: .525547445, y: .480994165}
+      pivot: {x: 0.52554744, y: 0.48099416}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0062
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0062
       rect:
         serializedVersion: 2
         x: 4556
@@ -815,9 +1850,20 @@ TextureImporter:
         width: 411
         height: 345
       alignment: 9
-      pivot: {x: .525547445, y: .476811588}
+      pivot: {x: 0.52554744, y: 0.4768116}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0063
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0063
       rect:
         serializedVersion: 2
         x: 4969
@@ -825,9 +1871,20 @@ TextureImporter:
         width: 411
         height: 348
       alignment: 9
-      pivot: {x: .525547445, y: .472701162}
+      pivot: {x: 0.52554744, y: 0.47270116}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0064
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0064
       rect:
         serializedVersion: 2
         x: 5382
@@ -835,9 +1892,20 @@ TextureImporter:
         width: 411
         height: 352
       alignment: 9
-      pivot: {x: .525547445, y: .467329532}
+      pivot: {x: 0.52554744, y: 0.46732953}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0065
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0065
       rect:
         serializedVersion: 2
         x: 2
@@ -845,9 +1913,20 @@ TextureImporter:
         width: 411
         height: 355
       alignment: 9
-      pivot: {x: .525547445, y: .463380277}
+      pivot: {x: 0.52554744, y: 0.46338028}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0066
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a305410000000000800000000000000
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0066
       rect:
         serializedVersion: 2
         x: 415
@@ -855,9 +1934,20 @@ TextureImporter:
         width: 411
         height: 359
       alignment: 9
-      pivot: {x: .525547445, y: .458217263}
+      pivot: {x: 0.52554744, y: 0.45821726}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0067
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0067
       rect:
         serializedVersion: 2
         x: 828
@@ -865,9 +1955,20 @@ TextureImporter:
         width: 411
         height: 363
       alignment: 9
-      pivot: {x: .525547445, y: .453168035}
+      pivot: {x: 0.52554744, y: 0.45316803}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0068
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a305410000000000800000000000000
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0068
       rect:
         serializedVersion: 2
         x: 1241
@@ -875,9 +1976,20 @@ TextureImporter:
         width: 411
         height: 367
       alignment: 9
-      pivot: {x: .525547445, y: .448228896}
+      pivot: {x: 0.52554744, y: 0.4482289}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0069
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0069
       rect:
         serializedVersion: 2
         x: 1654
@@ -885,9 +1997,20 @@ TextureImporter:
         width: 411
         height: 371
       alignment: 9
-      pivot: {x: .525547445, y: .44339624}
+      pivot: {x: 0.52554744, y: 0.44339624}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0070
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0070
       rect:
         serializedVersion: 2
         x: 2067
@@ -895,9 +2018,20 @@ TextureImporter:
         width: 411
         height: 375
       alignment: 9
-      pivot: {x: .525547445, y: .438666672}
+      pivot: {x: 0.52554744, y: 0.43866667}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0071
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0071
       rect:
         serializedVersion: 2
         x: 2480
@@ -905,9 +2039,20 @@ TextureImporter:
         width: 411
         height: 375
       alignment: 9
-      pivot: {x: .525547445, y: .438666672}
+      pivot: {x: 0.52554744, y: 0.43866667}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0072
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0072
       rect:
         serializedVersion: 2
         x: 2893
@@ -915,9 +2060,20 @@ TextureImporter:
         width: 411
         height: 375
       alignment: 9
-      pivot: {x: .525547445, y: .438666672}
+      pivot: {x: 0.52554744, y: 0.43866667}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0073
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0073
       rect:
         serializedVersion: 2
         x: 3306
@@ -925,9 +2081,20 @@ TextureImporter:
         width: 411
         height: 375
       alignment: 9
-      pivot: {x: .525547445, y: .438666672}
+      pivot: {x: 0.52554744, y: 0.43866667}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0074
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0074
       rect:
         serializedVersion: 2
         x: 3719
@@ -935,9 +2102,20 @@ TextureImporter:
         width: 411
         height: 375
       alignment: 9
-      pivot: {x: .525547445, y: .438666672}
+      pivot: {x: 0.52554744, y: 0.43866667}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0075
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0075
       rect:
         serializedVersion: 2
         x: 3719
@@ -945,9 +2123,20 @@ TextureImporter:
         width: 411
         height: 375
       alignment: 9
-      pivot: {x: .525547445, y: .438666672}
+      pivot: {x: 0.52554744, y: 0.43866667}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0076
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0076
       rect:
         serializedVersion: 2
         x: 2067
@@ -955,9 +2144,20 @@ TextureImporter:
         width: 411
         height: 375
       alignment: 9
-      pivot: {x: .525547445, y: .438666672}
+      pivot: {x: 0.52554744, y: 0.43866667}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0077
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0077
       rect:
         serializedVersion: 2
         x: 4132
@@ -965,9 +2165,20 @@ TextureImporter:
         width: 411
         height: 372
       alignment: 9
-      pivot: {x: .525547445, y: .442204297}
+      pivot: {x: 0.52554744, y: 0.4422043}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0078
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0078
       rect:
         serializedVersion: 2
         x: 4545
@@ -975,9 +2186,20 @@ TextureImporter:
         width: 411
         height: 369
       alignment: 9
-      pivot: {x: .525547445, y: .44579947}
+      pivot: {x: 0.52554744, y: 0.44579947}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0079
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0079
       rect:
         serializedVersion: 2
         x: 4958
@@ -985,9 +2207,20 @@ TextureImporter:
         width: 411
         height: 365
       alignment: 9
-      pivot: {x: .525547445, y: .450684935}
+      pivot: {x: 0.52554744, y: 0.45068493}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0080
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0080
       rect:
         serializedVersion: 2
         x: 5371
@@ -995,9 +2228,20 @@ TextureImporter:
         width: 411
         height: 361
       alignment: 9
-      pivot: {x: .525547445, y: .455678672}
+      pivot: {x: 0.52554744, y: 0.45567867}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0081
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0081
       rect:
         serializedVersion: 2
         x: 2
@@ -1005,9 +2249,20 @@ TextureImporter:
         width: 411
         height: 358
       alignment: 9
-      pivot: {x: .525547445, y: .459497213}
+      pivot: {x: 0.52554744, y: 0.4594972}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0082
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0082
       rect:
         serializedVersion: 2
         x: 415
@@ -1015,9 +2270,20 @@ TextureImporter:
         width: 411
         height: 355
       alignment: 9
-      pivot: {x: .525547445, y: .463380277}
+      pivot: {x: 0.52554744, y: 0.46338028}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0083
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0083
       rect:
         serializedVersion: 2
         x: 828
@@ -1025,9 +2291,20 @@ TextureImporter:
         width: 411
         height: 352
       alignment: 9
-      pivot: {x: .525547445, y: .467329532}
+      pivot: {x: 0.52554744, y: 0.46732953}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0084
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0084
       rect:
         serializedVersion: 2
         x: 1241
@@ -1035,9 +2312,20 @@ TextureImporter:
         width: 411
         height: 349
       alignment: 9
-      pivot: {x: .525547445, y: .471346706}
+      pivot: {x: 0.52554744, y: 0.4713467}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0085
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0085
       rect:
         serializedVersion: 2
         x: 1654
@@ -1045,9 +2333,20 @@ TextureImporter:
         width: 411
         height: 346
       alignment: 9
-      pivot: {x: .525547445, y: .475433528}
+      pivot: {x: 0.52554744, y: 0.47543353}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0086
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0086
       rect:
         serializedVersion: 2
         x: 2067
@@ -1055,9 +2354,20 @@ TextureImporter:
         width: 411
         height: 343
       alignment: 9
-      pivot: {x: .525547445, y: .479591846}
+      pivot: {x: 0.52554744, y: 0.47959185}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0087
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac305410000000000800000000000000
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0087
       rect:
         serializedVersion: 2
         x: 2480
@@ -1065,9 +2375,20 @@ TextureImporter:
         width: 411
         height: 341
       alignment: 9
-      pivot: {x: .525547445, y: .482404679}
+      pivot: {x: 0.52554744, y: 0.48240468}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0088
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0088
       rect:
         serializedVersion: 2
         x: 2893
@@ -1075,9 +2396,20 @@ TextureImporter:
         width: 411
         height: 338
       alignment: 9
-      pivot: {x: .525547445, y: .486686379}
+      pivot: {x: 0.52554744, y: 0.48668638}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0089
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0089
       rect:
         serializedVersion: 2
         x: 3306
@@ -1085,9 +2417,20 @@ TextureImporter:
         width: 411
         height: 335
       alignment: 9
-      pivot: {x: .525547445, y: .49104479}
+      pivot: {x: 0.52554744, y: 0.4910448}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0090
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0090
       rect:
         serializedVersion: 2
         x: 3719
@@ -1095,9 +2438,20 @@ TextureImporter:
         width: 411
         height: 333
       alignment: 9
-      pivot: {x: .525547445, y: .493993998}
+      pivot: {x: 0.52554744, y: 0.493994}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0091
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0091
       rect:
         serializedVersion: 2
         x: 4132
@@ -1105,9 +2459,20 @@ TextureImporter:
         width: 411
         height: 330
       alignment: 9
-      pivot: {x: .525547445, y: .49848485}
+      pivot: {x: 0.52554744, y: 0.49848485}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0092
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0092
       rect:
         serializedVersion: 2
         x: 4545
@@ -1115,9 +2480,20 @@ TextureImporter:
         width: 411
         height: 327
       alignment: 9
-      pivot: {x: .525547445, y: .503058076}
+      pivot: {x: 0.52554744, y: 0.5030581}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0093
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0093
       rect:
         serializedVersion: 2
         x: 4958
@@ -1125,9 +2501,20 @@ TextureImporter:
         width: 411
         height: 324
       alignment: 9
-      pivot: {x: .525547445, y: .50771606}
+      pivot: {x: 0.52554744, y: 0.50771606}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0094
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0094
       rect:
         serializedVersion: 2
         x: 5371
@@ -1135,9 +2522,20 @@ TextureImporter:
         width: 411
         height: 321
       alignment: 9
-      pivot: {x: .525547445, y: .512461066}
+      pivot: {x: 0.52554744, y: 0.51246107}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0095
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad305410000000000800000000000000
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0095
       rect:
         serializedVersion: 2
         x: 2
@@ -1145,9 +2543,20 @@ TextureImporter:
         width: 411
         height: 318
       alignment: 9
-      pivot: {x: .525547445, y: .517295599}
+      pivot: {x: 0.52554744, y: 0.5172956}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0096
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0096
       rect:
         serializedVersion: 2
         x: 415
@@ -1155,9 +2564,20 @@ TextureImporter:
         width: 411
         height: 315
       alignment: 9
-      pivot: {x: .525547445, y: .522222221}
+      pivot: {x: 0.52554744, y: 0.5222222}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0097
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0097
       rect:
         serializedVersion: 2
         x: 828
@@ -1165,9 +2585,20 @@ TextureImporter:
         width: 411
         height: 312
       alignment: 9
-      pivot: {x: .525547445, y: .527243614}
+      pivot: {x: 0.52554744, y: 0.5272436}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0098
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e305410000000000800000000000000
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0098
       rect:
         serializedVersion: 2
         x: 1241
@@ -1175,9 +2606,20 @@ TextureImporter:
         width: 413
         height: 309
       alignment: 9
-      pivot: {x: .523002446, y: .532362461}
+      pivot: {x: 0.52300245, y: 0.53236246}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0099
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0099
       rect:
         serializedVersion: 2
         x: 1656
@@ -1185,9 +2627,20 @@ TextureImporter:
         width: 414
         height: 306
       alignment: 9
-      pivot: {x: .521000028, y: .537581682}
+      pivot: {x: 0.521, y: 0.5375817}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0101
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e305410000000000800000000000000
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0101
       rect:
         serializedVersion: 2
         x: 2490
@@ -1195,9 +2648,20 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0102
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e305410000000000800000000000000
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0102
       rect:
         serializedVersion: 2
         x: 2908
@@ -1205,9 +2669,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0103
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e305410000000000800000000000000
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0103
       rect:
         serializedVersion: 2
         x: 3326
@@ -1215,9 +2690,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0104
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae305410000000000800000000000000
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0104
       rect:
         serializedVersion: 2
         x: 3744
@@ -1225,9 +2711,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0105
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce305410000000000800000000000000
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0105
       rect:
         serializedVersion: 2
         x: 4162
@@ -1235,9 +2732,20 @@ TextureImporter:
         width: 415
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0106
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee305410000000000800000000000000
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0106
       rect:
         serializedVersion: 2
         x: 4579
@@ -1245,9 +2753,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0107
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f305410000000000800000000000000
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0107
       rect:
         serializedVersion: 2
         x: 4997
@@ -1255,9 +2774,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0108
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f305410000000000800000000000000
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0108
       rect:
         serializedVersion: 2
         x: 5415
@@ -1265,9 +2795,20 @@ TextureImporter:
         width: 415
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0109
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f305410000000000800000000000000
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0109
       rect:
         serializedVersion: 2
         x: 2
@@ -1275,9 +2816,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0110
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f305410000000000800000000000000
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0110
       rect:
         serializedVersion: 2
         x: 420
@@ -1285,9 +2837,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0111
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f305410000000000800000000000000
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0111
       rect:
         serializedVersion: 2
         x: 838
@@ -1295,9 +2858,20 @@ TextureImporter:
         width: 415
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0112
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af305410000000000800000000000000
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0112
       rect:
         serializedVersion: 2
         x: 1255
@@ -1305,9 +2879,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0113
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf305410000000000800000000000000
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0113
       rect:
         serializedVersion: 2
         x: 1673
@@ -1315,9 +2900,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0114
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef305410000000000800000000000000
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0114
       rect:
         serializedVersion: 2
         x: 2091
@@ -1325,9 +2921,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0115
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00405410000000000800000000000000
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0115
       rect:
         serializedVersion: 2
         x: 2509
@@ -1335,9 +2942,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0116
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20405410000000000800000000000000
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0116
       rect:
         serializedVersion: 2
         x: 2927
@@ -1345,9 +2963,20 @@ TextureImporter:
         width: 415
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0117
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40405410000000000800000000000000
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0117
       rect:
         serializedVersion: 2
         x: 3344
@@ -1355,9 +2984,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0118
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60405410000000000800000000000000
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0118
       rect:
         serializedVersion: 2
         x: 3762
@@ -1365,9 +3005,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0119
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80405410000000000800000000000000
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0119
       rect:
         serializedVersion: 2
         x: 4180
@@ -1375,9 +3026,20 @@ TextureImporter:
         width: 415
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0120
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0405410000000000800000000000000
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0120
       rect:
         serializedVersion: 2
         x: 4597
@@ -1385,9 +3047,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0121
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0405410000000000800000000000000
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0121
       rect:
         serializedVersion: 2
         x: 5015
@@ -1395,9 +3068,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0122
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0405410000000000800000000000000
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0122
       rect:
         serializedVersion: 2
         x: 5433
@@ -1405,9 +3089,20 @@ TextureImporter:
         width: 415
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0123
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01405410000000000800000000000000
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0123
       rect:
         serializedVersion: 2
         x: 2
@@ -1415,9 +3110,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0124
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21405410000000000800000000000000
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0124
       rect:
         serializedVersion: 2
         x: 420
@@ -1425,9 +3131,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0126
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41405410000000000800000000000000
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0126
       rect:
         serializedVersion: 2
         x: 1256
@@ -1435,9 +3152,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0127
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61405410000000000800000000000000
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0127
       rect:
         serializedVersion: 2
         x: 1674
@@ -1445,9 +3173,20 @@ TextureImporter:
         width: 415
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0128
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81405410000000000800000000000000
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0128
       rect:
         serializedVersion: 2
         x: 2091
@@ -1455,9 +3194,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0129
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1405410000000000800000000000000
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0129
       rect:
         serializedVersion: 2
         x: 2509
@@ -1465,9 +3215,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0130
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1405410000000000800000000000000
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0130
       rect:
         serializedVersion: 2
         x: 2927
@@ -1475,9 +3236,20 @@ TextureImporter:
         width: 415
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0131
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1405410000000000800000000000000
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0131
       rect:
         serializedVersion: 2
         x: 3344
@@ -1485,9 +3257,20 @@ TextureImporter:
         width: 416
         height: 306
       alignment: 9
-      pivot: {x: .512000024, y: .54411763}
+      pivot: {x: 0.512, y: 0.5441176}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0132
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02405410000000000800000000000000
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0132
       rect:
         serializedVersion: 2
         x: 3762
@@ -1495,9 +3278,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0133
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22405410000000000800000000000000
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0133
       rect:
         serializedVersion: 2
         x: 4180
@@ -1505,9 +3299,20 @@ TextureImporter:
         width: 415
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0134
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42405410000000000800000000000000
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0134
       rect:
         serializedVersion: 2
         x: 4597
@@ -1515,9 +3320,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0135
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62405410000000000800000000000000
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0135
       rect:
         serializedVersion: 2
         x: 5015
@@ -1525,9 +3341,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0136
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82405410000000000800000000000000
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0136
       rect:
         serializedVersion: 2
         x: 5433
@@ -1535,9 +3362,20 @@ TextureImporter:
         width: 416
         height: 305
       alignment: 9
-      pivot: {x: .512000024, y: .542622924}
+      pivot: {x: 0.512, y: 0.5426229}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0137
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2405410000000000800000000000000
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0137
       rect:
         serializedVersion: 2
         x: 2
@@ -1545,9 +3383,20 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0138
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2405410000000000800000000000000
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0138
       rect:
         serializedVersion: 2
         x: 420
@@ -1555,9 +3404,20 @@ TextureImporter:
         width: 415
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0139
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2405410000000000800000000000000
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0139
       rect:
         serializedVersion: 2
         x: 837
@@ -1565,9 +3425,20 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0140
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03405410000000000800000000000000
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0140
       rect:
         serializedVersion: 2
         x: 1255
@@ -1575,9 +3446,20 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0141
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23405410000000000800000000000000
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0141
       rect:
         serializedVersion: 2
         x: 1673
@@ -1585,9 +3467,20 @@ TextureImporter:
         width: 415
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0142
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43405410000000000800000000000000
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0142
       rect:
         serializedVersion: 2
         x: 2090
@@ -1595,9 +3488,20 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0143
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63405410000000000800000000000000
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0143
       rect:
         serializedVersion: 2
         x: 2508
@@ -1605,9 +3509,20 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0144
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83405410000000000800000000000000
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0144
       rect:
         serializedVersion: 2
         x: 2926
@@ -1615,9 +3530,20 @@ TextureImporter:
         width: 415
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0145
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3405410000000000800000000000000
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0145
       rect:
         serializedVersion: 2
         x: 3343
@@ -1625,9 +3551,20 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0146
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3405410000000000800000000000000
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0146
       rect:
         serializedVersion: 2
         x: 3761
@@ -1635,9 +3572,20 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0147
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3405410000000000800000000000000
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0147
       rect:
         serializedVersion: 2
         x: 4179
@@ -1645,9 +3593,20 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0148
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04405410000000000800000000000000
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0148
       rect:
         serializedVersion: 2
         x: 4597
@@ -1655,9 +3614,20 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0149
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24405410000000000800000000000000
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0149
       rect:
         serializedVersion: 2
         x: 5015
@@ -1665,9 +3635,20 @@ TextureImporter:
         width: 415
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: upwalkshoot0150
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44405410000000000800000000000000
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upwalkshoot0150
       rect:
         serializedVersion: 2
         x: 5432
@@ -1675,9 +3656,180 @@ TextureImporter:
         width: 416
         height: 304
       alignment: 9
-      pivot: {x: .512000024, y: .541118443}
+      pivot: {x: 0.512, y: 0.54111844}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64405410000000000800000000000000
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      upwalkshoot0001: 21300000
+      upwalkshoot0002: 21300002
+      upwalkshoot0003: 21300004
+      upwalkshoot0004: 21300006
+      upwalkshoot0005: 21300008
+      upwalkshoot0006: 21300010
+      upwalkshoot0007: 21300012
+      upwalkshoot0008: 21300014
+      upwalkshoot0009: 21300016
+      upwalkshoot0010: 21300018
+      upwalkshoot0011: 21300020
+      upwalkshoot0012: 21300022
+      upwalkshoot0013: 21300024
+      upwalkshoot0014: 21300026
+      upwalkshoot0015: 21300028
+      upwalkshoot0016: 21300030
+      upwalkshoot0017: 21300032
+      upwalkshoot0018: 21300034
+      upwalkshoot0019: 21300036
+      upwalkshoot0020: 21300038
+      upwalkshoot0021: 21300040
+      upwalkshoot0022: 21300042
+      upwalkshoot0023: 21300044
+      upwalkshoot0024: 21300046
+      upwalkshoot0025: 21300048
+      upwalkshoot0026: 21300050
+      upwalkshoot0027: 21300052
+      upwalkshoot0028: 21300054
+      upwalkshoot0029: 21300056
+      upwalkshoot0030: 21300058
+      upwalkshoot0031: 21300060
+      upwalkshoot0032: 21300062
+      upwalkshoot0033: 21300064
+      upwalkshoot0034: 21300066
+      upwalkshoot0035: 21300068
+      upwalkshoot0036: 21300070
+      upwalkshoot0037: 21300072
+      upwalkshoot0038: 21300074
+      upwalkshoot0039: 21300076
+      upwalkshoot0040: 21300078
+      upwalkshoot0041: 21300080
+      upwalkshoot0042: 21300082
+      upwalkshoot0043: 21300084
+      upwalkshoot0044: 21300086
+      upwalkshoot0045: 21300088
+      upwalkshoot0046: 21300090
+      upwalkshoot0047: 21300092
+      upwalkshoot0048: 21300094
+      upwalkshoot0049: 21300096
+      upwalkshoot0050: 21300098
+      upwalkshoot0051: 21300100
+      upwalkshoot0052: 21300102
+      upwalkshoot0053: 21300104
+      upwalkshoot0054: 21300106
+      upwalkshoot0055: 21300108
+      upwalkshoot0056: 21300110
+      upwalkshoot0057: 21300112
+      upwalkshoot0058: 21300114
+      upwalkshoot0059: 21300116
+      upwalkshoot0060: 21300118
+      upwalkshoot0061: 21300120
+      upwalkshoot0062: 21300122
+      upwalkshoot0063: 21300124
+      upwalkshoot0064: 21300126
+      upwalkshoot0065: 21300128
+      upwalkshoot0066: 21300130
+      upwalkshoot0067: 21300132
+      upwalkshoot0068: 21300134
+      upwalkshoot0069: 21300136
+      upwalkshoot0070: 21300138
+      upwalkshoot0071: 21300140
+      upwalkshoot0072: 21300142
+      upwalkshoot0073: 21300144
+      upwalkshoot0074: 21300146
+      upwalkshoot0075: 21300148
+      upwalkshoot0076: 21300150
+      upwalkshoot0077: 21300152
+      upwalkshoot0078: 21300154
+      upwalkshoot0079: 21300156
+      upwalkshoot0080: 21300158
+      upwalkshoot0081: 21300160
+      upwalkshoot0082: 21300162
+      upwalkshoot0083: 21300164
+      upwalkshoot0084: 21300166
+      upwalkshoot0085: 21300168
+      upwalkshoot0086: 21300170
+      upwalkshoot0087: 21300172
+      upwalkshoot0088: 21300174
+      upwalkshoot0089: 21300176
+      upwalkshoot0090: 21300178
+      upwalkshoot0091: 21300180
+      upwalkshoot0092: 21300182
+      upwalkshoot0093: 21300184
+      upwalkshoot0094: 21300186
+      upwalkshoot0095: 21300188
+      upwalkshoot0096: 21300190
+      upwalkshoot0097: 21300192
+      upwalkshoot0098: 21300194
+      upwalkshoot0099: 21300196
+      upwalkshoot0101: 21300198
+      upwalkshoot0102: 21300200
+      upwalkshoot0103: 21300202
+      upwalkshoot0104: 21300204
+      upwalkshoot0105: 21300206
+      upwalkshoot0106: 21300208
+      upwalkshoot0107: 21300210
+      upwalkshoot0108: 21300212
+      upwalkshoot0109: 21300214
+      upwalkshoot0110: 21300216
+      upwalkshoot0111: 21300218
+      upwalkshoot0112: 21300220
+      upwalkshoot0113: 21300222
+      upwalkshoot0114: 21300224
+      upwalkshoot0115: 21300226
+      upwalkshoot0116: 21300228
+      upwalkshoot0117: 21300230
+      upwalkshoot0118: 21300232
+      upwalkshoot0119: 21300234
+      upwalkshoot0120: 21300236
+      upwalkshoot0121: 21300238
+      upwalkshoot0122: 21300240
+      upwalkshoot0123: 21300242
+      upwalkshoot0124: 21300244
+      upwalkshoot0126: 21300246
+      upwalkshoot0127: 21300248
+      upwalkshoot0128: 21300250
+      upwalkshoot0129: 21300252
+      upwalkshoot0130: 21300254
+      upwalkshoot0131: 21300256
+      upwalkshoot0132: 21300258
+      upwalkshoot0133: 21300260
+      upwalkshoot0134: 21300262
+      upwalkshoot0135: 21300264
+      upwalkshoot0136: 21300266
+      upwalkshoot0137: 21300268
+      upwalkshoot0138: 21300270
+      upwalkshoot0139: 21300272
+      upwalkshoot0140: 21300274
+      upwalkshoot0141: 21300276
+      upwalkshoot0142: 21300278
+      upwalkshoot0143: 21300280
+      upwalkshoot0144: 21300282
+      upwalkshoot0145: 21300284
+      upwalkshoot0146: 21300286
+      upwalkshoot0147: 21300288
+      upwalkshoot0148: 21300290
+      upwalkshoot0149: 21300292
+      upwalkshoot0150: 21300294
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
