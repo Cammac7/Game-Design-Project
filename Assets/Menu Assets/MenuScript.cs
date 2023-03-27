@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class MenuScript : MonoBehaviour {
@@ -10,7 +11,7 @@ public class MenuScript : MonoBehaviour {
 	public void StartLevel(string level){
 		loading = true;
 
-		Application.LoadLevel(level);
+		SceneManager.LoadScene(level);
 	}
 
 	public void Quit(){

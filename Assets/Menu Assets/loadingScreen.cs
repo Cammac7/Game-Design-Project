@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class LoadingScreen : MonoBehaviour
@@ -20,8 +21,8 @@ public class LoadingScreen : MonoBehaviour
 		}
 		
 		instance = this;                
-		gameObject.AddComponent<GUITexture>().enabled = false;  //disable the texture on start of the scene
-		GetComponent<GUITexture>().texture = texture;                           //assign the texture
+		gameObject.AddComponent<Image>().enabled = false;  //disable the texture on start of the scene
+		GetComponent<Image>().GetComponent<RawImage>().texture = texture;                           //assign the texture
 		transform.position = new Vector3(0.5f, 0.5f, 1f);       //position the texture to the center of the screen
 		DontDestroyOnLoad(this);                                //make this object persistent between scenes
 	}
@@ -43,7 +44,7 @@ public class LoadingScreen : MonoBehaviour
 			return;
 		}
 		//enable the loading texture
-		instance.GetComponent<GUITexture>().enabled = true;
+		instance.GetComponent<Image>().enabled = true;
 	}
 	
 	//function to hide the loading screen
@@ -53,7 +54,7 @@ public class LoadingScreen : MonoBehaviour
 		{
 			return;
 		}
-		instance.GetComponent<GUITexture>().enabled = false;
+		instance.GetComponent<Image>().enabled = false;
 	}
 	
 	//function to check if the persistent instance exists

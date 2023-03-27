@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 
@@ -19,8 +20,8 @@ public class Die_Action : StateMachineBehaviour {
 	override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         GameObject.FindGameObjectWithTag("Loader").GetComponent<BubbleTurtleData>().Save("deaths.csv", GameObject.FindGameObjectWithTag("Player").transform.position);
 
-        Application.LoadLevel("StartMenu");
-	}
+        SceneManager.LoadScene("StartMenu");
+    }
 
 	// OnStateMove is called right after Animator.OnAnimatorMove(). Code that processes and affects root motion should be implemented here
 	//override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
